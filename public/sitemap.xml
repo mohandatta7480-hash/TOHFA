@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Home -->
+  <url>
+    <loc>https://www.tohfagifting.shop/</loc>
+    <lastmod>2026-09-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Complete Catalogue -->
+  <url>
+    <loc>https://www.tohfagifting.shop/catalogue</loc>
+    <lastmod>2026-09-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Corporate Gifting -->
+  <url>
+    <loc>https://www.tohfagifting.shop/catalogue/corporate</loc>
+    <lastmod>2026-09-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Festive Gifting -->
+  <url>
+    <loc>https://www.tohfagifting.shop/catalogue/festive</loc>
+    <lastmod>2026-09-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Edible Gifting -->
+  <url>
+    <loc>https://www.tohfagifting.shop/catalogue/edible</loc>
+    <lastmod>2026-09-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Customizable Merchandise -->
+  <url>
+    <loc>https://www.tohfagifting.shop/catalogue/merchandise</loc>
+    <lastmod>2026-09-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Gadget Gifting -->
+  <url>
+    <loc>https://www.tohfagifting.shop/catalogue/gadgets</loc>
+    <lastmod>2026-09-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Custom Box Builder -->
+  <url>
+    <loc>https://www.tohfagifting.shop/build-your-gift-box</loc>
+    <lastmod>2026-09-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- About TOHFA -->
+  <url>
+    <loc>https://www.tohfagifting.shop/about</loc>
+    <lastmod>2026-09-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Corporate Concierge & Contact -->
+  <url>
+    <loc>https://www.tohfagifting.shop/contact</loc>
+    <lastmod>2026-09-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+</urlset>
