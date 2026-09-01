@@ -32,7 +32,8 @@ export const AdminDashboard: React.FC<AdminDashboardProps> = ({ navigate }) => {
     updateProduct,
     deleteProduct,
     toggleProductActive,
-    updateEnquiryStatus
+    updateEnquiryStatus,
+    isDatabaseConnected
   } = useGiftBox();
 
   const [activeTab, setActiveTab] = useState<'overview' | 'products' | 'categories' | 'enquiries' | 'analytics' | 'settings'>('overview');
@@ -176,6 +177,17 @@ export const AdminDashboard: React.FC<AdminDashboardProps> = ({ navigate }) => {
           <span className="text-[10px] uppercase tracking-widest bg-[#501B25] px-2.5 py-1 font-semibold text-[#C7AC95]">
             Executive Dashboard
           </span>
+          {isDatabaseConnected ? (
+            <span className="hidden md:inline-flex items-center gap-1.5 px-2 py-0.5 bg-emerald-950/80 text-emerald-300 border border-emerald-500/40 text-[10px] font-medium">
+              <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
+              Live Cloud DB
+            </span>
+          ) : (
+            <span className="hidden md:inline-flex items-center gap-1.5 px-2 py-0.5 bg-amber-950/80 text-amber-300 border border-amber-500/40 text-[10px] font-medium" title="Connect Supabase in .env for real-time cloud sync">
+              <span className="w-1.5 h-1.5 rounded-full bg-amber-400" />
+              Local Storage Mode
+            </span>
+          )}
         </div>
 
         <div className="flex items-center gap-4 text-xs">
