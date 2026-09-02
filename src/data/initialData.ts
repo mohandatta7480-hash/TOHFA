@@ -32,10 +32,10 @@ export const INITIAL_CATEGORIES: Category[] = [
     id: 'cat-merchandise',
     name: 'Customizable Merchandise',
     slug: 'merchandise',
-    description: 'Custom printable wooden tea coaster sets, executive cardholders, stick-on phone card pockets, personalized leather journals, engraved metal pens, and corporate apparel. 100% customizable with your custom design or logo.',
+    description: '100% customizable merchandise and apparel. Custom print or laser engrave your company logo, employee names, and brand artwork on wooden tea coasters, leather phone wallets, premium hoodies, polo shirts, round neck tees, journals, and executive pens.',
     coverImage: '/images/category_merchandise.jpg',
     active: true,
-    featuredHighlight: 'Custom apparel, desk coasters, and everyday branded merchandise'
+    featuredHighlight: '100% customizable apparel, hoodies, desk essentials, and brand merchandise'
   },
   {
     id: 'cat-gadgets',
@@ -54,28 +54,29 @@ export const INITIAL_PRODUCTS: Product[] = [
   // ==========================================
   {
     id: 'prod-merch-1',
-    name: 'Phone Pasteable Stick-On Card Holder',
+    name: 'Phone Pasteable Stick-On Card Wallet',
     slug: 'phone-pasteable-stick-on-card-holder',
-    description: 'Adhesive card pocket that sticks securely to the back of any phone or case. Holds credit cards, ID cards, and transit passes. 100% customizable with custom design, logo, and text printing.',
-    longDescription: 'A slim adhesive card wallet that mounts directly to smartphones or protective cases using strong residue-free adhesive backing. Holds 1 to 2 essential cards for daily convenience. 100% customizable: print any design, logo, or text across the entire front surface.',
+    description: 'Slim adhesive leatherette phone wallet with card quick-pull notch. 100% customizable: deboss or print your company brand logo and custom artwork.',
+    longDescription: 'Ultra-slim premium leatherette card holder engineered to mount securely onto any smartphone or case with residue-free adhesive backing.\n\n• 100% Customizable: Precision debossed or screen-printed brand logo on genuine-feel leatherette\n• Card Capacity: Holds 1 to 2 credit cards, ID cards, or office keycards with thumb cutout\n• Finish Options: Available in distressed vintage brown, midnight black, and navy',
     category: 'merchandise',
     categoryName: 'Customizable Merchandise',
-    image: '/images/products/merch_phone_pasteable_card_holder.png',
+    image: '/images/products/merch_phone_pasteable_wallet.png',
     price: null,
     priceFormatted: 'Custom Quote',
     specifications: {
-      'Customization': '100% Customizable (Print any custom design, company logo, or text)',
-      'Material': 'Durable Leatherette with Strong Adhesive Backing',
-      'Capacity': 'Holds 1 to 2 standard credit or ID cards',
-      'Compatibility': 'Universal fit for all smartphones and cases',
-      'Installation': 'Peel and stick adhesive backing'
+      'Customization': '100% Customizable (Print or deboss any brand logo, design, or text)',
+      'Material': 'Vintage Finish Textured Leatherette with 3M Residue-Free Adhesive',
+      'Capacity': 'Holds 1 to 2 standard credit, transit, or corporate ID cards',
+      'Compatibility': 'Universal fit for all smartphones and protective phone cases',
+      'Quick-Access Feature': 'Curved ergonomic thumb cutout for easy card retrieval'
     },
     customizationOptions: [
-      'Full surface custom logo and artwork printing',
-      'Multiple base color options',
-      'Individual protective packaging'
+      'Precision blind debossing or foil stamped company logo',
+      'Full-color screen printing with custom corporate artwork',
+      'Multiple leatherette colorways (Vintage Tan, Noir Black, Navy Blue)',
+      'Individual presentation backing card with custom brand story'
     ],
-    badge: '100% Customizable',
+    badge: '100% Customizable • Brand Printable',
     active: true,
     featured: true,
     createdAt: '2026-02-28'
@@ -84,26 +85,27 @@ export const INITIAL_PRODUCTS: Product[] = [
     id: 'prod-merch-2',
     name: 'Natural Wooden Tea Coaster Set with Stand',
     slug: 'natural-wooden-tea-coaster-set',
-    description: 'Set of natural wooden round tea and coffee coasters with matching wooden holder stand. 100% customizable with laser engraving or color printing of your design or company logo.',
-    longDescription: 'Round wooden coaster set crafted from natural finished wood, complete with a compact wooden storage stand. Protects desk and table surfaces from drink rings. 100% customizable with your choice of laser engraving, screen printing, or full-color design on every coaster.',
+    description: 'Handcrafted round solid wood tea and coffee coasters with rimmed lip and stand. 100% customizable: laser engrave your company logo, brand motto, or event graphics.',
+    longDescription: 'Artisan solid wood coasters with raised perimeter lip, showcasing natural grain and rich walnut finish. Includes matching wooden stand.\n\n• 100% Customizable: Deep precision laser engraving of corporate logo, brand emblem, or tagline\n• Surface Protection: Heat-resistant and condensation-safe for executive desk setups\n• Set Options: Available as single desk coasters or 4/6-piece sets with branded stand',
     category: 'merchandise',
     categoryName: 'Customizable Merchandise',
-    image: '/images/products/merch_wooden_tea_coaster_set.png',
+    image: '/images/products/merch_wooden_tea_coaster_engraved.png',
     price: null,
     priceFormatted: 'Custom Quote',
     specifications: {
-      'Customization': '100% Customizable (Laser engraving or color printing of any logo or design)',
-      'Inclusions': 'Round Wooden Coasters with Matching Wooden Holder Stand',
-      'Material': 'Natural Finished Solid Wood',
-      'Shape': 'Round Coasters with Beveled Edge',
-      'Usage': 'Desktop and tabletop protection for hot and cold beverages'
+      'Customization': '100% Customizable (Deep laser engraving or color printing of any logo)',
+      'Inclusions': 'Round Solid Wood Coasters with Matching Wooden Holder Stand',
+      'Material': 'Hand-Turned Natural Grain Solid Hardwood with Protective Seal',
+      'Design': 'Beveled Perimeter Edge with Recessed Center Cup Well',
+      'Usage': 'Desktop protection against condensation and hot beverage marks'
     },
     customizationOptions: [
-      'Laser engraved logo on each coaster',
-      'Color screen printing or UV print',
-      'Branded packaging box with custom label'
+      'Deep laser engraving of corporate logo on every coaster',
+      'Laser engraved company brand name on wooden stand holder',
+      'Choice of natural walnut, teak, or beech wood finishes',
+      'Kraft gift box packaging with personalized corporate sleeve'
     ],
-    badge: '100% Customizable',
+    badge: '100% Customizable • Laser Engraved',
     active: true,
     featured: true,
     createdAt: '2026-02-28'
@@ -112,54 +114,56 @@ export const INITIAL_PRODUCTS: Product[] = [
     id: 'prod-merch-3',
     name: 'Executive Pocket Card Holder',
     slug: 'executive-pocket-card-holder',
-    description: 'Pocket business card holder with stainless steel metal trim and magnetic flip closure. 100% customizable with laser engraved name, company logo, or design.',
-    longDescription: 'A slim pocket card case combining textured leatherette with a polished stainless steel accent strip. Features a secure magnetic closure. 100% customizable: engrave or print any person name, company logo, or artwork on the metal plate and leatherette body.',
+    description: 'Sleek pocket business card case with stainless steel accent and magnetic closure. 100% customizable: laser engrave names, monograms, and corporate emblems.',
+    longDescription: 'Pocket card wallet combining durable textured leatherette with mirror-finish stainless steel accent strip and magnetic snap closure.\n\n• 100% Customizable: Laser engraved individual employee name or company brand logo on steel plaque\n• Pocket-Friendly: Compact design holding 15 to 20 business cards or 6 credit cards\n• Color Options: Classic Black, Rich Tan, and Slate Grey',
     category: 'merchandise',
     categoryName: 'Customizable Merchandise',
     image: '/images/products/merch_executive_card_holder.png',
     price: null,
     priceFormatted: 'Custom Quote',
     specifications: {
-      'Customization': '100% Customizable (Laser engrave or print any name, logo, or design)',
-      'Material': 'Textured Leatherette Body with Polished Stainless Steel Accent',
-      'Closure': 'Magnetic Snap Flip Cover',
+      'Customization': '100% Customizable (Laser engrave individual name, logo, or monogram)',
+      'Material': 'Premium Textured Leatherette with Brushed Stainless Steel Accent',
+      'Closure': 'Concealed Magnetic Snap Closure',
       'Capacity': 'Holds 15 to 20 standard business cards or 5 to 7 credit cards',
-      'Format': 'Slim Pocket Size'
+      'Dimensions': 'Slim pocket-friendly profile (9.5 x 6.5 x 1.2 cm)'
     },
     customizationOptions: [
-      'Laser engraving on metal plate',
-      'Debossed or screen printed logo on leatherette',
-      'Individual gift box packaging'
+      'Laser engraving on stainless steel clasp or nameplate',
+      'Heat debossed company logo on leatherette flap',
+      'Individual personalized employee names on each piece',
+      'Matte black presentation gift box with silver foil logo'
     ],
-    badge: '100% Customizable',
+    badge: '100% Customizable • Laser Engraved',
     active: true,
     featured: true,
     createdAt: '2026-02-28'
   },
   {
     id: 'prod-merch-4',
-    name: 'Customizable Round Neck T-Shirt',
+    name: 'Customizable Crew Neck Cotton T-Shirt',
     slug: 'customizable-round-neck-tshirt',
-    description: 'Cotton round neck t-shirt for corporate events, team uniforms, and merchandise. 100% customizable with screen printing, DTF, or embroidery on chest, back, and sleeves.',
-    longDescription: 'Comfortable everyday crew neck t-shirt made with combed cotton fabric. Suitable for corporate teams, promotional events, and brand merchandise. 100% customizable: print or embroider any artwork, slogan, or corporate logo across front, back, or sleeves.',
+    description: '100% bio-washed combed cotton crew neck t-shirt for corporate teams and event merchandise. 100% customizable: print your logo on front, back, and sleeves.',
+    longDescription: 'Ultra-comfortable everyday crew neck t-shirt crafted from breathable, pre-shrunk combed cotton. Ideal for tech teams and company events.\n\n• 100% Customizable: Screen print, high-definition DTF, or embroidered logo on left chest and full back\n• Premium Comfort: 180 GSM bio-washed cotton, double-stitched hem, and ribbed neckband\n• Color & Size Range: Available in all corporate shades from S to 3XL',
     category: 'merchandise',
     categoryName: 'Customizable Merchandise',
-    image: '/images/products/merch_round_neck_tshirt.png',
+    image: '/images/products/merch_customizable_round_neck_tshirt.png',
     price: null,
     priceFormatted: 'Custom Quote',
     specifications: {
-      'Customization': '100% Customizable (Print or embroider any design, text, or artwork)',
-      'Fabric': '100% Combed Cotton Fabric',
-      'Fit & Style': 'Regular Fit Crew Neck Short Sleeve',
+      'Customization': '100% Customizable (Screen print, DTF, or embroidery on chest, back, sleeves)',
+      'Fabric': '180 GSM 100% Super-Combed Bio-Washed Cotton',
+      'Fit & Style': 'Unisex Regular Fit Crew Neck Short Sleeve Tee',
       'Sizes Available': 'S, M, L, XL, XXL, 3XL',
-      'Printing Techniques': 'Screen Print, DTF Full-Color Print, or Direct Embroidery'
+      'Print Areas': 'Front Left Chest, Center Chest, Full Back, Both Sleeves'
     },
     customizationOptions: [
-      'Front chest, back, and sleeve custom printing',
-      'Multiple fabric color options',
-      'Custom neck label and individual polybag packaging'
+      'High-density screen print or full-color DTF graphic printing',
+      'Precision chest logo embroidery',
+      'Multiple fabric color choices matching corporate brand palette',
+      'Custom woven inside neck label and individual polybag packaging'
     ],
-    badge: '100% Customizable',
+    badge: '100% Customizable • Front & Back Print',
     active: true,
     featured: true,
     createdAt: '2026-02-28'
@@ -168,26 +172,27 @@ export const INITIAL_PRODUCTS: Product[] = [
     id: 'prod-merch-5',
     name: 'Customizable Collared Polo T-Shirt',
     slug: 'customizable-collared-polo-tshirt',
-    description: 'Collared polo t-shirt with button placket and ribbed collar. 100% customizable with logo embroidery or print on front chest and full-back graphic printing.',
-    longDescription: 'Short sleeve collared polo shirt crafted from breathable cotton pique fabric with ribbed collar and button placket. 100% customizable: embroider or print company logos on the front chest and print full-color graphics or text on the back.',
+    description: 'Classic pique knit collared polo with 2-button placket. 100% customizable: embroider company insignia on front chest and print full branding across the back.',
+    longDescription: 'Executive cotton pique polo shirt featuring ribbed knit collar, reinforced button placket, and side split hem. Designed for modern corporate styling.\n\n• 100% Customizable: Premium high-density embroidery on chest and bold graphic printing across back\n• Breathable Fabric: Heavy-duty 220 GSM pique matty cotton with color-fast dye\n• Styling Options: Contrast tipping, custom branded neck label, and assorted corporate colors',
     category: 'merchandise',
     categoryName: 'Customizable Merchandise',
-    image: '/images/products/merch_polo_tshirt.png',
+    image: '/images/products/merch_customizable_polo_tshirt.png',
     price: null,
     priceFormatted: 'Custom Quote',
     specifications: {
-      'Customization': '100% Customizable (Embroider or print any company logo, graphics, or text)',
-      'Fabric': 'Cotton Pique Matty Knit Fabric',
-      'Style': 'Ribbed Collar with 2-Button Placket',
+      'Customization': '100% Customizable (Embroider or print company logo, graphics, or text)',
+      'Fabric': '220 GSM Heavy-Duty Cotton Pique Matty Knit Fabric',
+      'Style': 'Ribbed Collar & Sleeve Cuffs with 2-Button Placket',
       'Sizes Available': 'S, M, L, XL, XXL, 3XL',
-      'Customization Areas': 'Left Chest Logo, Right Sleeve, Full Back Graphic'
+      'Print Areas': 'Left Chest Embroidery, Full Back Graphic, Sleeve Monogram'
     },
     customizationOptions: [
-      'Chest logo embroidery or screen print',
-      'Large back graphic or company slogan printing',
-      'Multiple polo color options'
+      'Direct embroidery of corporate logo on left chest',
+      'Bold company branding or event theme printing across back',
+      'Custom dyed fabric or contrast collar tipping options',
+      'Custom branded neck tag and premium garment packaging'
     ],
-    badge: '100% Customizable',
+    badge: '100% Customizable • Embroidered & Printed',
     active: true,
     featured: true,
     createdAt: '2026-02-28'
@@ -196,8 +201,8 @@ export const INITIAL_PRODUCTS: Product[] = [
     id: 'prod-merch-6',
     name: 'Personalized Vintage Leather Journal & Pen Set',
     slug: 'personalized-vintage-leather-journal-pen-set',
-    description: 'Vintage tan leatherette notebook with wraparound string tie, metal charm medallion, nameplate, and matching engraved pen. 100% customizable with laser engraved name or company logo.',
-    longDescription: 'Tan leatherette journal featuring a wraparound tie string with antique coin charm, brass finish personalized nameplate, and a matching ballpoint pen. 100% customizable: engrave individual employee or client names, designations, or company logos on both the journal nameplate and pen barrel.',
+    description: 'Handcrafted vintage tan leatherette notebook with antique charm tie and matching pen. 100% customizable: laser engrave individual names and brand logos.',
+    longDescription: 'Heirloom-grade journal bound in rustic vegan leather with wraparound cord and antique coin medallion, paired with a matching metal twist pen.\n\n• 100% Customizable: Laser engraved brass nameplate with individual recipient name and corporate logo\n• Writing Comfort: 192 acid-free natural ruled pages with ribbon bookmark\n• Gift Presentation: Deluxe rigid presentation box with custom corporate belly band',
     category: 'merchandise',
     categoryName: 'Customizable Merchandise',
     image: '/images/products/merch_personalized_leather_journal_pen.png',
@@ -215,7 +220,7 @@ export const INITIAL_PRODUCTS: Product[] = [
       'Company logo engraving on pen barrel',
       'Custom greeting card inside box'
     ],
-    badge: '100% Customizable',
+    badge: '100% Customizable • Name Engraved',
     active: true,
     featured: true,
     createdAt: '2026-02-28'
@@ -224,8 +229,8 @@ export const INITIAL_PRODUCTS: Product[] = [
     id: 'prod-merch-7',
     name: 'Custom Engraved Executive Metal Pen',
     slug: 'custom-engraved-executive-metal-pen',
-    description: 'Matte black metal ballpoint pen with gold-accented clip and smooth twist mechanism. 100% customizable with laser engraved individual name, monogram, or company logo.',
-    longDescription: 'Weighted metal ballpoint pen with matte black barrel finish and polished gold clip. Provides smooth blue ink flow. 100% customizable: precision laser engraving for individual names, corporate brand logos, or milestone inscriptions.',
+    description: 'Matte black weighted metal ballpoint pen with gold-plated clip and smooth twist action. 100% customizable: laser engrave recipient name, monogram, or company logo.',
+    longDescription: 'Balanced executive writing instrument featuring matte black anodized barrel, gold-tone appointments, and archival blue/black German ink refill.\n\n• 100% Customizable: High-precision laser engraving revealing crisp metallic lettering\n• Smooth Writing: German tungsten carbide ballpoint with smudge-free ink delivery\n• Packaging: Velvet pouch or luxury hinged gift case with custom foil imprint',
     category: 'merchandise',
     categoryName: 'Customizable Merchandise',
     image: '/images/products/merch_custom_engraved_metal_pen.png',
@@ -243,10 +248,39 @@ export const INITIAL_PRODUCTS: Product[] = [
       'Choice of gold or silver clip accents',
       'Custom gift box packaging'
     ],
-    badge: '100% Customizable',
+    badge: '100% Customizable • Precision Engraved',
     active: true,
     featured: true,
     createdAt: '2026-02-28'
+  },
+  {
+    id: 'prod-merch-8',
+    name: 'Customizable Premium Heavyweight Hoodie',
+    slug: 'customizable-premium-heavyweight-hoodie',
+    description: 'Plush fleece pullover hoodie with kangaroo pocket and double-lined hood. 100% customizable: print or embroider brand logo on chest, sleeves, and full back.',
+    longDescription: 'Heavyweight unisex pullover hoodie tailored from brushed fleece cotton for ultimate warmth and modern streetwear fit.\n\n• 100% Customizable: High-definition DTF print or embroidery on front chest, kangaroo pocket, and full back panel\n• Heavyweight Fabric: 320 GSM combed cotton fleece with thermal inner lining and matching drawstrings\n• Durability: Ribbed cuffs and waistband with spandex for shape retention; sizes XS to 3XL',
+    category: 'merchandise',
+    categoryName: 'Customizable Merchandise',
+    image: '/images/products/merch_customizable_premium_hoodie.png',
+    price: null,
+    priceFormatted: 'Custom Quote',
+    specifications: {
+      'Customization': '100% Customizable (Screen print, DTF, or embroider any logo, slogan, or artwork)',
+      'Fabric': '320 GSM Heavyweight Combed Cotton Fleece with Thermal Brushed Lining',
+      'Style': 'Unisex Pullover Hoodie with Kangaroo Pocket & Double-Lined Hood',
+      'Sizes Available': 'XS, S, M, L, XL, XXL, 3XL',
+      'Customization Areas': 'Left Chest Logo, Kangaroo Pocket, Sleeve Badges, Full Back Graphic'
+    },
+    customizationOptions: [
+      'Full front and back custom brand logo printing',
+      'Direct high-density corporate embroidery',
+      'Multiple fleece color options (Black, Charcoal, Navy, Maroon, Grey)',
+      'Custom woven neck label and presentation polybag'
+    ],
+    badge: '100% Customizable • Front & Back Print',
+    active: true,
+    featured: true,
+    createdAt: '2026-09-02'
   },
 
   // ==========================================
