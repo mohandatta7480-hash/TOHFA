@@ -112,26 +112,26 @@ export const INITIAL_PRODUCTS: Product[] = [
   },
   {
     id: 'prod-merch-3',
-    name: 'Executive Pocket Card Holder',
+    name: 'Precision Aluminum Executive Card Holder',
     slug: 'executive-pocket-card-holder',
-    description: 'Sleek pocket business card case with stainless steel accent and magnetic closure. 100% customizable: laser engrave names, monograms, and corporate emblems.',
-    longDescription: 'Pocket card wallet combining durable textured leatherette with mirror-finish stainless steel accent strip and magnetic snap closure.\n\n• 100% Customizable: Laser engraved individual employee name or company brand logo on steel plaque\n• Pocket-Friendly: Compact design holding 15 to 20 business cards or 6 credit cards\n• Color Options: Classic Black, Rich Tan, and Slate Grey',
+    description: 'Ultra-slim brushed aerospace aluminum card holder with thumb slide notch. 100% customizable: precision laser engrave company logo, employee names, and brand slogans.',
+    longDescription: 'Precision-machined brushed aluminum card case engineered for executive pockets and modern desk setups. Protects business cards, credit cards, and RFID cards.\n\n• 100% Customizable: Precision fiber laser engraving of corporate logo, employee name, or milestone date\n• Quick-Access Design: Ergonomic thumb slide notch for instant one-handed card presentation\n• Capacity & Build: Holds up to 15 business cards or 6 embossed credit cards in rigid RFID-blocking aluminum',
     category: 'merchandise',
     categoryName: 'Customizable Merchandise',
     image: '/images/products/merch_executive_card_holder.png',
     price: null,
     priceFormatted: 'Custom Quote',
     specifications: {
-      'Customization': '100% Customizable (Laser engrave individual name, logo, or monogram)',
-      'Material': 'Premium Textured Leatherette with Brushed Stainless Steel Accent',
-      'Closure': 'Concealed Magnetic Snap Closure',
-      'Capacity': 'Holds 15 to 20 standard business cards or 5 to 7 credit cards',
-      'Dimensions': 'Slim pocket-friendly profile (9.5 x 6.5 x 1.2 cm)'
+      'Customization': '100% Customizable (Laser engrave company brand logo, text, or employee names)',
+      'Material': 'Aviation-Grade Brushed Aluminum Alloy with Chamfered Edges',
+      'Access Notch': 'Precision Curved Thumb Cutout for Fast Card Ejection',
+      'Capacity': 'Holds 12 to 15 standard business cards or 5 to 6 credit cards',
+      'RFID Shielding': 'Built-in RFID blocking protection against digital skimming'
     },
     customizationOptions: [
-      'Laser engraving on stainless steel clasp or nameplate',
-      'Heat debossed company logo on leatherette flap',
-      'Individual personalized employee names on each piece',
+      'Precision fiber laser engraving on front faceplate',
+      'Individual personalized recipient names on each card holder',
+      'Custom corporate color anodizing for bulk orders',
       'Matte black presentation gift box with silver foil logo'
     ],
     badge: '100% Customizable • Laser Engraved',
@@ -199,28 +199,29 @@ export const INITIAL_PRODUCTS: Product[] = [
   },
   {
     id: 'prod-merch-6',
-    name: 'Personalized Vintage Leather Journal & Pen Set',
+    name: 'Bespoke Buckle-Strap Vintage Leather Journal',
     slug: 'personalized-vintage-leather-journal-pen-set',
-    description: 'Handcrafted vintage tan leatherette notebook with antique charm tie and matching pen. 100% customizable: laser engrave individual names and brand logos.',
-    longDescription: 'Heirloom-grade journal bound in rustic vegan leather with wraparound cord and antique coin medallion, paired with a matching metal twist pen.\n\n• 100% Customizable: Laser engraved brass nameplate with individual recipient name and corporate logo\n• Writing Comfort: 192 acid-free natural ruled pages with ribbon bookmark\n• Gift Presentation: Deluxe rigid presentation box with custom corporate belly band',
+    description: 'Artisan handcrafted tan leather journal with antique brass buckle strap and ribbon bookmark. 100% customizable: blind deboss or laser engrave your brand logo and name.',
+    longDescription: 'Heirloom-grade notebook bound in supple distressed vegan leather with an authentic antique brass roller buckle closure strap and ribbon marker.\n\n• 100% Customizable: Deep heat-stamped blind debossing or laser engraving of company logo and recipient name\n• Premium Pages: 192 bleed-resistant acid-free natural ruled pages for executive journaling\n• Packaging: Luxury rigid presentation box with custom corporate sleeve',
     category: 'merchandise',
     categoryName: 'Customizable Merchandise',
     image: '/images/products/merch_personalized_leather_journal_pen.png',
     price: null,
     priceFormatted: 'Custom Quote',
     specifications: {
-      'Customization': '100% Customizable (Laser engraved name or company logo on metal plate and pen)',
-      'Inclusions': 'Leatherette Journal with Charm String Tie & Matching Engraved Pen',
-      'Cover Material': 'Textured Tan Vegan Leatherette',
-      'Paper Details': '192 Ruled Pages, 80 GSM Natural Cream Paper',
-      'Closure': 'Wraparound Cord with Antique Coin Charm Medallion'
+      'Customization': '100% Customizable (Blind heat deboss or laser engrave brand logo and names)',
+      'Cover Material': 'Premium Distressed Saddle Brown Vegan Leather',
+      'Closure': 'Functional Antique Brass Metal Roller Buckle Strap',
+      'Paper Details': '192 Ruled Pages, 100 GSM Natural Warm Cream Archival Paper',
+      'Features': 'Satin Ribbon Bookmark, Lay-Flat 180-Degree Thread Binding'
     },
     customizationOptions: [
-      'Individual name engraving on metal plate',
-      'Company logo engraving on pen barrel',
-      'Custom greeting card inside box'
+      'Deep blind debossing of corporate brand logo on front cover',
+      'Laser engraved individual employee name or initials',
+      'Custom printed corporate welcome page inserted inside',
+      'Deluxe presentation gift box with customized belly band'
     ],
-    badge: '100% Customizable • Name Engraved',
+    badge: '100% Customizable • Brand Debossed',
     active: true,
     featured: true,
     createdAt: '2026-02-28'
@@ -469,87 +470,84 @@ export const INITIAL_PRODUCTS: Product[] = [
   },
   {
     id: 'prod-edible-3',
-    name: 'Saras Che Artisanal Coin Khakhra (Multiple Flavor Options)',
+    name: 'Saras Che Artisanal Coin Khakhra (Multiple Flavours)',
     slug: 'saras-che-artisanal-coin-khakhra',
-    description: 'Authentic crispy mini coin khakhras from Saras Che, roasted oil-free to perfection. 100% choosable flavors: pick from Cheese, Methi, Jeera, Masala, Peri Peri, Garlic Herb, and more.',
-    longDescription: 'Traditional Gujarati coin khakhras by Saras Che, crafted with 100% whole wheat and roasted to a crisp golden crunch. Convenient bite-sized coin format ideal for modern desk snacking and festive hampers. Clients can choose from a wide bouquet of flavors including Cheese Coin, Methi, Roasted Jeera, Chatpata Masala, Spicy Peri Peri, and Garlic Herb. Sealed in freshness-locking containers.',
+    description: 'Crispy bite-sized whole wheat coin khakhras roasted oil-free in rice bran oil. Available in Cheese, Methi, Jeera, Masala, Peri Peri, and multiple savory flavors.',
+    longDescription: 'Authentic Gujarati coin khakhras by Saras Che, crafted from whole wheat and vacuum-roasted to an irresistible golden crisp.\n\n• Key Flavours: Gourmet Cheese, Kasuri Methi, Roasted Jeera, Chatpata Masala, Peri Peri, and Garlic Herb\n• Health Highlights: Roasted with heart-healthy rice bran oil, zero trans fat, 100% vacuum roasted\n• Customization: 100% choosable flavor combinations in custom corporate hampers',
     category: 'edible',
     categoryName: 'Edible Gifting',
     image: '/images/products/edible_saras_che_khakhra.png',
     price: null,
     priceFormatted: 'Custom Quote',
     specifications: {
-      'Flavor Variety': '100% Choosable (Multiple savory and gourmet flavor options available)',
-      'Available Flavors': 'Cheese Coin, Kasuri Methi, Roasted Jeera, Chatpata Masala, Peri Peri, Garlic Herb',
-      'Baking Method': '100% Vacuum Roasted Whole Wheat (Zero Trans Fat, Guilt-Free Snacking)',
-      'Packaging': 'Airtight Freshness-Lock Container with Saras Che Quality Seal',
-      'Serving Format': 'Bite-Sized Round Coin Khakhra'
+      'Product Type': 'Crispy Whole Wheat Coin Khakhra by Saras Che',
+      'Flavor Varieties': 'Cheese Coin, Kasuri Methi, Roasted Jeera, Chatpata Masala, Peri Peri',
+      'Roasting Standard': 'Vacuum Roasted with Rice Bran Oil (Zero Trans Fat, No Added Sugar)',
+      'Packaging': 'Airtight Transparent Freshness Container with Saras Che Seal',
+      'Serving Style': 'Bite-Sized Round Crunchy Coin Khakhras'
     },
     customizationOptions: [
-      '100% Choosable Flavor Selections for Corporate Hampers',
-      'Custom Corporate Labeling and Box Sleeves',
-      'Assorted Flavor Multi-Packs for Team Gifting',
-      'Gift Box Inlay with Custom Welcome Notes'
+      '100% choosable flavor assortments for gift hampers',
+      'Custom corporate branding sleeve on outer container',
+      'Multi-flavor tasting bundles for corporate gifting'
     ],
-    badge: '100% Choosable Flavors',
+    badge: 'Roasted Khakhra • Multiple Flavours',
     active: true,
     featured: true,
     createdAt: '2026-02-21'
   },
   {
     id: 'prod-edible-4',
-    name: 'Crispy Dehydrated Cinnamon Apple Rings',
+    name: 'Crispy Dehydrated Orchard Apple Chips (Custom Branded)',
     slug: 'crispy-dehydrated-cinnamon-apple-rings',
-    description: '100% natural dehydrated orchard apple slices gently crisped without artificial preservatives or excess oil. Wholesome gourmet snacking with your choice of Natural Sweet, Light Cinnamon Dust, or Honey Glaze.',
-    longDescription: 'Crafted from hand-picked orchard fresh apples, sliced into rings and slow dehydrated to preserve natural nutrients, fiber, and sweet tanginess. A gourmet healthy snack choice that elevates festive hampers and wellness gift boxes. Available in Pure Natural Sweet, Aromatic Ceylon Cinnamon Dust, and Light Honey Glaze.',
+    description: 'Slow-dehydrated crispy orchard apple slices with natural peel curls. 100% natural and guilt-free. Available with custom branded jar stickers and multiple dustings.',
+    longDescription: 'Hand-selected orchard fresh apples slow-dehydrated into delicate, crunchy curls without oil, added sugar, or artificial preservatives.\n\n• Flavor Dustings: Pure Orchard Sweet, Ceylon Cinnamon Dust, and Golden Honey Glaze\n• Nutrition Profile: 100% natural, high dietary fiber, gluten-free guilt-free snacking\n• Customization: Clear airtight tub with custom branded kraft label featuring your company logo',
     category: 'edible',
     categoryName: 'Edible Gifting',
     image: '/images/products/edible_dehydrated_apple_chips.png',
     price: null,
     priceFormatted: 'Custom Quote',
     specifications: {
-      'Snack Type': '100% Natural Slow-Dehydrated Orchard Apple Rings',
-      'Flavor Profiles': 'Natural Crisp Sweet, Aromatic Ceylon Cinnamon Dust, Honey Glaze',
-      'Nutritional Highlights': 'Rich in Natural Dietary Fiber, Gluten-Free, No Artificial Colors or Added Sugar',
-      'Packaging': 'Food-Grade Sealed Pouch or Clear Acrylic Gift Jar with Air-Lock Seal',
-      'Suitability': 'Healthy Snacking, Festive Hampers, Wellness Gift Boxes'
+      'Product Type': '100% Natural Dehydrated Orchard Apple Chips',
+      'Flavor Varieties': 'Pure Orchard Sweet, Ceylon Cinnamon Dust, Light Honey Glaze',
+      'Health Highlights': 'No Added Sugar, Zero Added Oil, Gluten-Free, High Natural Fiber',
+      'Packaging': 'Clear Airtight Tub with Custom Kraft Brand Sticker',
+      'Customization': '100% Customizable with Custom Corporate Brand Logo on Label'
     },
     customizationOptions: [
-      'Choice of Flavor Dusting (Natural, Cinnamon, Honey)',
-      'Custom Branded Label with Corporate Logo',
-      'Eco-Friendly Glass Jar or Resealable Pouch Options',
-      'Gift Box Inclusion and Custom Ribbon Pairing'
+      'Choice of flavor dusting (Natural Sweet, Ceylon Cinnamon, Honey Glaze)',
+      'Custom kraft label with corporate brand logo and message',
+      'Gift hamper inclusion with personalized greeting card'
     ],
-    badge: '100% Natural Orchard Fruit',
+    badge: '100% Natural • Custom Branded',
     active: true,
     featured: true,
     createdAt: '2026-02-22'
   },
   {
     id: 'prod-edible-5',
-    name: 'Artisanal Gourmet Fresh-Baked Cookies (Choose Your Flavors)',
+    name: 'Artisanal Gourmet Fresh-Baked Cookies (Multiple Flavours)',
     slug: 'artisanal-gourmet-fresh-baked-cookies',
-    description: 'Freshly baked handcrafted cookies with rich gourmet inclusions and utmost taste. 100% choosable flavors: select from Classic Chocolate Chip, Double Dark Chocolate, Oatmeal Cranberry, Hazelnut Praline, and Red Velvet.',
-    longDescription: 'Artisanal cookies prepared with high-grade butter, real Belgian chocolate chips, and roasted nuts. Crispy on the outer edge with a soft melt-in-the-mouth center. Clients get to choose whatever flavor combinations they desire for their gift boxes, including Classic Chocolate Chip, Double Dark Chocolate Chunk, Butterscotch Crunch, Oatmeal Cranberry, Hazelnut Praline, and Red Velvet. 100% choosable flavors of utmost quality and fresh taste.',
+    description: 'Freshly baked gourmet butter cookies loaded with rich chocolate chunks and roasted inclusions. Available in multiple decadent artisanal flavor varieties.',
+    longDescription: 'Handcrafted small-batch cookies made with pure butter and premium Belgian chocolate chunks. Crisp golden exterior with melt-in-mouth soft centers.\n\n• Decadent Flavours: Classic Choco-Chip, Double Dark Chocolate, Oatmeal Cranberry, Butterscotch Crunch, and Red Velvet\n• Baking Quality: 100% pure dairy butter, baked fresh to order, zero artificial essence\n• Customization: 100% choosable flavor assortments in branded cookie tins or presentation boxes',
     category: 'edible',
     categoryName: 'Edible Gifting',
     image: '/images/products/edible_artisanal_cookies.png',
     price: null,
     priceFormatted: 'Custom Quote',
     specifications: {
-      'Flavor Selection': '100% Choosable (Pick any flavor combinations you desire)',
-      'Available Flavors': 'Classic Chocolate Chip, Double Dark Chocolate Chunk, Butterscotch Crunch, Oatmeal Cranberry, Hazelnut Praline, Red Velvet',
-      'Baking Standards': 'Handcrafted in Small Batches using Pure Butter and Real Chocolate Chunks',
-      'Quality & Freshness': 'Baked to Order for Maximum Crispness and Aroma',
-      'Packaging': 'Vintage Tin Caddy or Luxury Rigid Box with Protective Wax Paper Wrapping'
+      'Product Type': 'Gourmet Handcrafted Fresh-Baked Butter Cookies',
+      'Flavor Selections': 'Classic Choco-Chip, Double Dark Chocolate, Oatmeal Cranberry, Butterscotch',
+      'Baking Standard': '100% Pure Butter, Real Belgian Chocolate Chunks, Small Batch Fresh',
+      'Texture': 'Crispy Golden Edge with Soft Rich Butter Center',
+      'Packaging': 'Vintage Cookie Tin, Kraft Pouch, or Luxury Gift Box'
     },
     customizationOptions: [
-      '100% Choosable Cookie Flavor Combinations',
-      'Custom Corporate Branded Tin or Rigid Box with Logo Debossing',
-      'Eggless and Gluten-Free Batch Options Available',
-      'Assorted Cookie Gift Box with Personalized Greeting Card'
+      '100% choosable cookie flavor combinations',
+      'Custom corporate branded cookie tin or presentation box',
+      'Eggless and gluten-free batch options available on request'
     ],
-    badge: '100% Choosable Flavors',
+    badge: 'Fresh Baked • Multiple Flavours',
     active: true,
     featured: true,
     createdAt: '2026-02-23'
