@@ -377,60 +377,58 @@ export const INITIAL_PRODUCTS: Product[] = [
   // ==========================================
   {
     id: 'prod-edible-1',
-    name: 'Traditional Royal Mithai Selection (Choose Your Sweets)',
+    name: 'Traditional Royal Mithai Selection (Multiple Sweet Options)',
     slug: 'traditional-royal-mithai-selection',
-    description: 'Handcrafted pure ghee traditional Indian sweets of utmost quality and authentic taste. 100% choosable: select whatever sweets you want from Kaju Katli, Motichoor Ladoo, Kesar Peda, Pista Barfi, Anjeer Roll, and Dry Fruit Halwa.',
-    longDescription: 'Prepared fresh using pure desi ghee and hand-selected dry fruits, this royal mithai collection offers the utmost taste and freshness for corporate gifting and festive hampers. Clients have complete freedom to choose whatever sweet varieties and ratios they want for their custom gift boxes. Encased in luxury food-grade gift boxes with custom corporate sleeves and greeting cards.',
+    description: 'Pure ghee handcrafted Indian sweets in a royal presentation box. 100% customizable: select from multiple sweet varieties for your bespoke festive hamper.',
+    longDescription: 'Handcrafted pure ghee Indian sweets made with rich pistachios, saffron, and almonds. Presented in a regal navy and gold gift box with satin ribbon.\n\n• Available Sweets: Kaju Katli, Motichoor Laddoo, Peda, Milk Cake, Besan Laddoo, and Dry Fruit Barfi\n• Quality Highlights: 100% pure desi ghee, fresh batch preparation, zero preservatives\n• Customization: Multiple sweet options to choose from with custom corporate greeting tags',
     category: 'edible',
     categoryName: 'Edible Gifting',
-    image: '/images/products/edible_royal_mithai_selection.png',
+    image: '/images/products/edible_traditional_royal_mithai.jpg',
     price: null,
     priceFormatted: 'Custom Quote',
     specifications: {
-      'Flavor Choice': '100% Choosable (Select any sweet varieties you want)',
-      'Available Sweets Selection': 'Kaju Katli, Pure Ghee Motichoor Ladoo, Kesar Peda, Pista Barfi, Roasted Anjeer Roll, Dry Fruit Halwa',
-      'Quality & Purity': '100% Pure Desi Ghee & Premium Grade Nuts with No Artificial Preservatives',
-      'Packaging Style': 'Rigid Presentation Sweet Box with Gold Inlay and Individual Compartments',
-      'Branding & Print': 'Custom Outer Box Sleeve with Company Logo and Festive Message'
+      'Product Type': 'Handcrafted Pure Ghee Festive Mithai',
+      'Sweet Options': 'Multiple Options (Kaju Katli, Laddoos, Peda, Milk Cake, Barfi)',
+      'Purity & Freshness': '100% Pure Desi Ghee, Prepared Fresh to Order',
+      'Packaging Style': 'Regal Gold and Navy Foil Keepsake Box with Ribbon',
+      'Hamper Selection': '100% Choosable Sweet Assortment & Custom Message Card'
     },
     customizationOptions: [
-      '100% Choosable Sweets Variety and Portions',
-      'Custom Corporate Branded Outer Box Sleeve',
-      'Sugar-Free and Organic Jaggery Options Available',
-      'Vacuum Sealed Inner Tray for Extended Freshness',
-      'Personalized Greeting Card with Leadership Notes'
+      'Multiple sweet options to curate your box',
+      'Custom corporate branded box sleeve and ribbon',
+      'Individual airtight trays for freshness',
+      'Personalized greeting card with corporate note'
     ],
-    badge: '100% Choosable Sweets',
+    badge: 'Festive Mithai • Multiple Options',
     active: true,
     featured: true,
     createdAt: '2026-02-19'
   },
   {
     id: 'prod-edible-2',
-    name: 'Royal Gourmet Dry Fruits & Exotic Fruit Platter (Choose Your Mix)',
+    name: 'Royal Gourmet Dry Fruits & Nut Platter (Pick Any Dry Fruit)',
     slug: 'royal-dryfruits-exotic-fruit-platter',
-    description: 'A lavish assortment of premium handpicked dry fruits and sun-ripened dehydrated fruits in a keepsake wooden tray. 100% choosable: pick whatever dry fruits and exotic fruits you want for your custom curation.',
-    longDescription: 'A wholesome and regal gifting ensemble featuring jumbo grade nuts and naturally dehydrated fruits. Clients can choose whatever combination of dry fruits and exotic fruits they want, including California Almonds, Iranian Pistachios, Afghan Anjeer, Medjool Dates, Dried Turkish Apricots, Cranberries, and Dehydrated Kiwi. Presented in an artisan wooden serving tray with luxury festive ribbon.',
+    description: 'Lavish 9-compartment solid wood platter filled with handpicked premium nuts and berries. 100% customizable: pick any dry fruit you want, including flavored cashews, flavored badams, and flavored raisins.',
+    longDescription: 'A majestic 9-compartment solid wood platter presenting export-grade nuts, berries, and gourmet flavored selections.\n\n• Any Dry Fruit You Pick: California Almonds, Jumbo Cashews, Walnuts, Pistachios, Afghan Anjeer, and Dried Berries\n• Gourmet Flavoured Varieties: Peri Peri Cashews, Smoked Almonds, Salted Pistachios, and Spiced Flavoured Raisins\n• Presentation: Keepsake natural walnut finish wooden tray with brass plaque\n• Customization: Pick any dry fruit or flavor combination with custom engraved brass plaque',
     category: 'edible',
     categoryName: 'Edible Gifting',
-    image: '/images/products/edible_royal_dryfruits_platter.png',
+    image: '/images/products/edible_royal_dryfruits_platter.jpg',
     price: null,
     priceFormatted: 'Custom Quote',
     specifications: {
-      'Selection Freedom': '100% Choosable (Pick whatever dry fruits and dehydrated fruits you want)',
-      'Available Nuts & Dry Fruits': 'Jumbo California Almonds, Cashews, Iranian Salted Pistachios, Afghan Anjeer, Medjool Dates',
-      'Available Dehydrated Fruits': 'Sun-Dried Turkish Apricots, Dehydrated Apple Rings, Dried Cranberries, Dehydrated Kiwi, Dried Strawberries',
-      'Presentation': 'Handcrafted Natural Wood Serving Tray with Satin Ribbon Bow',
-      'Grade & Purity': 'AAA Jumbo Export Quality, 100% Natural, Nitrogen Flushed for Freshness'
+      'Product Type': 'Gourmet Handpicked Dry Fruits & Nuts Platter',
+      'Dry Fruit Selection': 'Pick Any Dry Fruit (Almonds, Cashews, Walnuts, Anjeer, Pistachios, Berries)',
+      'Flavoured Options': 'Flavored Cashews, Flavored Badams, and Flavored Raisins Available',
+      'Tray Material': 'Natural Solid Wood 9-Grid Platter with Brass Accent',
+      'Hamper Selection': '100% Choosable Nut & Berry Mix with Laser Engraved Plaque'
     },
     customizationOptions: [
-      '100% Choosable Dry Fruits and Dehydrated Fruit Mix',
-      'Laser Engraved Wooden Tray with Corporate Emblem',
-      'Individual Airtight Jars or Compartmentalized Presentation Tray',
-      'Custom Satin Ribbon and Foil Stamped Gift Card',
-      'Single Variety or Multi-Item Custom Combos'
+      'Pick any dry fruit, nut, or flavored variety',
+      'Custom laser engraving on brass plaque with company logo',
+      'Airtight packaging inside compartments for maximum crispness',
+      'Custom satin ribbon and foil stamped gift card'
     ],
-    badge: '100% Choosable Mix',
+    badge: 'Pick Any Dry Fruit • Flavored Options',
     active: true,
     featured: true,
     createdAt: '2026-02-20'
@@ -658,6 +656,90 @@ export const INITIAL_PRODUCTS: Product[] = [
       'Corporate gift box assortment with personalized message'
     ],
     badge: 'Healthy Savouries • Multiple Options',
+    active: true,
+    featured: true,
+    createdAt: '2026-09-02'
+  },
+  {
+    id: 'prod-edible-11',
+    name: 'Artisanal Handcrafted Chocolates (Ooty, Kodaikanal & Handmade)',
+    slug: 'artisanal-handcrafted-chocolates',
+    description: 'Exquisite handmade chocolates crafted from pure single-origin cocoa. Choose from authentic Ooty chocolates, rich Kodaikanal chocolates, and premium handmade truffles.',
+    longDescription: 'Luxury gift box of melt-in-mouth chocolates crafted using traditional hill station recipes and pure cocoa butter.\n\n• Chocolate Origins: Authentic Ooty Chocolates, Rich Kodaikanal Chocolates, and Artisan Handmade Truffles\n• Indulgent Assortment: Roasted Hazelnut Praline, Salted Caramel Truffles, Dark Ganache, and White Berry Swirls\n• Purity & Texture: 100% pure cocoa butter, silken texture, zero artificial oils\n• Customization: Handpick your preferred chocolate assortment in a royal blue and gold gift box',
+    category: 'edible',
+    categoryName: 'Edible Gifting',
+    image: '/images/products/edible_artisan_handcrafted_chocolates.jpg',
+    price: null,
+    priceFormatted: 'Custom Quote',
+    specifications: {
+      'Product Type': 'Premium Handmade & Hill Station Chocolates',
+      'Origin Varieties': 'Ooty Chocolates, Kodaikanal Chocolates, and Handmade Truffles',
+      'Flavour Selections': 'Hazelnut Praline, Salted Caramel, Dark Ganache, Almond Rocks, Berry Swirl',
+      'Packaging Style': 'Royal Blue Rigid Box with Gold Foil Stamping & Satin Bow',
+      'Hamper Selection': '100% Choosable Chocolate Assortment & Custom Branded Sleeves'
+    },
+    customizationOptions: [
+      'Choice of Ooty, Kodaikanal, or handmade chocolate selections',
+      'Custom corporate branded box sleeve and ribbon',
+      'Assorted truffle count (12-piece, 18-piece, or 24-piece boxes)'
+    ],
+    badge: 'Ooty & Kodaikanal • Handmade Chocolates',
+    active: true,
+    featured: true,
+    createdAt: '2026-09-02'
+  },
+  {
+    id: 'prod-edible-12',
+    name: 'Estate Single-Origin Whole Coffee Beans (Arabica & Robusta)',
+    slug: 'estate-single-origin-coffee-beans',
+    description: 'Handpicked estate coffee beans slow-roasted to aromatic perfection. Supplied in the finest single-origin Arabica, bold Robusta, or custom estate blends.',
+    longDescription: 'Shade-grown, hand-harvested whole coffee beans sourced directly from premier South Indian coffee plantations.\n\n• Bean Varieties: 100% High-Grown Arabica, Premium Robusta, and Signature Vienna Blends\n• Roast Profiles: Medium Roast (Nutty & Floral) and Dark Roast (Chocolatey & Intense)\n• Freshness Guarantee: Nitrogen-flushed small-batch roast for rich crema and intoxicating aroma\n• Customization: Custom burlap sack packaging with personalized corporate tags',
+    category: 'edible',
+    categoryName: 'Edible Gifting',
+    image: '/images/products/edible_estate_arabica_coffee_beans.jpg',
+    price: null,
+    priceFormatted: 'Custom Quote',
+    specifications: {
+      'Product Type': 'Estate-Grown Roasted Whole Coffee Beans',
+      'Bean Varieties': 'Finest Arabica, Bold Robusta, and Custom Plantation Blends',
+      'Roast Level': 'Medium Roast or Dark Roast Available',
+      'Packaging Style': 'Artisan Burlap Sack with Sealed Valve Pouch Inside',
+      'Hamper Selection': '100% Choosable Bean Type & Custom Corporate Hangtag'
+    },
+    customizationOptions: [
+      'Choice of Arabica, Robusta, or blended beans',
+      'Custom printed jute sack or foil pouch with company logo',
+      'Pairing with brass coffee filters or coffee mugs'
+    ],
+    badge: 'Finest Arabica & Robusta • Whole Beans',
+    active: true,
+    featured: true,
+    createdAt: '2026-09-02'
+  },
+  {
+    id: 'prod-edible-13',
+    name: 'Artisanal Fresh Ground Coffee Powder (Arabica & Robusta)',
+    slug: 'artisanal-fresh-ground-coffee-powder',
+    description: 'Freshly roasted and micro-ground coffee powder delivering full-bodied flavor. Available in the finest Arabica, Robusta, or authentic South Indian filter coffee blends.',
+    longDescription: 'Freshly ground estate coffee prepared to order for the ultimate morning ritual. Rich, velvety, and deeply aromatic.\n\n• Powder Varieties: 100% Pure Arabica, Bold Robusta, and Classic Chicory-Blended Filter Coffee\n• Grind Consistency: Tailored for South Indian Filter, French Press, Moka Pot, or Pour Over\n• Quality Profile: Freshly ground from specialty-grade beans, rich aroma, and smooth finish\n• Customization: Eco-friendly burlap pouch with brass measuring scoop and branded label',
+    category: 'edible',
+    categoryName: 'Edible Gifting',
+    image: '/images/products/edible_artisanal_ground_coffee_powder.jpg',
+    price: null,
+    priceFormatted: 'Custom Quote',
+    specifications: {
+      'Product Type': 'Freshly Ground Specialty Coffee Powder',
+      'Bean Varieties': 'Finest Arabica, Premium Robusta, and Filter Coffee Blends',
+      'Grind Options': 'Fine (Filter/Espresso), Medium (Pour Over), Coarse (French Press)',
+      'Packaging Style': 'Heritage Burlap Sack with Brass Scoop & Air-Lock Inner Seal',
+      'Hamper Selection': '100% Choosable Roast & Custom Corporate Sleeves'
+    },
+    customizationOptions: [
+      'Choice of Arabica, Robusta, or Filter coffee powder blends',
+      'Custom corporate branded label and message note',
+      'Optional inclusion of traditional brass coffee filter and brass scoop'
+    ],
+    badge: 'Finest Arabica & Robusta • Fresh Ground',
     active: true,
     featured: true,
     createdAt: '2026-09-02'
