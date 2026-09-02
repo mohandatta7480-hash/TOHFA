@@ -522,6 +522,146 @@ export const INITIAL_PRODUCTS: Product[] = [
     featured: true,
     createdAt: '2026-02-23'
   },
+  {
+    id: 'prod-edible-6',
+    name: 'Artisanal Nutrient-Rich Energy Bites (Multiple Flavours)',
+    slug: 'artisanal-nutrient-rich-energy-bites',
+    description: 'Handcrafted energy bites packed with premium crushed nuts and wholesome seeds. 100% natural, guilt-free snacking available in multiple delectable flavor options.',
+    longDescription: 'Handcrafted energy bites loaded with roasted California almonds, crunchy seeds, and natural dates. Wholesome, guilt-free, and sustaining.\n\n• Key Flavours: Roasted Almond Crunch, Dark Cocoa Nut, Cashew Date, and Berry Seed\n• Snacking Profile: High-protein, zero refined sugar, 100% natural energy\n• Customization: Handpick your preferred flavor assortment for custom gift boxes',
+    category: 'edible',
+    categoryName: 'Edible Gifting',
+    image: '/images/products/edible_healthy_energy_bites.png',
+    price: null,
+    priceFormatted: 'Custom Quote',
+    specifications: {
+      'Product Type': 'Nutrient-Dense Healthy Energy Bites',
+      'Flavour Options': 'Multiple Flavours (Almond Crunch, Dark Cocoa, Cashew Date, Berry Seed)',
+      'Dietary Highlights': '100% Natural, Zero Refined Sugar, Gluten-Free',
+      'Packaging Style': 'Airtight Keepsake Jar or Artisanal Presentation Pouch',
+      'Hamper Selection': '100% Choosable Flavours & Custom Brand Labels'
+    },
+    customizationOptions: [
+      'Choice of energy bite flavors',
+      'Custom branded packaging sleeve or jar label',
+      'Assorted flavor gift packs'
+    ],
+    badge: 'Healthy Energy Bites • Multiple Flavours',
+    active: true,
+    featured: true,
+    createdAt: '2026-09-02'
+  },
+  {
+    id: 'prod-edible-7',
+    name: 'Gourmet Roasted Crispy Makhana (Multiple Flavours)',
+    slug: 'gourmet-roasted-crispy-makhana',
+    description: 'Slow-roasted jumbo fox nuts seasoned with artisanal spice blends. Light, crunchy, and available in multiple gourmet savory and zesty flavor varieties.',
+    longDescription: 'Slow-roasted jumbo lotus seeds tossed in gourmet olive oil and artisanal seasonings. Ultra-crisp, light, and low-calorie.\n\n• Key Flavours: Cheese & Herb, Peri Peri, Himalayan Pink Salt, Pudina Masala, and Tangy Tomato\n• Snacking Profile: High-fiber, roasted oil-free, plant-based protein\n• Customization: 100% choosable flavors in branded canisters or custom gift jars',
+    category: 'edible',
+    categoryName: 'Edible Gifting',
+    image: '/images/products/edible_roasted_flavoured_makhana.png',
+    price: null,
+    priceFormatted: 'Custom Quote',
+    specifications: {
+      'Product Type': 'Slow-Roasted Gourmet Fox Nut Makhana',
+      'Flavour Options': 'Multiple Flavours (Cheese & Herb, Peri Peri, Himalayan Salt, Pudina, Tangy Tomato)',
+      'Dietary Highlights': 'Roasted Not Fried, Low Calorie, High Fiber, Gluten-Free',
+      'Packaging Style': 'Freshness-Sealed Canister or Elegant Glass Jar',
+      'Hamper Selection': '100% Choosable Flavours & Corporate Labeling'
+    },
+    customizationOptions: [
+      '100% Choosable makhana flavor varieties',
+      'Custom company logo sticker or sleeve',
+      'Individual or multi-flavor gift hampers'
+    ],
+    badge: 'Roasted Makhana • Multiple Flavours',
+    active: true,
+    featured: true,
+    createdAt: '2026-09-02'
+  },
+  {
+    id: 'prod-edible-8',
+    name: 'Signature Gourmet Snack Mixes (Breakfast, Mexican, Italian & More)',
+    slug: 'signature-gourmet-snack-mixes',
+    description: 'Nutrient-packed blends of toasted nuts, whole grains, crunchy seeds, and dried fruits. Available in Breakfast Mix, Mexican Fiesta Mix, Italian Herb Mix, and more.',
+    longDescription: 'Curated multi-seed and roasted nut mixes balanced with exotic herbs, berries, and gourmet seasonings.\n\n• Available Mixes: Superfood Breakfast Mix, Spicy Mexican Fiesta Mix, Savory Italian Herb Mix, and Trail Mix\n• Snacking Profile: Power-packed energy, rich in Omega-3, antioxidant-rich berries\n• Customization: 100% choosable mixes with custom corporate jar labeling',
+    category: 'edible',
+    categoryName: 'Edible Gifting',
+    image: '/images/products/edible_signature_gourmet_mixes.png',
+    price: null,
+    priceFormatted: 'Custom Quote',
+    specifications: {
+      'Product Type': 'Gourmet Roasted Seed, Nut & Herb Mixes',
+      'Mix Varieties': 'Multiple Options (Breakfast Mix, Mexican Mix, Italian Mix, Roasted Trail Mix)',
+      'Dietary Highlights': 'High Omega-3, Natural Seeds & Dried Fruits, No Preservatives',
+      'Packaging Style': 'Airtight Glass Cylinder or Kraft Pouch with Window',
+      'Hamper Selection': '100% Choosable Mix Assortment & Custom Ribbon'
+    },
+    customizationOptions: [
+      'Choice of mix varieties (Breakfast, Mexican, Italian, etc.)',
+      'Custom corporate branded label and message tag',
+      'Pairing with custom gift boxes and breakfast trays'
+    ],
+    badge: 'Gourmet Mixes • Multiple Options',
+    active: true,
+    featured: true,
+    createdAt: '2026-09-02'
+  },
+  {
+    id: 'prod-edible-9',
+    name: 'Natural Handcrafted Digestive Mouth Fresheners (Paan, Pudina & More)',
+    slug: 'natural-handcrafted-digestive-mouth-fresheners',
+    description: 'Unique natural digestive mukhwas balls infused with traditional cooling herbs and botanical extracts. Healthy, refreshing, and available in royal Paan, Pudina, and herbal flavors.',
+    longDescription: 'Bite-sized traditional Ayurvedic digestive drops made with pure botanical herbs, cooling mint, and aromatic spices. Refreshing, palate-cleansing, and gut-friendly.\n\n• Signature Flavours: Royal Calcutta Paan, Cool Pudina Mint, Chatpata Anardana, and Sweet Fennel\n• Wellness Profile: 100% natural digestives, zero tobacco/areca nut, antioxidant-rich herbs\n• Customization: 100% choosable flavors packed in vintage glass vials or metallic tins',
+    category: 'edible',
+    categoryName: 'Edible Gifting',
+    image: '/images/products/edible_natural_mouth_fresheners.png',
+    price: null,
+    priceFormatted: 'Custom Quote',
+    specifications: {
+      'Product Type': 'Natural Herbal Digestive Drops & Mouth Freshener',
+      'Flavour Options': 'Multiple Flavours (Royal Paan, Cool Pudina, Chatpata Anardana, Sweet Fennel)',
+      'Wellness Highlights': '100% Natural Digestives, Gut-Friendly Herbs, Zero Tobacco / Betel Nut',
+      'Packaging Style': 'Vintage Corked Glass Jar or Polished Tin Caddy',
+      'Hamper Selection': '100% Choosable Flavours with Custom Logo Labels'
+    },
+    customizationOptions: [
+      'Selection from multiple signature digestive flavors',
+      'Custom branded tin or glass jar packaging',
+      'Festive box inclusion with custom welcome note'
+    ],
+    badge: 'Natural Mukhwas • Unique Flavours',
+    active: true,
+    featured: true,
+    createdAt: '2026-09-02'
+  },
+  {
+    id: 'prod-edible-10',
+    name: 'Crispy Artisanal Healthy Savouries (Multiple Options & Flavours)',
+    slug: 'crispy-artisanal-healthy-savouries',
+    description: 'Crisp and flavorful artisanal namkeen assortment crafted with whole grains, roasted pulses, and vegetable crisps. Multiple gourmet savory options and seasonings available.',
+    longDescription: 'A colorful banquet of light, crispy wholesome savouries crafted from vacuum-cooked vegetable crisps, roasted pulses, and seasoned grains.\n\n• Savoury Varieties: Crispy Beetroot Strips, Roasted Golden Sev, Spiced Chickpea Crunch, and Multi-Millet Crisps\n• Flavor Profiles: Chatpata Masala, Tangy Peri Peri, Pudina Punch, and Classic Salted\n• Customization: 100% choosable savoury blends and custom festive tin packaging',
+    category: 'edible',
+    categoryName: 'Edible Gifting',
+    image: '/images/products/edible_healthy_artisanal_savouries.png',
+    price: null,
+    priceFormatted: 'Custom Quote',
+    specifications: {
+      'Product Type': 'Wholesome Roasted & Vacuum-Cooked Savoury Namkeen',
+      'Savoury Options': 'Multiple Varieties (Beetroot Crisps, Roasted Sev, Chickpea Crunch, Millet Chips)',
+      'Flavour Seasonings': 'Multiple Flavours (Chatpata Masala, Peri Peri, Pudina, Sea Salt)',
+      'Dietary Highlights': 'Low-Oil Vacuum Cooked, Nutrient-Dense, No Artificial Additives',
+      'Hamper Selection': '100% Choosable Savouries in Decorative Jars or Gift Boxes'
+    },
+    customizationOptions: [
+      '100% Choosable savoury selections and seasoning blends',
+      'Custom branded canister or airtight gift pouch',
+      'Corporate gift box assortment with personalized message'
+    ],
+    badge: 'Healthy Savouries • Multiple Options',
+    active: true,
+    featured: true,
+    createdAt: '2026-09-02'
+  },
 
   // ==========================================
   // FESTIVE GIFTING: SAMPLE & EXAMPLE HAMPERS

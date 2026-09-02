@@ -85,7 +85,7 @@ export const ProductDetailModal: React.FC = () => {
               </div>
 
               {/* Description */}
-              <p className="text-xs sm:text-sm text-[#585656] leading-relaxed mb-4">
+              <p className="text-xs sm:text-sm text-[#585656] leading-relaxed mb-4 whitespace-pre-line">
                 {product.longDescription || product.description}
               </p>
 
