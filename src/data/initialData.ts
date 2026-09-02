@@ -21,7 +21,7 @@ export const INITIAL_CATEGORIES: Category[] = [
   },
   {
     id: 'cat-edible',
-    name: 'Edible Gifting',
+    name: 'Eatable Giftings',
     slug: 'edible',
     description: 'Handcrafted pure ghee Indian sweets, royal dry fruit platters, roasted Saras Che khakhras, dehydrated orchard fruits, and gourmet bakery cookies. 100% choosable flavors and combinations of utmost quality and fresh taste.',
     coverImage: '/images/category_edible.jpg',
@@ -54,7 +54,7 @@ export const INITIAL_PRODUCTS: Product[] = [
   // ==========================================
   {
     id: 'prod-merch-1',
-    name: 'Phone Pasteable Stick-On Card Wallet',
+    name: 'Stick-On Phone Card Wallet',
     slug: 'phone-pasteable-stick-on-card-holder',
     description: 'Slim adhesive leatherette phone wallet with card quick-pull notch. 100% customizable: deboss or print your company brand logo and custom artwork.',
     longDescription: 'Ultra-slim premium leatherette card holder engineered to mount securely onto any smartphone or case with residue-free adhesive backing.\n\n• 100% Customizable: Precision debossed or screen-printed brand logo on genuine-feel leatherette\n• Card Capacity: Holds 1 to 2 credit cards, ID cards, or office keycards with thumb cutout\n• Finish Options: Available in distressed vintage brown, midnight black, and navy',
@@ -83,7 +83,7 @@ export const INITIAL_PRODUCTS: Product[] = [
   },
   {
     id: 'prod-merch-2',
-    name: 'Natural Wooden Tea Coaster Set with Stand',
+    name: 'Wooden Tea Coaster Set',
     slug: 'natural-wooden-tea-coaster-set',
     description: 'Handcrafted round solid wood tea and coffee coasters with rimmed lip and stand. 100% customizable: laser engrave your company logo, brand motto, or event graphics.',
     longDescription: 'Artisan solid wood coasters with raised perimeter lip, showcasing natural grain and rich walnut finish. Includes matching wooden stand.\n\n• 100% Customizable: Deep precision laser engraving of corporate logo, brand emblem, or tagline\n• Surface Protection: Heat-resistant and condensation-safe for executive desk setups\n• Set Options: Available as single desk coasters or 4/6-piece sets with branded stand',
@@ -112,7 +112,7 @@ export const INITIAL_PRODUCTS: Product[] = [
   },
   {
     id: 'prod-merch-3',
-    name: 'Precision Aluminum Executive Card Holder',
+    name: 'Aluminum Executive Card Holder',
     slug: 'executive-pocket-card-holder',
     description: 'Ultra-slim brushed aerospace aluminum card holder with thumb slide notch. 100% customizable: precision laser engrave company logo, employee names, and brand slogans.',
     longDescription: 'Precision-machined brushed aluminum card case engineered for executive pockets and modern desk setups. Protects business cards, credit cards, and RFID cards.\n\n• 100% Customizable: Precision fiber laser engraving of corporate logo, employee name, or milestone date\n• Quick-Access Design: Ergonomic thumb slide notch for instant one-handed card presentation\n• Capacity & Build: Holds up to 15 business cards or 6 embossed credit cards in rigid RFID-blocking aluminum',
@@ -141,7 +141,7 @@ export const INITIAL_PRODUCTS: Product[] = [
   },
   {
     id: 'prod-merch-4',
-    name: 'Customizable Crew Neck Cotton T-Shirt',
+    name: 'Custom Crew Neck T-Shirt',
     slug: 'customizable-round-neck-tshirt',
     description: '100% bio-washed combed cotton crew neck t-shirt for corporate teams and event merchandise. 100% customizable: print your logo on front, back, and sleeves.',
     longDescription: 'Ultra-comfortable everyday crew neck t-shirt crafted from breathable, pre-shrunk combed cotton. Ideal for tech teams and company events.\n\n• 100% Customizable: Screen print, high-definition DTF, or embroidered logo on left chest and full back\n• Premium Comfort: 180 GSM bio-washed cotton, double-stitched hem, and ribbed neckband\n• Color & Size Range: Available in all corporate shades from S to 3XL',
@@ -170,7 +170,7 @@ export const INITIAL_PRODUCTS: Product[] = [
   },
   {
     id: 'prod-merch-5',
-    name: 'Customizable Collared Polo T-Shirt',
+    name: 'Custom Collared Polo T-Shirt',
     slug: 'customizable-collared-polo-tshirt',
     description: 'Classic pique knit collared polo with 2-button placket. 100% customizable: embroider company insignia on front chest and print full branding across the back.',
     longDescription: 'Executive cotton pique polo shirt featuring ribbed knit collar, reinforced button placket, and side split hem. Designed for modern corporate styling.\n\n• 100% Customizable: Premium high-density embroidery on chest and bold graphic printing across back\n• Breathable Fabric: Heavy-duty 220 GSM pique matty cotton with color-fast dye\n• Styling Options: Contrast tipping, custom branded neck label, and assorted corporate colors',
@@ -199,7 +199,7 @@ export const INITIAL_PRODUCTS: Product[] = [
   },
   {
     id: 'prod-merch-6',
-    name: 'Bespoke Buckle-Strap Vintage Leather Journal',
+    name: 'Vintage Buckle Leather Journal',
     slug: 'personalized-vintage-leather-journal-pen-set',
     description: 'Artisan handcrafted tan leather journal with antique brass buckle strap and ribbon bookmark. 100% customizable: blind deboss or laser engrave your brand logo and name.',
     longDescription: 'Heirloom-grade notebook bound in supple distressed vegan leather with an authentic antique brass roller buckle closure strap and ribbon marker.\n\n• 100% Customizable: Deep heat-stamped blind debossing or laser engraving of company logo and recipient name\n• Premium Pages: 192 bleed-resistant acid-free natural ruled pages for executive journaling\n• Packaging: Luxury rigid presentation box with custom corporate sleeve',
@@ -228,35 +228,35 @@ export const INITIAL_PRODUCTS: Product[] = [
   },
   {
     id: 'prod-merch-7',
-    name: 'Custom Engraved Executive Metal Pen',
+    name: 'Matte Black Executive Pen',
     slug: 'custom-engraved-executive-metal-pen',
-    description: 'Matte black weighted metal ballpoint pen with gold-plated clip and smooth twist action. 100% customizable: laser engrave recipient name, monogram, or company logo.',
-    longDescription: 'Balanced executive writing instrument featuring matte black anodized barrel, gold-tone appointments, and archival blue/black German ink refill.\n\n• 100% Customizable: High-precision laser engraving revealing crisp metallic lettering\n• Smooth Writing: German tungsten carbide ballpoint with smudge-free ink delivery\n• Packaging: Velvet pouch or luxury hinged gift case with custom foil imprint',
+    description: 'Matte black retractable metal pen with silver accents and comfort grip. 100% customizable: laser engrave your company brand logo and text.',
+    longDescription: 'Precision metal retractable ballpoint pen with matte black barrel, textured rubber comfort grip, and polished chrome pocket clip.\n\n• 100% Customizable: Crisp laser engraving of company logo and brand name\n• Writing Performance: German tungsten carbide refill with smooth smudge-free blue ink\n• Design: Click-action plunger with durable stainless steel clip',
     category: 'merchandise',
     categoryName: 'Customizable Merchandise',
     image: '/images/products/merch_custom_engraved_metal_pen.png',
     price: null,
     priceFormatted: 'Custom Quote',
     specifications: {
-      'Customization': '100% Customizable (Precision laser engraved name, monogram, or company logo)',
-      'Body Finish': 'Matte Black Anodized Alloy with Gold-Plated Clip',
-      'Mechanism': 'Twist-Action Metal Ballpoint',
-      'Ink': 'Smooth Flow Blue / Black Refill',
-      'Packaging': 'Individual Protective Pen Sleeve or Presentation Case'
+      'Customization': '100% Customizable (Precision laser engraved company brand logo and text)',
+      'Body Finish': 'Matte Black Anodized Barrel with Chrome Plunger and Tip',
+      'Grip & Clip': 'Ergonomic Non-Slip Rubber Grip with Stainless Steel Pocket Clip',
+      'Mechanism': 'Smooth Click-Action Retractable Ballpoint',
+      'Ink': 'High-Yield German Smudge-Free Blue Refill'
     },
     customizationOptions: [
-      'Laser engraved name or company logo',
-      'Choice of gold or silver clip accents',
-      'Custom gift box packaging'
+      'Precision laser engraving of corporate logo and brand text',
+      'Individual recipient name personalization',
+      'Custom velvet presentation sleeve or gift box'
     ],
-    badge: '100% Customizable • Precision Engraved',
+    badge: '100% Customizable • Laser Engraved',
     active: true,
     featured: true,
     createdAt: '2026-02-28'
   },
   {
     id: 'prod-merch-8',
-    name: 'Customizable Premium Heavyweight Hoodie',
+    name: 'Custom Heavyweight Hoodie',
     slug: 'customizable-premium-heavyweight-hoodie',
     description: 'Plush fleece pullover hoodie with kangaroo pocket and double-lined hood. 100% customizable: print or embroider brand logo on chest, sleeves, and full back.',
     longDescription: 'Heavyweight unisex pullover hoodie tailored from brushed fleece cotton for ultimate warmth and modern streetwear fit.\n\n• 100% Customizable: High-definition DTF print or embroidery on front chest, kangaroo pocket, and full back panel\n• Heavyweight Fabric: 320 GSM combed cotton fleece with thermal inner lining and matching drawstrings\n• Durability: Ribbed cuffs and waistband with spandex for shape retention; sizes XS to 3XL',
@@ -289,7 +289,7 @@ export const INITIAL_PRODUCTS: Product[] = [
   // ==========================================
   {
     id: 'prod-gadget-1',
-    name: 'The ErgoFold Pro Silver Aluminum Laptop Stand',
+    name: 'ErgoFold Silver Laptop Stand',
     slug: 'ergofold-pro-silver-aluminum-laptop-stand',
     description: 'An ultra-portable multi-angle adjustable ergonomic laptop riser in anodized metallic silver finish. 100% choosable colors and company brand name laser printable on crossbars and legs.',
     longDescription: 'Engineered to elevate workplace ergonomics and promote healthy posture. This foldable metallic silver laptop stand features multi-level height adjustment, open ventilation for enhanced heat dissipation, anti-slip silicone cradles, and a compact collapsible design. 100% choosable colors and company logo laser printable for executive desk setups. Includes protective travel pouch.',
@@ -319,7 +319,7 @@ export const INITIAL_PRODUCTS: Product[] = [
   },
   {
     id: 'prod-gadget-2',
-    name: 'The ErgoFold Pro Matte Black Aluminum Laptop Stand',
+    name: 'ErgoFold Black Laptop Stand',
     slug: 'ergofold-pro-black-aluminum-laptop-stand',
     description: 'A heavy-duty multi-angle adjustable ergonomic laptop riser in sleek matte black stealth finish. 100% choosable colors and company brand name laser printable on crossbars and legs.',
     longDescription: 'Designed for executive workstations and modern desk spaces. Crafted from high-strength aluminum alloy in a durable matte black sandblasted finish. Features multi-level angle settings, dual triangular support struts for rock-solid stability, rubberized device protection pads, and rapid folding mechanism. 100% choosable colors and company brand name printable.',
@@ -349,7 +349,7 @@ export const INITIAL_PRODUCTS: Product[] = [
   },
   {
     id: 'prod-gadget-3',
-    name: 'The Orbit 360 Swivel Rotatable Desktop Mobile Stand',
+    name: 'Orbit 360 Swivel Phone Stand',
     slug: 'orbit-360-swivel-rotatable-mobile-stand',
     description: 'A heavy-duty 360-degree rotating desktop smartphone and tablet stand with dual-hinge angle adjustment and cable pass-through channel. 100% choosable colors and corporate brand name printable.',
     longDescription: 'Designed for effortless desk collaboration and video meetings. Features a smooth 360-degree swivel bearing base with satisfying tactile rotation, dual-axis folding hinges for optimal viewing height, and non-scratch silicone pads. 100% choosable colors (Matte Black, Slate Grey, Silver Chrome) and corporate brand name laser printable on the front backplate.',
@@ -379,7 +379,7 @@ export const INITIAL_PRODUCTS: Product[] = [
   },
   {
     id: 'prod-gadget-4',
-    name: 'The Apex Precision Aluminum Desktop Phone Cradle',
+    name: 'Apex Aluminum Phone Cradle',
     slug: 'apex-precision-aluminum-desktop-phone-cradle',
     description: 'A sleek minimalist triangular desktop phone stand with anti-slip silicone cushioning and rear cable routing slot. 100% choosable colors and laser engraved company brand name.',
     longDescription: 'A modern desk essential offering a clean 60-degree viewing angle for hands-free video calls and notification monitoring. Made from a single piece of bent aerospace-grade aluminum with chamfered edges, protective silicone grips, and a rear cable pass-through hole. 100% choosable colors (Midnight Black, Space Grey, Rose Gold, Metallic Silver) and company brand name printable.',
@@ -408,16 +408,16 @@ export const INITIAL_PRODUCTS: Product[] = [
   },
 
   // ==========================================
-  // EDIBLE GIFTING (100% Choosable Flavors & Sweets)
+  // EATABLE GIFTINGS (100% Choosable Flavors & Sweets)
   // ==========================================
   {
     id: 'prod-edible-1',
-    name: 'Traditional Royal Mithai Selection (Multiple Sweet Options)',
+    name: 'Royal Festive Mithai Box',
     slug: 'traditional-royal-mithai-selection',
     description: 'Pure ghee handcrafted Indian sweets in a royal presentation box. 100% customizable: select from multiple sweet varieties for your bespoke festive hamper.',
     longDescription: 'Handcrafted pure ghee Indian sweets made with rich pistachios, saffron, and almonds. Presented in a regal navy and gold gift box with satin ribbon.\n\n• Available Sweets: Kaju Katli, Motichoor Laddoo, Peda, Milk Cake, Besan Laddoo, and Dry Fruit Barfi\n• Quality Highlights: 100% pure desi ghee, fresh batch preparation, zero preservatives\n• Customization: Multiple sweet options to choose from with custom corporate greeting tags',
     category: 'edible',
-    categoryName: 'Edible Gifting',
+    categoryName: 'Eatable Giftings',
     image: '/images/products/edible_traditional_royal_mithai.jpg',
     price: null,
     priceFormatted: 'Custom Quote',
@@ -441,12 +441,12 @@ export const INITIAL_PRODUCTS: Product[] = [
   },
   {
     id: 'prod-edible-2',
-    name: 'Royal Gourmet Dry Fruits & Nut Platter (Pick Any Dry Fruit)',
+    name: 'Royal Dry Fruits Platter',
     slug: 'royal-dryfruits-exotic-fruit-platter',
     description: 'Lavish 9-compartment solid wood platter filled with handpicked premium nuts and berries. 100% customizable: pick any dry fruit you want, including flavored cashews, flavored badams, and flavored raisins.',
     longDescription: 'A majestic 9-compartment solid wood platter presenting export-grade nuts, berries, and gourmet flavored selections.\n\n• Any Dry Fruit You Pick: California Almonds, Jumbo Cashews, Walnuts, Pistachios, Afghan Anjeer, and Dried Berries\n• Gourmet Flavoured Varieties: Peri Peri Cashews, Smoked Almonds, Salted Pistachios, and Spiced Flavoured Raisins\n• Presentation: Keepsake natural walnut finish wooden tray with brass plaque\n• Customization: Pick any dry fruit or flavor combination with custom engraved brass plaque',
     category: 'edible',
-    categoryName: 'Edible Gifting',
+    categoryName: 'Eatable Giftings',
     image: '/images/products/edible_royal_dryfruits_platter.jpg',
     price: null,
     priceFormatted: 'Custom Quote',
@@ -470,12 +470,12 @@ export const INITIAL_PRODUCTS: Product[] = [
   },
   {
     id: 'prod-edible-3',
-    name: 'Saras Che Artisanal Coin Khakhra (Multiple Flavours)',
+    name: 'Saras Che Coin Khakhra',
     slug: 'saras-che-artisanal-coin-khakhra',
     description: 'Crispy bite-sized whole wheat coin khakhras roasted oil-free in rice bran oil. Available in Cheese, Methi, Jeera, Masala, Peri Peri, and multiple savory flavors.',
     longDescription: 'Authentic Gujarati coin khakhras by Saras Che, crafted from whole wheat and vacuum-roasted to an irresistible golden crisp.\n\n• Key Flavours: Gourmet Cheese, Kasuri Methi, Roasted Jeera, Chatpata Masala, Peri Peri, and Garlic Herb\n• Health Highlights: Roasted with heart-healthy rice bran oil, zero trans fat, 100% vacuum roasted\n• Customization: 100% choosable flavor combinations in custom corporate hampers',
     category: 'edible',
-    categoryName: 'Edible Gifting',
+    categoryName: 'Eatable Giftings',
     image: '/images/products/edible_saras_che_khakhra.png',
     price: null,
     priceFormatted: 'Custom Quote',
@@ -498,12 +498,12 @@ export const INITIAL_PRODUCTS: Product[] = [
   },
   {
     id: 'prod-edible-4',
-    name: 'Crispy Dehydrated Orchard Apple Chips (Custom Branded)',
+    name: 'Crispy Dehydrated Apple Chips',
     slug: 'crispy-dehydrated-cinnamon-apple-rings',
     description: 'Slow-dehydrated crispy orchard apple slices with natural peel curls. 100% natural and guilt-free. Available with custom branded jar stickers and multiple dustings.',
     longDescription: 'Hand-selected orchard fresh apples slow-dehydrated into delicate, crunchy curls without oil, added sugar, or artificial preservatives.\n\n• Flavor Dustings: Pure Orchard Sweet, Ceylon Cinnamon Dust, and Golden Honey Glaze\n• Nutrition Profile: 100% natural, high dietary fiber, gluten-free guilt-free snacking\n• Customization: Clear airtight tub with custom branded kraft label featuring your company logo',
     category: 'edible',
-    categoryName: 'Edible Gifting',
+    categoryName: 'Eatable Giftings',
     image: '/images/products/edible_dehydrated_apple_chips.png',
     price: null,
     priceFormatted: 'Custom Quote',
@@ -526,12 +526,12 @@ export const INITIAL_PRODUCTS: Product[] = [
   },
   {
     id: 'prod-edible-5',
-    name: 'Artisanal Gourmet Fresh-Baked Cookies (Multiple Flavours)',
+    name: 'Gourmet Fresh-Baked Cookies',
     slug: 'artisanal-gourmet-fresh-baked-cookies',
     description: 'Freshly baked gourmet butter cookies loaded with rich chocolate chunks and roasted inclusions. Available in multiple decadent artisanal flavor varieties.',
     longDescription: 'Handcrafted small-batch cookies made with pure butter and premium Belgian chocolate chunks. Crisp golden exterior with melt-in-mouth soft centers.\n\n• Decadent Flavours: Classic Choco-Chip, Double Dark Chocolate, Oatmeal Cranberry, Butterscotch Crunch, and Red Velvet\n• Baking Quality: 100% pure dairy butter, baked fresh to order, zero artificial essence\n• Customization: 100% choosable flavor assortments in branded cookie tins or presentation boxes',
     category: 'edible',
-    categoryName: 'Edible Gifting',
+    categoryName: 'Eatable Giftings',
     image: '/images/products/edible_artisanal_cookies.png',
     price: null,
     priceFormatted: 'Custom Quote',
@@ -554,12 +554,12 @@ export const INITIAL_PRODUCTS: Product[] = [
   },
   {
     id: 'prod-edible-6',
-    name: 'Artisanal Nutrient-Rich Energy Bites (Multiple Flavours)',
+    name: 'Artisanal Energy Bites',
     slug: 'artisanal-nutrient-rich-energy-bites',
     description: 'Handcrafted energy bites packed with premium crushed nuts and wholesome seeds. 100% natural, guilt-free snacking available in multiple delectable flavor options.',
     longDescription: 'Handcrafted energy bites loaded with roasted California almonds, crunchy seeds, and natural dates. Wholesome, guilt-free, and sustaining.\n\n• Key Flavours: Roasted Almond Crunch, Dark Cocoa Nut, Cashew Date, and Berry Seed\n• Snacking Profile: High-protein, zero refined sugar, 100% natural energy\n• Customization: Handpick your preferred flavor assortment for custom gift boxes',
     category: 'edible',
-    categoryName: 'Edible Gifting',
+    categoryName: 'Eatable Giftings',
     image: '/images/products/edible_healthy_energy_bites.png',
     price: null,
     priceFormatted: 'Custom Quote',
@@ -582,12 +582,12 @@ export const INITIAL_PRODUCTS: Product[] = [
   },
   {
     id: 'prod-edible-7',
-    name: 'Gourmet Roasted Crispy Makhana (Multiple Flavours)',
+    name: 'Gourmet Roasted Makhana',
     slug: 'gourmet-roasted-crispy-makhana',
     description: 'Slow-roasted jumbo fox nuts seasoned with artisanal spice blends. Light, crunchy, and available in multiple gourmet savory and zesty flavor varieties.',
     longDescription: 'Slow-roasted jumbo lotus seeds tossed in gourmet olive oil and artisanal seasonings. Ultra-crisp, light, and low-calorie.\n\n• Key Flavours: Cheese & Herb, Peri Peri, Himalayan Pink Salt, Pudina Masala, and Tangy Tomato\n• Snacking Profile: High-fiber, roasted oil-free, plant-based protein\n• Customization: 100% choosable flavors in branded canisters or custom gift jars',
     category: 'edible',
-    categoryName: 'Edible Gifting',
+    categoryName: 'Eatable Giftings',
     image: '/images/products/edible_roasted_flavoured_makhana.png',
     price: null,
     priceFormatted: 'Custom Quote',
@@ -610,21 +610,21 @@ export const INITIAL_PRODUCTS: Product[] = [
   },
   {
     id: 'prod-edible-8',
-    name: 'Signature Gourmet Snack Mixes (Breakfast, Mexican, Italian & More)',
+    name: 'Paan Shots Flavored Paan Shots',
     slug: 'signature-gourmet-snack-mixes',
-    description: 'Nutrient-packed blends of toasted nuts, whole grains, crunchy seeds, and dried fruits. Available in Breakfast Mix, Mexican Fiesta Mix, Italian Herb Mix, and more.',
-    longDescription: 'Curated multi-seed and roasted nut mixes balanced with exotic herbs, berries, and gourmet seasonings.\n\n• Available Mixes: Superfood Breakfast Mix, Spicy Mexican Fiesta Mix, Savory Italian Herb Mix, and Trail Mix\n• Snacking Profile: Power-packed energy, rich in Omega-3, antioxidant-rich berries\n• Customization: 100% choosable mixes with custom corporate jar labeling',
+    description: 'Refreshing bite-sized paan shots infused with rich gulkand, menthol, and cooling herbs. 100% tobacco-free, natural, and digestive.',
+    longDescription: 'Traditional royal paan reimagined into delectable bite-sized digestive treats packed with natural herbs and sweet gulkand.\n\n• Flavour Profile: Royal Calcutta Paan, Sweet Gulkand, Menthol, and Fennel\n• Quality Standard: 100% natural, tobacco-free, betel-nut free\n• Customization: Packaged in custom branded glass jars or tins',
     category: 'edible',
-    categoryName: 'Edible Gifting',
+    categoryName: 'Eatable Giftings',
     image: '/images/products/edible_signature_gourmet_mixes.png',
     price: null,
     priceFormatted: 'Custom Quote',
     specifications: {
-      'Product Type': 'Gourmet Roasted Seed, Nut & Herb Mixes',
-      'Mix Varieties': 'Multiple Options (Breakfast Mix, Mexican Mix, Italian Mix, Roasted Trail Mix)',
-      'Dietary Highlights': 'High Omega-3, Natural Seeds & Dried Fruits, No Preservatives',
-      'Packaging Style': 'Airtight Glass Cylinder or Kraft Pouch with Window',
-      'Hamper Selection': '100% Choosable Mix Assortment & Custom Ribbon'
+      'Product Type': 'Natural Digestive Paan Shots & Mukhwas',
+      'Flavor Profile': 'Royal Paan, Sweet Gulkand, Mint & Botanical Extracts',
+      'Dietary Highlights': '100% Tobacco-Free, Betel-Nut Free, Pure Vegetarian Digestives',
+      'Packaging Style': 'Vintage Glass Jar with Cork Lid or Polished Metal Tin',
+      'Hamper Selection': '100% Choosable Flavors with Custom Branded Labels'
     },
     customizationOptions: [
       'Choice of mix varieties (Breakfast, Mexican, Italian, etc.)',
@@ -638,12 +638,12 @@ export const INITIAL_PRODUCTS: Product[] = [
   },
   {
     id: 'prod-edible-9',
-    name: 'Natural Handcrafted Digestive Mouth Fresheners (Paan, Pudina & More)',
+    name: 'Artisanal Digestive Mukhwas',
     slug: 'natural-handcrafted-digestive-mouth-fresheners',
     description: 'Unique natural digestive mukhwas balls infused with traditional cooling herbs and botanical extracts. Healthy, refreshing, and available in royal Paan, Pudina, and herbal flavors.',
     longDescription: 'Bite-sized traditional Ayurvedic digestive drops made with pure botanical herbs, cooling mint, and aromatic spices. Refreshing, palate-cleansing, and gut-friendly.\n\n• Signature Flavours: Royal Calcutta Paan, Cool Pudina Mint, Chatpata Anardana, and Sweet Fennel\n• Wellness Profile: 100% natural digestives, zero tobacco/areca nut, antioxidant-rich herbs\n• Customization: 100% choosable flavors packed in vintage glass vials or metallic tins',
     category: 'edible',
-    categoryName: 'Edible Gifting',
+    categoryName: 'Eatable Giftings',
     image: '/images/products/edible_natural_mouth_fresheners.png',
     price: null,
     priceFormatted: 'Custom Quote',
@@ -666,12 +666,12 @@ export const INITIAL_PRODUCTS: Product[] = [
   },
   {
     id: 'prod-edible-10',
-    name: 'Crispy Artisanal Healthy Savouries (Multiple Options & Flavours)',
+    name: 'Crispy Healthy Savouries',
     slug: 'crispy-artisanal-healthy-savouries',
     description: 'Crisp and flavorful artisanal namkeen assortment crafted with whole grains, roasted pulses, and vegetable crisps. Multiple gourmet savory options and seasonings available.',
     longDescription: 'A colorful banquet of light, crispy wholesome savouries crafted from vacuum-cooked vegetable crisps, roasted pulses, and seasoned grains.\n\n• Savoury Varieties: Crispy Beetroot Strips, Roasted Golden Sev, Spiced Chickpea Crunch, and Multi-Millet Crisps\n• Flavor Profiles: Chatpata Masala, Tangy Peri Peri, Pudina Punch, and Classic Salted\n• Customization: 100% choosable savoury blends and custom festive tin packaging',
     category: 'edible',
-    categoryName: 'Edible Gifting',
+    categoryName: 'Eatable Giftings',
     image: '/images/products/edible_healthy_artisanal_savouries.png',
     price: null,
     priceFormatted: 'Custom Quote',
@@ -694,12 +694,12 @@ export const INITIAL_PRODUCTS: Product[] = [
   },
   {
     id: 'prod-edible-11',
-    name: 'Artisanal Handcrafted Chocolates (Ooty, Kodaikanal & Handmade)',
+    name: 'Artisanal Hill Station Chocolates',
     slug: 'artisanal-handcrafted-chocolates',
     description: 'Exquisite handmade chocolates crafted from pure single-origin cocoa. Choose from authentic Ooty chocolates, rich Kodaikanal chocolates, and premium handmade truffles.',
     longDescription: 'Luxury gift box of melt-in-mouth chocolates crafted using traditional hill station recipes and pure cocoa butter.\n\n• Chocolate Origins: Authentic Ooty Chocolates, Rich Kodaikanal Chocolates, and Artisan Handmade Truffles\n• Indulgent Assortment: Roasted Hazelnut Praline, Salted Caramel Truffles, Dark Ganache, and White Berry Swirls\n• Purity & Texture: 100% pure cocoa butter, silken texture, zero artificial oils\n• Customization: Handpick your preferred chocolate assortment in a royal blue and gold gift box',
     category: 'edible',
-    categoryName: 'Edible Gifting',
+    categoryName: 'Eatable Giftings',
     image: '/images/products/edible_artisan_handcrafted_chocolates.jpg',
     price: null,
     priceFormatted: 'Custom Quote',
@@ -722,12 +722,12 @@ export const INITIAL_PRODUCTS: Product[] = [
   },
   {
     id: 'prod-edible-12',
-    name: 'Estate Single-Origin Whole Coffee Beans (Arabica & Robusta)',
+    name: 'Estate Whole Coffee Beans',
     slug: 'estate-single-origin-coffee-beans',
     description: 'Handpicked estate coffee beans slow-roasted to aromatic perfection. Supplied in the finest single-origin Arabica, bold Robusta, or custom estate blends.',
     longDescription: 'Shade-grown, hand-harvested whole coffee beans sourced directly from premier South Indian coffee plantations.\n\n• Bean Varieties: 100% High-Grown Arabica, Premium Robusta, and Signature Vienna Blends\n• Roast Profiles: Medium Roast (Nutty & Floral) and Dark Roast (Chocolatey & Intense)\n• Freshness Guarantee: Nitrogen-flushed small-batch roast for rich crema and intoxicating aroma\n• Customization: Custom burlap sack packaging with personalized corporate tags',
     category: 'edible',
-    categoryName: 'Edible Gifting',
+    categoryName: 'Eatable Giftings',
     image: '/images/products/edible_estate_arabica_coffee_beans.jpg',
     price: null,
     priceFormatted: 'Custom Quote',
@@ -750,12 +750,12 @@ export const INITIAL_PRODUCTS: Product[] = [
   },
   {
     id: 'prod-edible-13',
-    name: 'Artisanal Fresh Ground Coffee Powder (Arabica & Robusta)',
+    name: 'Fresh Ground Coffee Powder',
     slug: 'artisanal-fresh-ground-coffee-powder',
     description: 'Freshly roasted and micro-ground coffee powder delivering full-bodied flavor. Available in the finest Arabica, Robusta, or authentic South Indian filter coffee blends.',
     longDescription: 'Freshly ground estate coffee prepared to order for the ultimate morning ritual. Rich, velvety, and deeply aromatic.\n\n• Powder Varieties: 100% Pure Arabica, Bold Robusta, and Classic Chicory-Blended Filter Coffee\n• Grind Consistency: Tailored for South Indian Filter, French Press, Moka Pot, or Pour Over\n• Quality Profile: Freshly ground from specialty-grade beans, rich aroma, and smooth finish\n• Customization: Eco-friendly burlap pouch with brass measuring scoop and branded label',
     category: 'edible',
-    categoryName: 'Edible Gifting',
+    categoryName: 'Eatable Giftings',
     image: '/images/products/edible_artisanal_ground_coffee_powder.jpg',
     price: null,
     priceFormatted: 'Custom Quote',
@@ -776,13 +776,41 @@ export const INITIAL_PRODUCTS: Product[] = [
     featured: true,
     createdAt: '2026-09-02'
   },
+  {
+    id: 'prod-edible-14',
+    name: 'Pure Wildflower Honey Jar',
+    slug: 'pure-wildflower-honey-jar',
+    description: 'Pure unpasteurized wildflower honey in a vintage glass jar with rustic burlap top and custom tag. 100% raw, natural, and rich in floral aroma.',
+    longDescription: 'Raw, unprocessed multi-floral honey harvested from pristine wild valleys. Sealed in an airtight glass jar with traditional burlap cloth and twine tie.\n\n• Purity & Flavor: 100% raw unheated honey with natural sweetness and enzymes\n• Packaging: Classic glass jar with rustic burlap hood and wooden honey dipper option\n• Customization: Custom branded kraft hangtag or jar label with corporate emblem',
+    category: 'edible',
+    categoryName: 'Eatable Giftings',
+    image: '/images/products/edible_pure_wildflower_honey.png',
+    price: null,
+    priceFormatted: 'Custom Quote',
+    specifications: {
+      'Product Type': '100% Pure Raw Wildflower Honey',
+      'Origin': 'Sustainably Harvested Valley Wildflowers',
+      'Purity Standard': 'Unpasteurized, Unfiltered, No Added Sugars or Syrups',
+      'Packaging Style': 'Heritage Glass Jar with Jute Burlap Lid & Jute Twine Bow',
+      'Customization': 'Personalized Kraft Hangtag with Company Brand Logo'
+    },
+    customizationOptions: [
+      'Personalized corporate hangtag with brand logo and message',
+      'Custom vinyl jar sticker printing',
+      'Optional mini wooden honey dipper stick included'
+    ],
+    badge: '100% Pure • Raw Honey',
+    active: true,
+    featured: true,
+    createdAt: '2026-09-03'
+  },
 
   // ==========================================
   // FESTIVE GIFTING: SAMPLE & EXAMPLE HAMPERS
   // ==========================================
   {
     id: 'prod-fest-1',
-    name: 'The Aarambh Shubh Deepavali Sample Hamper',
+    name: 'Aarambh Deepavali Festive Hamper',
     slug: 'aarambh-shubh-deepavali-sample-hamper',
     description: 'An example festive curation showcasing a bespoke Happy Diwali keepsake box with handcrafted floral floating diya accents. 100% customizable sample box: choose and combine any items from our gourmet foods, gadgets, and corporate merchandise.',
     longDescription: 'This is a sample festive curation designed to showcase our bespoke packaging and assembly capabilities. Presented in a rigid saffron orange and navy gift box with gold foil diya motifs and artisanal blooming lotus candles. Clients can 100% customize this hamper by selecting their preferred combination of gourmet dry fruits, chocolates, gadgets, lifestyle accessories, or brass decor. Both the outer presentation box and internal products are fully brand name printable.',
@@ -813,7 +841,7 @@ export const INITIAL_PRODUCTS: Product[] = [
   },
   {
     id: 'prod-fest-2',
-    name: 'The Royal Utsav Gourmet & Festive Sample Chest',
+    name: 'Royal Utsav Festive Chest',
     slug: 'royal-utsav-gourmet-festive-sample-chest',
     description: 'An example celebration hamper presented in a royal rani pink and gold motif rigid chest with premium dry fruits, gourmet confectionery, and festive brass diyas. 100% customizable sample box: pick your choice of foods, gadgets, and gifts.',
     longDescription: 'An inspiring sample festival hamper demonstrating how traditional opulence blends with modern gourmet indulgence. Encased in a royal rani pink and gold printed gift chest with spiced roasted nuts, artisanal almond brittle, brass tealights, potpourri, and a personalized corporate message card. This sample box is 100% customizable: select any assortment from our vast catalogue of gourmet foods, tech accessories, or merchandise.',
@@ -844,7 +872,7 @@ export const INITIAL_PRODUCTS: Product[] = [
   },
   {
     id: 'prod-fest-3',
-    name: 'The Shwet Kamal Divine Celebration Sample Box',
+    name: 'Shwet Kamal Celebration Box',
     slug: 'shwet-kamal-divine-celebration-sample-box',
     description: 'An example spiritual festive curation featuring a laser-crafted gold lotus wall hanging, brass-rimmed tealights, scented incense, and an organza treat potli in a rigid white presentation box. 100% customizable with your choice of gifts.',
     longDescription: 'A serene example festive hamper emphasizing artisanal craftsmanship and divine aesthetics. Features a laser-cut gold and red lotus hanging, metallic gold tealight holders, fragrant dhoop sticks, and a shimmering organza potli for sweets or dry fruits in a pristine white rigid presentation box. As a sample curation, clients can 100% customize all packaging and replace or add items from our foods, gadgets, or merchandise ranges.',
@@ -879,7 +907,7 @@ export const INITIAL_PRODUCTS: Product[] = [
   // ==========================================
   {
     id: 'prod-corp-1',
-    name: 'The Sovereign Eco Executive Suite',
+    name: 'Sovereign Eco Executive Suite',
     slug: 'sovereign-eco-executive-suite',
     description: 'A distinguished 5-piece sustainable executive gifting hamper featuring natural beechwood notebook, bamboo coffee mug, vacuum insulated thermal flask, bamboo ballpoint pen, and cork keychain. 100% customizable with brand name printing and color choices.',
     longDescription: 'Curated for executive onboarding and leadership recognition, this sustainable ensemble combines natural warmth with corporate elegance. Includes a beechwood grain hardcover journal, double-wall stainless steel bamboo mug, 500ml matte black thermal bottle with wooden top, bamboo twist pen, and a multifunction cork keychain with metal opener. Packaged in a fitted luxury presentation box. 100% customizable, color options available, and brand name printable.',
@@ -913,7 +941,7 @@ export const INITIAL_PRODUCTS: Product[] = [
   },
   {
     id: 'prod-corp-3',
-    name: 'The Aurum Executive Black & Gold Connoisseur Set',
+    name: 'Aurum Black & Gold Executive Set',
     slug: 'aurum-executive-black-gold-set',
     description: 'An opulent 5-piece executive ensemble pairing brushed metallic gold with midnight black leatherette: vacuum bottle, organizer journal, business cardholder, keychain, and rollerball pen. 100% customizable with brand name printing.',
     longDescription: 'Commanding and luxurious, the Aurum Executive suite is tailored for milestone corporate achievements, partner summits, and VIP clients. Features a brushed gold insulated thermal bottle, a sleek midnight black leatherette journal, a gold-accented business card case, a matching leather and metal keychain, and a heavyweight executive pen nestled in charcoal foam. 100% customizable, color options available, and brand name printable.',
@@ -946,7 +974,7 @@ export const INITIAL_PRODUCTS: Product[] = [
   },
   {
     id: 'prod-corp-4',
-    name: 'The Heritage Walnut Wood Journal & Rosewood Pen Duo',
+    name: 'Heritage Walnut Journal & Pen Duo',
     slug: 'heritage-walnut-wood-journal-pen-duo',
     description: 'An exquisite 2-piece artisanal executive gift set featuring a laser-carved natural dark walnut wood hardcover notebook with filigree detailing and a complementary rosewood executive pen. 100% customizable with brand printing.',
     longDescription: 'Showcasing intricate woodworking and timeless craftsmanship, this 2-piece set features a dark walnut wood hardcover notebook with carved decorative filigree and an integrated elastic closure with pen slot. Accompanied by a weighted rosewood finish twist-action executive pen, presented in a black textured keepsake box. 100% customizable, color options available, and brand name printable.',
@@ -979,7 +1007,7 @@ export const INITIAL_PRODUCTS: Product[] = [
   },
   {
     id: 'prod-corp-5',
-    name: 'The Chrono Classic Executive 4-Piece Suite',
+    name: 'Chrono Classic 4-Piece Suite',
     slug: 'chrono-classic-executive-suite',
     description: 'A timeless corporate recognition hamper featuring a classic analogue wristwatch with stitched leather strap, matching cardholder, polished chrome twist pen, and leather keychain. 100% customizable with brand logo.',
     longDescription: 'A distinguished 4-piece corporate recognition suite. Features an analogue quartz wristwatch with mineral crystal dial and black stitched strap, a compact leatherette and stainless steel cardholder, a polished chrome executive pen, and a matching keytag, presented in a clean silver presentation box. 100% customizable, color options available, and brand name printable.',
@@ -1012,7 +1040,7 @@ export const INITIAL_PRODUCTS: Product[] = [
   },
   {
     id: 'prod-corp-6',
-    name: 'The Cognac Leather Wallet & Chrome Pen Duo',
+    name: 'Cognac Wallet & Chrome Pen Duo',
     slug: 'cognac-leather-wallet-chrome-pen-duo',
     description: 'A handsome 2-piece executive set featuring a rich cognac tan leather wallet with a stainless steel engravable emblem plate, paired with a matching leatherette-wrapped chrome rollerball pen. 100% customizable with brand printing.',
     longDescription: 'Engineered for executive sophistication, this 2-piece set pairs a finely stitched cognac brown leatherette wallet featuring a brushed metallic nameplate with a weighted chrome executive rollerball pen accented with matching tan leather wrap. Presented in a black gift box with tailored foam slotting. 100% customizable, color options available, and brand name printable.',
@@ -1044,7 +1072,7 @@ export const INITIAL_PRODUCTS: Product[] = [
   },
   {
     id: 'prod-corp-7',
-    name: 'The Artisan Wood & Tan Leather 4-in-1 Executive Suite',
+    name: 'Artisan Wood & Leather 4-in-1 Suite',
     slug: 'artisan-wood-tan-leather-suite',
     description: 'An artisan 4-piece corporate ensemble featuring a natural wood-grain notebook with crocodile-textured leather buckle strap, matching tan metal cardholder, executive pen, and multi-tool keychain. 100% customizable.',
     longDescription: 'A balanced synthesis of organic wood and warm cognac leatherette. Includes a natural light-wood grain journal with an embossed leather buckle closure, a matching tan leather and stainless steel business card case, a sleek matte terracotta executive pen, and a multifunction leather keytag with bottle opener. Presented in a black gift box. 100% customizable, color options available, and brand name printable.',
@@ -1076,7 +1104,7 @@ export const INITIAL_PRODUCTS: Product[] = [
   },
   {
     id: 'prod-corp-9',
-    name: 'The Vanguard Executive Organizer Folio Journal',
+    name: 'Vanguard Organizer Folio Journal',
     slug: 'vanguard-executive-organizer-folio-journal',
     description: 'A sophisticated A5 corporate organizer featuring dual-tone magnetic buckle closure, integrated interior business card slots and document sleeve, 192 ruled pages (80 GSM), and multi-year calendar. 100% customizable.',
     longDescription: 'Designed for executives who value seamless organization on the go. Features a dual-tone magnetic buckle strap, a fully lined interior organizer with business card slots and document slip pockets, 192 pages of premium 80 GSM natural shade paper, and multi-year calendar inserts. 100% customizable, color options available, and brand name printable.',
@@ -1108,7 +1136,7 @@ export const INITIAL_PRODUCTS: Product[] = [
   },
   {
     id: 'prod-corp-10',
-    name: 'The Apex Tech-Pocket Executive Notebook',
+    name: 'Apex Tech-Pocket Notebook',
     slug: 'apex-tech-pocket-executive-notebook',
     description: 'A modern corporate journal designed for mobile professionals, featuring an integrated front smartphone and utility pocket, woven linen-finish hardcover, 192 pages of 80 GSM paper, and ribbon marker. 100% customizable.',
     longDescription: 'A contemporary corporate notebook built for hybrid work environments. Features a front pocket sleeve tailored to hold smartphones, business cards, or travel passes, an elastic pen slot, woven textured linen-feel hardcover, 4-year calendar, and 192 pages of 80 GSM natural shade paper. 100% customizable, color options available, and brand name printable.',
@@ -1140,7 +1168,7 @@ export const INITIAL_PRODUCTS: Product[] = [
   },
   {
     id: 'prod-corp-11',
-    name: 'The Pro-Twist Fitness & Protein Shaker Bottle',
+    name: 'Pro-Twist Fitness Shaker Bottle',
     slug: 'protwist-fitness-protein-shaker-bottle',
     description: 'An ergonomic sports and wellness shaker bottle featuring a built-in spiral blending agitator, leak-proof flip cap, integrated carry loop, and precise measurement markings. 100% customizable with brand name printing and multiple color options.',
     longDescription: 'Engineered for corporate wellness programs, sports events, and daily active routines. This shaker bottle incorporates a spiral mixing wand to dissolve protein shakes, supplements, and infusions smoothly without clumps. Features dual measurement markings (oz and ml), a leak-proof locking flip cap with ergonomic carry loop, and a stable base. 100% customizable, color options available, and brand name printable.',
@@ -1171,69 +1199,63 @@ export const INITIAL_PRODUCTS: Product[] = [
   },
   {
     id: 'prod-corp-12',
-    name: 'The Chroma Thermal Magic Reveal Ceramic Mug',
+    name: 'Heat Reveal Magic Mug',
     slug: 'chroma-thermal-magic-reveal-ceramic-mug',
-    description: 'A premium heat-activated ceramic mug that transforms from sleek matte black to reveal full-color custom corporate artwork or messaging when filled with hot beverage. 100% customizable with brand name printing and color options.',
-    longDescription: 'A captivating corporate promotional gift that creates an interactive experience at every coffee break. In its cold state, the mug presents a sophisticated matte black finish. As hot liquid is poured, the heat-sensitive thermochromic coating magically reveals your full-color corporate design, employee photograph, or milestone message. 100% customizable, color options available, and brand name printable.',
+    description: 'Heat-sensitive ceramic mug that shifts from matte black to reveal your custom photo or logo when hot liquid is poured. 100% customizable.',
+    longDescription: 'Thermochromic ceramic mug that magically reveals custom photos or corporate branding when filled with hot coffee or tea.\n\n• Magic Heat Reveal: Sleek black coating transforms to reveal full-color high-definition artwork\n• Capacity & Build: 330ml ceramic mug with ergonomic easy-grip C-handle\n• Customization: Full panoramic custom photo, slogan, or logo print',
     category: 'corporate',
     categoryName: 'Corporate Gifting',
-    image: '/images/products/corp_chroma_magic_reveal_mug.png',
+    image: '/images/products/corp_heat_reveal_magic_mug.png',
     price: null,
     priceFormatted: 'Custom Quote',
     specifications: {
-      'Customization': '100% Customizable (Brand Name & Logo Printable)',
-      'Color Options': 'Matte Black Base Revealing Full-Color Custom Corporate Artwork',
+      'Customization': '100% Customizable (Panoramic photo, slogan, and logo printing)',
+      'Action': 'Thermochromic Heat-Sensitive Magic Color Transformation',
       'Capacity': '330ml / 11 oz Premium Ceramic Coffee Mug',
-      'Technology': 'High-Grade Thermochromic Heat-Sensitive Magic Coating',
-      'Handle': 'Comfort C-Handle with Smooth Glazed Finish',
-      'Safety': 'Food Grade, Non-Toxic Ceramic with Microwave Compatibility'
+      'Safety': 'Food Grade, Non-Toxic Ceramic with Smooth Glaze',
+      'Packaging': 'Individual Protective Bubble Box or Presentation Gift Box'
     },
     customizationOptions: [
-      '100% Full Customization & Brand Name Printing',
-      'Full-Color Panoramic Sublimation Reveal Printing',
-      'Individual Employee Name or Photo Personalization',
-      'Matte Black or Glossy Base Finish Options',
-      'Custom Foam Padded Presentation Box'
+      'Full panoramic photo and brand logo reveal printing',
+      'Individual name and personalized photo printing',
+      'Gift box packaging with custom corporate greeting card'
     ],
-    badge: '100% Customizable',
+    badge: '100% Customizable • Magic Reveal',
     active: true,
     featured: true,
     createdAt: '2026-02-12'
   },
   {
     id: 'prod-corp-13',
-    name: 'The Spectrum Glazed Ceramic Bistro Coffee Mug',
+    name: 'Custom Photo Print Mug',
     slug: 'spectrum-glazed-ceramic-bistro-mug',
-    description: 'A classic high-gloss ceramic coffee mug featuring an ergonomic curved handle and generous capacity. 100% customizable with corporate brand name printing and available in 6 vibrant corporate colorways.',
-    longDescription: 'A vibrant desktop essential for corporate offices, client hospitality lounges, and team onboarding kits. Crafted with thick-walled ceramic for heat retention, a smooth high-gloss enamel glaze, and a comfortably weighted base. 100% customizable, color options available, and brand name printable in single or multi-color ink.',
+    description: 'Classic white glossy ceramic mug designed for high-resolution full-color photo and logo printing. 100% customizable.',
+    longDescription: 'Durable white ceramic coffee mug with high-gloss enamel glaze, engineered for vibrant photo sublimation and corporate branding.\n\n• Print Quality: Scratch-resistant, microwave-safe full-color photo and logo printing\n• Build: 350ml high-density ceramic with comfortable curved handle\n• Customization: Single-side, dual-side, or full wraparound photo prints',
     category: 'corporate',
     categoryName: 'Corporate Gifting',
-    image: '/images/products/corp_spectrum_ceramic_bistro_mug.png',
+    image: '/images/products/corp_photo_print_mug.png',
     price: null,
     priceFormatted: 'Custom Quote',
     specifications: {
-      'Customization': '100% Customizable (Brand Name & Logo Printable)',
-      'Available Colors': 'Tangerine Orange, Crimson Red, Gloss Black, Cobalt Navy, Sunshine Yellow, Azure Blue',
+      'Customization': '100% Customizable (High-definition full-color photo and logo print)',
+      'Color': 'Brilliant Gloss White Ceramic Canvas',
       'Capacity': '350ml Generous Desk Capacity',
-      'Material': 'High-Density Glazed Ceramic with Thermal Insulation',
-      'Finish': 'Chip-Resistant High-Gloss Exterior and Interior Enamel',
-      'Handle': 'Ergonomic Easy-Grip Curved Handle'
+      'Material': 'High-Density Glazed Ceramic with Thermal Heat Retention',
+      'Durability': 'Microwave Safe, Dishwasher Safe, Chip-Resistant Glaze'
     },
     customizationOptions: [
-      '100% Full Customization & Brand Name Printing',
-      '6 Standard Glaze Colors or Custom Pantone Dip Available',
-      'Precision Screen Printing or Ceramic Decal Firing',
-      'Dual-Side Logo or Message Printing',
-      'Individual Corrugated Safe Ship Box or Ribbon Hamper Box'
+      'Full wraparound or dual-sided photo and logo sublimation',
+      'Custom corporate color accent on inner rim or handle',
+      'Individual gift box packaging with personalized note'
     ],
-    badge: '100% Customizable',
+    badge: '100% Customizable • Photo Print',
     active: true,
     featured: true,
     createdAt: '2026-02-13'
   },
   {
     id: 'prod-corp-14',
-    name: 'The Insignia Double-Wall Insulated Egg Tumbler',
+    name: 'Insignia Insulated Egg Tumbler',
     slug: 'insignia-double-wall-insulated-egg-tumbler',
     description: 'A modern double-wall vacuum insulated stainless steel tumbler with spill-resistant crystal-clear lid for hot coffee or chilled drinks. 100% customizable with laser engraving or logo printing and color options.',
     longDescription: 'Sleek and curved for comfortable desktop sipping, this stemless insulated tumbler keeps beverages hot for 6 hours or icy cold for up to 12 hours. Features double-wall 304 food-grade stainless steel construction, sweat-free powder coating, and a splash-proof silicone sealed push lid with drinking hole. 100% customizable, color options available, and brand name printable.',
@@ -1264,7 +1286,7 @@ export const INITIAL_PRODUCTS: Product[] = [
   },
   {
     id: 'prod-corp-16',
-    name: 'The Piece Out 150-Piece Pop Art Can Puzzle Game (Multiple Art Designs)',
+    name: 'Piece Out Pop Art Puzzle',
     slug: 'piece-out-150-piece-pop-art-can-puzzle',
     description: 'An innovative mindfulness and team engagement puzzle game housed in a pop-open beverage can container with an included sleek black desktop display frame. 100% choosable designs: available in multiple pop art and corporate themes.',
     longDescription: 'A novel, interactive corporate gift designed for team onboarding, executive stress relief, and creative desks. Contains a 150-piece precision-cut pop art jigsaw puzzle presented inside an authentic pop-open pull-tab can, paired with a fitted black tabletop or wall mount frame. Clients can choose from multiple artwork designs (such as Lily Bloom, Botanical Flora, Abstract Geometry, or custom commissioned corporate brand illustrations). Fully brand name printable on the can sleeve.',
