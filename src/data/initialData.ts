@@ -14,10 +14,10 @@ export const INITIAL_CATEGORIES: Category[] = [
     id: 'cat-festive',
     name: 'Festive Gifting',
     slug: 'festive',
-    description: 'Curated example celebration hampers for Diwali, New Year, and auspicious occasions. 100% customizable boxes where you can handpick items from our vast gourmet, gadget, and merchandise ranges.',
-    coverImage: '/images/category_festive.jpg',
+    description: 'Curated royal celebration hampers for Diwali, New Year, and festive milestones. 100% customizable gift boxes with handpicked gourmet delicacies, artisanal glassware, and divine decor.',
+    coverImage: '/images/products/festive_gulab_royal_box.png',
     active: true,
-    featuredHighlight: 'Artisanal brassware, gourmet delights, and bespoke festival boxes'
+    featuredHighlight: 'Royal Diwali hampers, artisanal glassware sets, and heritage gift chests'
   },
   {
     id: 'cat-edible',
@@ -794,93 +794,134 @@ export const INITIAL_PRODUCTS: Product[] = [
   // ==========================================
   {
     id: 'prod-fest-1',
-    name: 'Aarambh Deepavali Festive Hamper',
-    slug: 'aarambh-shubh-deepavali-sample-hamper',
-    description: 'An example festive curation showcasing a bespoke Happy Diwali keepsake box with handcrafted floral floating diya accents. 100% customizable sample box: choose and combine any items from our gourmet foods, gadgets, and corporate merchandise.',
-    longDescription: 'This is a sample festive curation designed to showcase our bespoke packaging and assembly capabilities. Presented in a rigid saffron orange and navy gift box with gold foil diya motifs and artisanal blooming lotus candles. Clients can 100% customize this hamper by selecting their preferred combination of gourmet dry fruits, chocolates, gadgets, lifestyle accessories, or brass decor. Both the outer presentation box and internal products are fully brand name printable.',
+    name: 'Gulab Utsav Festive Box',
+    slug: 'gulab-utsav-festive-box',
+    description: 'Royal pink and gold celebration box with nutty mix, masala makhana, cashews, diya, and fairy lights. 100% customizable with brand printing.',
+    longDescription: 'Opulent festive curation in a pink and gold foil motif gift box.\n\n• Inclusions: Spiced nutty mix, roasted mint makhana, peri peri cashews, brass diya, organza treat potli, dried potpourri, fairy lights, and greeting card\n• 100% Customizable: Handpick any assortment of gourmet snacks, sweets, and festive decor\n• Packaging: Rigid pink and gold keepsake chest with custom corporate sleeve',
     category: 'festive',
     categoryName: 'Festive Gifting',
-    image: '/images/products/festive_aarambh_diwali_box.png',
+    image: '/images/products/festive_gulab_royal_box.png',
     price: null,
     priceFormatted: 'Custom Quote',
     specifications: {
-      'Box Nature': 'Example / Sample Festive Gift Box (100% Customizable)',
+      'Box Nature': 'Festive Celebration Hamper (100% Customizable)',
       'Customization': '100% Customizable: Handpick your preferred items, foods, gadgets, and decor',
-      'Packaging Customization': 'Outer Box Design, Foil Stamping, Brand Logo Printing & Custom Ribbons',
-      'Sample Inclusions Shown': 'Happy Diwali Rigid Keepsake Box & Handcrafted Blooming Lotus Candles',
-      'Available Item Categories': 'Gourmet Foods & Confectionery, Tech Gadgets, Drinkware, Executive Folios, Brass Diyas',
-      'Branding & Print': 'Corporate Brand Name & Logo Printable on all packaging and inclusions'
+      'Inclusions': 'Nutty Mix Jar, Masala Makhana Jar, Cashews Jar, Brass Diya, Organza Potli, Fairy Lights, Greeting Card',
+      'Packaging': 'Deluxe Rani Pink & Gold Foil Motif Rigid Presentation Box',
+      'Branding & Print': 'Corporate Logo & Custom Message Sleeve Printable'
     },
     customizationOptions: [
-      '100% Fully Customizable Packaging & Item Inclusions',
-      'Handpick Custom Combinations of Foods, Gadgets & Merchandise',
-      'Custom Corporate Logo & Greeting Message Printing',
-      'Multiple Box Colorways & Custom Dimensions Available',
-      'Personalized Employee / Client Name Inserts'
+      'Handpick custom combinations of sweets, dry fruits, and festive decor',
+      'Foil stamped corporate logo on box lid',
+      'Custom greeting card with personalized message'
     ],
     active: true,
     featured: true,
-    createdAt: '2026-02-16'
+    createdAt: '2026-09-03'
   },
   {
     id: 'prod-fest-2',
-    name: 'Royal Utsav Festive Chest',
-    slug: 'royal-utsav-gourmet-festive-sample-chest',
-    description: 'An example celebration hamper presented in a royal rani pink and gold motif rigid chest with premium dry fruits, gourmet confectionery, and festive brass diyas. 100% customizable sample box: pick your choice of foods, gadgets, and gifts.',
-    longDescription: 'An inspiring sample festival hamper demonstrating how traditional opulence blends with modern gourmet indulgence. Encased in a royal rani pink and gold printed gift chest with spiced roasted nuts, artisanal almond brittle, brass tealights, potpourri, and a personalized corporate message card. This sample box is 100% customizable: select any assortment from our vast catalogue of gourmet foods, tech accessories, or merchandise.',
+    name: 'Jharokha Heritage Festive Box',
+    slug: 'jharokha-heritage-festive-box',
+    description: 'Artisan floral jharokha celebration box with rangoli mandala kit, chocolate slabs, roasted nuts, and sweets. 100% customizable with brand printing.',
+    longDescription: 'Royal Rajasthani arched jharokha gift chest with festive gourmet treats.\n\n• Inclusions: Mudra Mandala organic rangoli kit, artisanal dark chocolate bars, spiced roasted almonds jar, and festive sweets\n• 100% Customizable: Mix and match gourmet confectioneries and traditional festive decor\n• Packaging: Double-door jharokha illustrated keepsake chest with custom branding',
     category: 'festive',
     categoryName: 'Festive Gifting',
-    image: '/images/products/festive_royal_utsav_chest.png',
+    image: '/images/products/festive_jharokha_heritage_box.png',
     price: null,
     priceFormatted: 'Custom Quote',
     specifications: {
-      'Box Nature': 'Example / Sample Festive Gift Box (100% Customizable)',
-      'Customization': '100% Customizable: Handpick your preferred items, foods, gadgets, and decor',
-      'Packaging Customization': 'Rigid Box Color Palette, Gold Foil Hot Stamping, Custom Sleeves',
-      'Sample Inclusions Shown': 'Rani Pink Rigid Box, Nutty Mix, Mint Masala Makhana, Peri Peri Cashews, Almond Brittle, Brass Diyas',
-      'Available Item Assortment': 'Artisanal Sweets, Royal Dry Fruits, Premium Teas, Bluetooth Gadgets, Luxury Folios',
-      'Branding & Print': 'Brand Logo & Company Greeting Printable on all jars, boxes, and cards'
+      'Box Nature': 'Heritage Festive Hamper (100% Customizable)',
+      'Customization': '100% Customizable: Handpick your preferred items, sweets, and decor',
+      'Inclusions': 'Jharokha Illustrated Chest, Mudra Mandala Rangoli Kit, Gourmet Chocolate Bars, Roasted Almonds Jar',
+      'Packaging': 'Double-Door Arch Illustrated Heritage Box with Custom Corporate Branding'
     },
     customizationOptions: [
-      '100% Fully Customizable Packaging & Item Inclusions',
-      'Mix & Match Gourmet Foods, Tech Gadgets, and Festive Decor',
-      'Corporate Logo Foil Stamping on Rigid Box',
-      'Custom Branded Glass & Tin Packaging Labels',
-      'Bespoke Greeting Card with Leadership Signatures'
+      'Mix and match chocolates, dry fruits, and rangoli accessories',
+      'Corporate logo foil stamping on keepsake chest',
+      'Personalized employee or client greeting insert'
     ],
     active: true,
     featured: true,
-    createdAt: '2026-02-17'
+    createdAt: '2026-09-03'
   },
   {
     id: 'prod-fest-3',
-    name: 'Shwet Kamal Celebration Box',
-    slug: 'shwet-kamal-divine-celebration-sample-box',
-    description: 'An example spiritual festive curation featuring a laser-crafted gold lotus wall hanging, brass-rimmed tealights, scented incense, and an organza treat potli in a rigid white presentation box. 100% customizable with your choice of gifts.',
-    longDescription: 'A serene example festive hamper emphasizing artisanal craftsmanship and divine aesthetics. Features a laser-cut gold and red lotus hanging, metallic gold tealight holders, fragrant dhoop sticks, and a shimmering organza potli for sweets or dry fruits in a pristine white rigid presentation box. As a sample curation, clients can 100% customize all packaging and replace or add items from our foods, gadgets, or merchandise ranges.',
+    name: 'Emerald Royale Glassware Festive Set',
+    slug: 'emerald-royale-glassware-festive-set',
+    description: 'Artisanal emerald green gift chest with 4 dual-tone glass tumblers, embroidered velvet coasters, and brass stirrers. 100% customizable with brand printing.',
+    longDescription: 'Luxury festive hospitality set presented in an emerald botanical painted gift box.\n\n• Inclusions: 4 hand-blown amber and green dual-tone glass tumblers, gold-embroidered green velvet coasters, and solid brass stirrers\n• 100% Customizable: Custom engraving on stirrers and personalized corporate lid printing\n• Packaging: Painted royal botanical presentation box with secure foam compartments',
     category: 'festive',
     categoryName: 'Festive Gifting',
-    image: '/images/products/festive_shwet_kamal_box.png',
+    image: '/images/products/festive_emerald_glassware_set.png',
     price: null,
     priceFormatted: 'Custom Quote',
     specifications: {
-      'Box Nature': 'Example / Sample Festive Gift Box (100% Customizable)',
-      'Customization': '100% Customizable: Handpick your preferred items, foods, gadgets, and decor',
-      'Packaging Customization': 'Outer Box Dimensions, Color Theme, Custom Window Cutouts, Satin Ribbon Ties',
-      'Sample Inclusions Shown': 'Laser-Crafted Gold Lotus Hanging, Brass-Rimmed Tealights, Organic Fragrance Sticks, Treat Potli',
-      'Available Item Assortment': 'Curated Sweets, Dry Fruits, Eco-Friendly Gifting, Electronics, Custom Stationery',
-      'Branding & Print': 'Corporate Emblem Printing & Laser Engraving Available'
+      'Box Nature': 'Artisanal Hospitality Hamper (100% Customizable)',
+      'Customization': '100% Customizable: Laser engrave stirrers and brand presentation box',
+      'Inclusions': '4 Amber-Green Glass Tumblers, Gold-Embroidered Velvet Coasters, Solid Brass Stirrers',
+      'Packaging': 'Emerald Botanical Hand-Painted Presentation Gift Box'
     },
     customizationOptions: [
-      '100% Fully Customizable Packaging & Item Inclusions',
-      'Select Custom Inclusions from Foods, Gadgets & Festive Accessories',
-      'Custom Outer Box Sleeve with Company Branding',
-      'Multiple Box Colors (Ivory White, Deep Burgundy, Royal Navy)',
-      'Custom Wax-Sealed Festive Gift Card'
+      'Laser engraved corporate monogram on brass stirrers',
+      'Custom embroidered logo on velvet coasters',
+      'Deluxe gift box with corporate band'
     ],
     active: true,
     featured: true,
-    createdAt: '2026-02-18'
+    createdAt: '2026-09-03'
+  },
+  {
+    id: 'prod-fest-4',
+    name: 'Organic Honey & Nectar Festive Box',
+    slug: 'organic-honey-nectar-festive-box',
+    description: 'Emerald and gold hamper with raw wildflower honey, fruit preserve jar, cold-pressed nectar bottle, and wooden dipper. 100% customizable with brand printing.',
+    longDescription: 'Pure organic wellness and festive sweetness curation in an emerald gold-ribbon gift box.\n\n• Inclusions: Pure raw wildflower honey jar, artisan fruit preserve jar with burlap cover, cold-pressed organic nectar bottle, and mini wooden honey dipper\n• 100% Customizable: Personalized jar labels and custom printed corporate greeting card\n• Packaging: Matte forest green rigid gift box with satin gold ribbon bow',
+    category: 'festive',
+    categoryName: 'Festive Gifting',
+    image: '/images/products/festive_organic_honey_nectar_box.png',
+    price: null,
+    priceFormatted: 'Custom Quote',
+    specifications: {
+      'Box Nature': 'Organic Festive Gourmet Hamper (100% Customizable)',
+      'Customization': '100% Customizable: Custom branded jar tags and gift box ribbons',
+      'Inclusions': 'Raw Wildflower Honey Jar, Fruit Preserve Jar, Cold-Pressed Nectar Bottle, Wooden Dipper',
+      'Packaging': 'Forest Green Rigid Box with Gold Ribbon Bow and Fitted Insert'
+    },
+    customizationOptions: [
+      'Personalized corporate hangtags on jars and bottles',
+      'Custom printed gold foil logo on box lid',
+      'Festive greeting card with company message'
+    ],
+    active: true,
+    featured: true,
+    createdAt: '2026-09-03'
+  },
+  {
+    id: 'prod-fest-5',
+    name: 'Shubh Kamal Divine Festive Box',
+    slug: 'shubh-kamal-divine-festive-box',
+    description: 'Spiritual festive box with laser-crafted gold lotus hanging, 4 glass tealight diyas, dhoop sticks, and treat potli. 100% customizable with brand printing.',
+    longDescription: 'Serene divine celebration hamper crafted for Diwali and auspicious occasions.\n\n• Inclusions: Laser-cut red and gold lotus wall hanging with pearl beads, 4 glass bowl tealight diyas, fragrant dhoop sticks, and pink organza dry fruit potli\n• 100% Customizable: Handpick sweets or dry fruits and customize outer packaging\n• Packaging: Crisp white presentation box with decorative festive shred and custom note',
+    category: 'festive',
+    categoryName: 'Festive Gifting',
+    image: '/images/products/festive_shubh_kamal_divine_box.png',
+    price: null,
+    priceFormatted: 'Custom Quote',
+    specifications: {
+      'Box Nature': 'Divine Spiritual Celebration Box (100% Customizable)',
+      'Customization': '100% Customizable: Handpick your preferred items, treats, and decor',
+      'Inclusions': 'Laser-Cut Gold Lotus Hanging, 4 Glass Tealight Diyas, Fragrant Dhoop Sticks, Organza Treat Potli',
+      'Packaging': 'Classic White Keepsake Gift Box with Festive Cushioning'
+    },
+    customizationOptions: [
+      'Add customized sweets or dry fruits inside the potli',
+      'Custom printed box sleeve with corporate branding',
+      'Personalized festive blessing card'
+    ],
+    active: true,
+    featured: true,
+    createdAt: '2026-09-03'
   },
 
   // ==========================================
