@@ -1179,6 +1179,90 @@ export const INITIAL_PRODUCTS: Product[] = [
     active: true,
     featured: true,
     createdAt: '2026-09-03'
+  },
+  {
+    id: 'prod-corp-11',
+    name: 'Executive Commuter Backpack Suite',
+    slug: 'executive-commuter-backpack-suite',
+    description: 'Urban travel set with laptop backpack, crossbody sling bag, thermal bottle, and accessory pouch. 100% customizable with brand name printing. Multiple color options available.',
+    longDescription: 'Sleek commuter and business travel ensemble designed for mobile professionals.\n\n• Inclusions: Weather-resistant laptop backpack with diagonal zip pockets, matching crossbody sling bag, double-wall thermal tumbler, and zipper utility pouch\n• 100% Customizable: Precision screen printed or embroidered corporate logo and brand name across all items\n• Color Options: Multiple fabric and bottle colorways available',
+    category: 'corporate',
+    categoryName: 'Corporate Gifting',
+    image: '/images/products/corp_commuter_backpack_suite.png',
+    price: null,
+    priceFormatted: 'Custom Quote',
+    specifications: {
+      'Customization': '100% Customizable (Brand name and logo printable)',
+      'Color Options': 'Multiple Color Options Available (Stealth Black, Navy Blue, Charcoal Grey)',
+      'Inclusions': 'Laptop Backpack, Crossbody Sling Pouch, Double-Wall Thermal Tumbler, Zipper Accessory Bag',
+      'Material': 'Water-Repellent Oxford Polyester with Heavy-Duty Smooth Zippers',
+      'Packaging': 'Deluxe Corporate Shipping Box with Custom Labeling'
+    },
+    customizationOptions: [
+      'Screen printing, heat transfer, or embroidery of corporate logo on backpack and sling',
+      'Laser engraved brand name on thermal tumbler',
+      'Custom corporate message card insert'
+    ],
+    badge: '100% Customizable • Travel Suite',
+    active: true,
+    featured: true,
+    createdAt: '2026-09-03'
+  },
+  {
+    id: 'prod-corp-12',
+    name: 'Wooden Swivel USB Flash Drive',
+    slug: 'wooden-swivel-usb-flash-drive',
+    description: 'Natural grain eco-friendly wooden swivel USB drive with high-speed storage. 100% customizable with brand name printing. Multiple color options available.',
+    longDescription: 'Eco-conscious wooden swivel USB drive crafted from natural hardwood with a 360-degree rotating cap.\n\n• 100% Customizable: Crisp laser engraving of corporate logo and company brand name\n• Color Options: Multiple natural wood finish options available (Walnut, Maple, Bamboo)\n• High-Speed Performance: High-capacity reliable flash storage with universal USB compatibility',
+    category: 'corporate',
+    categoryName: 'Corporate Gifting',
+    image: '/images/products/corp_wooden_swivel_usb_drive.png',
+    price: null,
+    priceFormatted: 'Custom Quote',
+    specifications: {
+      'Customization': '100% Customizable (Brand name and logo printable)',
+      'Wood Finishes': 'Multiple Color Options Available (Natural Walnut, Golden Maple, Organic Bamboo)',
+      'Cap Mechanism': '360-Degree Swiveling Protective Wooden Frame',
+      'Interface': 'High-Speed USB 3.0 / 2.0 Universal Plug-and-Play',
+      'Packaging': 'Eco-Friendly Kraft Gift Box or Wooden Sliding Presentation Case'
+    },
+    customizationOptions: [
+      'Precision laser engraving of company logo and brand text on front and back',
+      'Pre-loaded corporate presentation or digital catalog service',
+      'Matching engraved wooden presentation box'
+    ],
+    badge: '100% Customizable • Eco Hardwood',
+    active: true,
+    featured: true,
+    createdAt: '2026-09-03'
+  },
+  {
+    id: 'prod-corp-13',
+    name: 'Executive Leather & Metal Keychain',
+    slug: 'executive-leather-metal-keychain',
+    description: 'Premium leather and stainless steel keychains with engravable plates and bottle opener options. 100% customizable with brand name printing. Multiple color options available.',
+    longDescription: 'Durable executive keychains combining genuine leather, woven nylon, and brushed stainless steel hardware.\n\n• 100% Customizable: Precision laser engraved or debossed company brand name and monogram\n• Color Options: Multiple leather shades (Black, Tan, Brown, Blue) and metallic finishes available\n• Functional Designs: Options with built-in bottle openers, snap hooks, and polished branding tags',
+    category: 'corporate',
+    categoryName: 'Corporate Gifting',
+    image: '/images/products/corp_executive_keychain_collection.png',
+    price: null,
+    priceFormatted: 'Custom Quote',
+    specifications: {
+      'Customization': '100% Customizable (Brand name and logo printable)',
+      'Color Options': 'Multiple Color Options Available (Midnight Black, Cognac Tan, Classic Brown, Royal Blue)',
+      'Hardware Styles': 'Polished Chrome Plate, Built-in Bottle Opener, Swivel Snap Hook, Woven Nylon Webbing',
+      'Material': 'Full-Grain Vegan Leather & Brushed Zinc Alloy Hardware',
+      'Packaging': 'Individual Protective Velvet Sleeve or Presentation Box'
+    },
+    customizationOptions: [
+      'Precision laser engraved company brand name on metallic emblem plates',
+      'Blind debossing or foil stamping on leather loops',
+      'Individual recipient name personalization'
+    ],
+    badge: '100% Customizable • Multiple Styles',
+    active: true,
+    featured: true,
+    createdAt: '2026-09-03'
   }
 ];
 

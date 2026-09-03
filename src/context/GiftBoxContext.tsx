@@ -76,7 +76,7 @@ export const GiftBoxProvider: React.FC<{ children: React.ReactNode }> = ({ child
   // Products state with localStorage sync
   const [products, setProducts] = useState<Product[]>(() => {
     try {
-      const saved = localStorage.getItem('tohfa_products_v22');
+      const saved = localStorage.getItem('tohfa_products_v23');
       return saved ? JSON.parse(saved) : INITIAL_PRODUCTS;
     } catch {
       return INITIAL_PRODUCTS;
@@ -89,7 +89,7 @@ export const GiftBoxProvider: React.FC<{ children: React.ReactNode }> = ({ child
   // Enquiries state with Supabase cloud fetch & localStorage sync fallback
   const [enquiries, setEnquiries] = useState<Enquiry[]>(() => {
     try {
-      const saved = localStorage.getItem('tohfa_enquiries_v22');
+      const saved = localStorage.getItem('tohfa_enquiries_v23');
       return saved ? JSON.parse(saved) : INITIAL_ENQUIRIES;
     } catch {
       return INITIAL_ENQUIRIES;
@@ -99,7 +99,7 @@ export const GiftBoxProvider: React.FC<{ children: React.ReactNode }> = ({ child
   // Gift box items
   const [giftBoxItems, setGiftBoxItems] = useState<GiftBoxItem[]>(() => {
     try {
-      const saved = localStorage.getItem('tohfa_giftbox_v22');
+      const saved = localStorage.getItem('tohfa_giftbox_v23');
       return saved ? JSON.parse(saved) : [];
     } catch {
       return [];
@@ -176,15 +176,15 @@ export const GiftBoxProvider: React.FC<{ children: React.ReactNode }> = ({ child
 
   // Save changes to localStorage
   useEffect(() => {
-    localStorage.setItem('tohfa_products_v22', JSON.stringify(products));
+    localStorage.setItem('tohfa_products_v23', JSON.stringify(products));
   }, [products]);
 
   useEffect(() => {
-    localStorage.setItem('tohfa_enquiries_v22', JSON.stringify(enquiries));
+    localStorage.setItem('tohfa_enquiries_v23', JSON.stringify(enquiries));
   }, [enquiries]);
 
   useEffect(() => {
-    localStorage.setItem('tohfa_giftbox_v22', JSON.stringify(giftBoxItems));
+    localStorage.setItem('tohfa_giftbox_v23', JSON.stringify(giftBoxItems));
   }, [giftBoxItems]);
 
   const showToast = (title: string, message: string, type: 'success' | 'info' | 'burgundy' = 'burgundy') => {
