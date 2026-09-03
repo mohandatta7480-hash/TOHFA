@@ -923,6 +923,136 @@ export const INITIAL_PRODUCTS: Product[] = [
     featured: true,
     createdAt: '2026-09-03'
   },
+  {
+    id: 'prod-fest-6',
+    name: 'Mayur Heritage Dry Fruit Chest',
+    slug: 'mayur-heritage-dry-fruit-chest',
+    description: 'Heritage wooden trunk with brass clasp, peacock artwork, and 2 glass jars filled with dry fruits on golden satin. 100% customizable.',
+    longDescription: 'Royal peacock motif keepsake trunk box with metallic brass latch and golden satin lining.\n\n• Inclusions: 2 wide-mouth glass jars filled with premium California almonds and roasted cashews\n• 100% Customizable: Handpick any combination of flavored dry fruits, sweets, or gourmet mixes\n• Packaging: Lidded wooden keepsake trunk with brass clasp and custom company sleeve',
+    category: 'festive',
+    categoryName: 'Festive Gifting',
+    image: '/images/products/festive_mayur_peacock_chest.png',
+    price: null,
+    priceFormatted: 'Custom Quote',
+    specifications: {
+      'Box Nature': 'Heritage Dry Fruit Trunk (100% Customizable)',
+      'Customization': '100% Customizable: Handpick your choice of dry fruit jars and sweets',
+      'Inclusions': 'Peacock Illustrated Keepsake Trunk, 2 Wide-Mouth Glass Jars, Golden Satin Bed',
+      'Packaging': 'Lidded Keepsake Box with Polished Brass Clasp & Custom Sleeve'
+    },
+    customizationOptions: [
+      'Handpick dry fruit varieties (Almonds, Cashews, Pistachios, Walnuts)',
+      'Laser engraved or foil printed corporate logo on trunk lid',
+      'Personalized festival greeting card'
+    ],
+    active: true,
+    featured: true,
+    createdAt: '2026-09-03'
+  },
+  {
+    id: 'prod-fest-7',
+    name: 'Rajvilas Palace Briefcase Hamper',
+    slug: 'rajvilas-palace-briefcase-hamper',
+    description: 'Luxury rose and gold palace briefcase with brass handle, Jal Mahal illustration, and royal elephant motifs. 100% customizable.',
+    longDescription: 'Stately royal palace briefcase gift trunk featuring traditional architectural artwork.\n\n• Inclusions: Heritage palace-themed rigid suitcase box with solid brass handle, security clasp, and customizable internal compartments\n• 100% Customizable: Fill with custom assortments of sweets, dry fruits, chocolates, or corporate merchandise\n• Packaging: Heavyweight rigid presentation briefcase with foil stamped corporate logo',
+    category: 'festive',
+    categoryName: 'Festive Gifting',
+    image: '/images/products/festive_rajvilas_palace_briefcase.png',
+    price: null,
+    priceFormatted: 'Custom Quote',
+    specifications: {
+      'Box Nature': 'Royal Palace Briefcase Trunk (100% Customizable)',
+      'Customization': '100% Customizable: Custom fill with gourmet treats, dry fruits, and gifts',
+      'Inclusions': 'Jal Mahal Illustrated Briefcase Trunk with Solid Brass Handle & Metal Clasp',
+      'Packaging': 'Deluxe Rigid Keepsake Briefcase Box with Custom Foil Embellishment'
+    },
+    customizationOptions: [
+      'Full interior curation from our edible, gadget, and merchandise catalog',
+      'Corporate logo foil stamping on briefcase lid',
+      'Custom luxury ribbon and gift tag'
+    ],
+    active: true,
+    featured: true,
+    createdAt: '2026-09-03'
+  },
+  {
+    id: 'prod-fest-8',
+    name: 'Darbar Royal Palace 4-Jar Hamper',
+    slug: 'darbar-royal-palace-4-jar-hamper',
+    description: 'Royal court illustrated gift box with golden satin lining and 4 glass jars with gold lids. 100% customizable with brand printing.',
+    longDescription: 'Grand royal celebration box showcasing majestic court architecture and royal procession motifs.\n\n• Inclusions: 4 gold-lidded glass jars filled with premium dry fruits, gourmet nuts, and festive confectionery\n• 100% Customizable: Handpick individual jar contents from our full gourmet catalogue\n• Packaging: Sturdy flip-top keepsake chest with golden satin bed and custom brand card',
+    category: 'festive',
+    categoryName: 'Festive Gifting',
+    image: '/images/products/festive_darbar_palace_4jar_box.png',
+    price: null,
+    priceFormatted: 'Custom Quote',
+    specifications: {
+      'Box Nature': 'Grand Royal 4-Jar Celebration Box (100% Customizable)',
+      'Customization': '100% Customizable: Handpick contents of all 4 glass jars',
+      'Inclusions': 'Darbar Palace Illustrated Box, 4 Gold-Lidded Glass Jars, Golden Satin Lining',
+      'Packaging': 'Deluxe Hinged Presentation Box with Gold Metallic Foil Details'
+    },
+    customizationOptions: [
+      'Choose 4 jars from our dry fruits, energy bites, and snack mixes',
+      'Custom printed jar stickers and corporate belly band',
+      'Bespoke executive gift card'
+    ],
+    active: true,
+    featured: true,
+    createdAt: '2026-09-03'
+  },
+  {
+    id: 'prod-fest-9',
+    name: 'Gajraj Rose Palace 2-Jar Hamper',
+    slug: 'gajraj-rose-palace-2-jar-hamper',
+    description: 'Rose pink palace box with rope handles and 2 large glass dry fruit jars on golden satin. 100% customizable with brand printing.',
+    longDescription: 'Vintage rose pink presentation hamper featuring royal elephant and palace fresco artwork.\n\n• Inclusions: 2 oversized glass canisters with gold screw caps on padded golden satin lining\n• 100% Customizable: Select your choice of dry fruits, sweets, or savory nibbles\n• Packaging: Hinged box with woven golden rope carry handles and personalized greeting note',
+    category: 'festive',
+    categoryName: 'Festive Gifting',
+    image: '/images/products/festive_gajraj_rose_palace_box.png',
+    price: null,
+    priceFormatted: 'Custom Quote',
+    specifications: {
+      'Box Nature': 'Royal Elephant Twin-Jar Hamper (100% Customizable)',
+      'Customization': '100% Customizable: Select jar contents and custom corporate tags',
+      'Inclusions': 'Gajraj Palace Illustrated Box, 2 Large Glass Canisters, Golden Rope Handles',
+      'Packaging': 'Padded Hinged Box with Satin Inlay and Heavy-Duty Carry Cord'
+    },
+    customizationOptions: [
+      'Custom selection of premium dry fruits and roasted savouries',
+      'Foil stamped brand logo on box front',
+      'Custom corporate message insert'
+    ],
+    active: true,
+    featured: true,
+    createdAt: '2026-09-03'
+  },
+  {
+    id: 'prod-fest-10',
+    name: 'Swarna Net Golden Festive Hamper',
+    slug: 'swarna-net-golden-festive-hamper',
+    description: 'Brocade gold tray hamper wrapped in golden organza net with satin bow, coffee tin, and gourmet dry fruits. 100% customizable.',
+    longDescription: 'Classic celebration hamper presented on an embroidered golden brocade gift tray.\n\n• Inclusions: Gourmet estate coffee tin, canisters of dry fruits, and festive treats encased in golden organza net with a grand ribbon bow\n• 100% Customizable: Handpick any gourmet foods, coffee blends, and confectionery\n• Packaging: Rigid brocade border tray with golden net wrap and custom corporate tag',
+    category: 'festive',
+    categoryName: 'Festive Gifting',
+    image: '/images/products/festive_swarna_organza_tray_hamper.png',
+    price: null,
+    priceFormatted: 'Custom Quote',
+    specifications: {
+      'Box Nature': 'Golden Brocade Tray Hamper (100% Customizable)',
+      'Customization': '100% Customizable: Handpick beverage tins, sweets, and dry fruit canisters',
+      'Inclusions': 'Brocade Gift Tray, Coffee Canister, Dry Fruit Tins, Golden Organza Wrap & Satin Bow',
+      'Packaging': 'Traditional Handcrafted Brocade Tray with Grand Ribbon Presentation'
+    },
+    customizationOptions: [
+      'Select customized coffee, teas, or chocolates',
+      'Custom printed satin ribbon with corporate branding',
+      'Personalized greeting card attached to ribbon bow'
+    ],
+    active: true,
+    featured: true,
+    createdAt: '2026-09-03'
+  },
 
   // ==========================================
   // CORPORATE GIFTING (100% Customizable & Brand Printable)
