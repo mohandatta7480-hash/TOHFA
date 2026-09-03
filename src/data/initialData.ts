@@ -5,10 +5,10 @@ export const INITIAL_CATEGORIES: Category[] = [
     id: 'cat-corporate',
     name: 'Corporate Gifting',
     slug: 'corporate',
-    description: 'Bespoke executive gift sets, sustainable desk suites, artisanal wooden folios, pop art mindfulness puzzles, and premium corporate hampers.',
-    coverImage: '/images/products/corp_bamboo_slate_suite.png',
+    description: 'Bespoke executive gift suites, leather briefcase sets, sustainable eco hampers, luxury drinkware, and classic corporate recognition boxes. 100% customizable with brand name printing and multiple color options.',
+    coverImage: '/images/products/corp_executive_briefcase_suite.png',
     active: true,
-    featuredHighlight: 'Bespoke executive hampers and sustainable desk suites'
+    featuredHighlight: 'Executive briefcase suites, eco wooden hampers, and luxury desk sets'
   },
   {
     id: 'cat-festive',
@@ -896,6 +896,150 @@ export const INITIAL_PRODUCTS: Product[] = [
     active: true,
     featured: true,
     createdAt: '2026-02-18'
+  },
+
+  // ==========================================
+  // CORPORATE GIFTING (100% Customizable & Brand Printable)
+  // ==========================================
+  {
+    id: 'prod-corp-1',
+    name: 'Insignia Insulated Egg Tumbler',
+    slug: 'insignia-insulated-egg-tumbler',
+    description: 'Stemless double-wall insulated stainless steel tumbler with spill-proof slide lid. 100% customizable with brand name printing. Multiple color options available.',
+    longDescription: 'Stemless stainless steel thermal tumbler engineered for hot and cold beverages.\n\n• 100% Customizable: Laser engraved or screen printed company brand name and logo\n• Color Options: Multiple metallic and matte color choices available\n• Build: Double-wall vacuum insulation with splash-proof slide lid',
+    category: 'corporate',
+    categoryName: 'Corporate Gifting',
+    image: '/images/products/corp_insignia_egg_tumbler.png',
+    price: null,
+    priceFormatted: 'Custom Quote',
+    specifications: {
+      'Customization': '100% Customizable (Brand name and logo printable)',
+      'Color Options': 'Multiple Color Options Available (Brushed Silver, Matte Black, Custom Colors)',
+      'Capacity': '350ml Stemless Thermal Silhouette',
+      'Material': 'Food Grade Stainless Steel with Double-Wall Vacuum Insulation',
+      'Lid': 'Clear Splash-Proof Sliding Sip Lid'
+    },
+    customizationOptions: [
+      'Precision laser engraved or screen printed company brand name and logo',
+      'Multiple metallic and powder coat color options',
+      'Custom presentation packaging with company branding'
+    ],
+    badge: '100% Customizable • Color Options',
+    active: true,
+    featured: true,
+    createdAt: '2026-09-03'
+  },
+  {
+    id: 'prod-corp-2',
+    name: 'Executive Laptop Briefcase Suite',
+    slug: 'executive-laptop-briefcase-suite',
+    description: 'Premium leather laptop bag with matching thermal bottle, journal, cardholder with USB, phone stand, keychain, and pen. 100% customizable with brand name printing. Multiple color options available.',
+    longDescription: 'All-in-one corporate executive onboarding set featuring a tailored vegan leather laptop briefcase and desk accessories.\n\n• Inclusions: Laptop bag, vacuum thermal flask, A5 organizer journal, card case with USB drive, mobile stand, keychain, and executive pen\n• 100% Customizable: Precision laser engraved and printed company brand name on all items\n• Color Options: Multiple executive colorways available',
+    category: 'corporate',
+    categoryName: 'Corporate Gifting',
+    image: '/images/products/corp_executive_briefcase_suite.png',
+    price: null,
+    priceFormatted: 'Custom Quote',
+    specifications: {
+      'Customization': '100% Customizable (Brand name and logo printable)',
+      'Color Options': 'Multiple Color Options Available (Executive Black, Dark Tan, Navy Blue)',
+      'Inclusions': 'Laptop Briefcase Bag, Insulated Flask, A5 Journal, Card Case with USB, Phone Stand, Keychain, Executive Pen',
+      'Material': 'Premium Stitched Vegan Leather with Metal Appointments',
+      'Packaging': 'Deluxe Corporate Presentation Box'
+    },
+    customizationOptions: [
+      'Company brand name and logo printed or laser engraved across all suite items',
+      'Individual recipient name personalization',
+      'Multiple leather and metallic accent color choices'
+    ],
+    badge: '100% Customizable • Complete Suite',
+    active: true,
+    featured: true,
+    createdAt: '2026-09-03'
+  },
+  {
+    id: 'prod-corp-3',
+    name: 'Ivory Executive Gift Box',
+    slug: 'ivory-executive-gift-box',
+    description: 'Luxury gift hamper with insulated travel coffee mug, leatherette organizer journal, executive pen, and Ferrero Rocher chocolates. 100% customizable with brand name printing. Multiple color options available.',
+    longDescription: 'Curated corporate desk and indulgence hamper presented in a rigid gift box with satin bow.\n\n• Inclusions: Insulated travel coffee tumbler with silicone grip band, matching ivory journal, executive pen, and Ferrero Rocher chocolates\n• 100% Customizable: Brand name and company logo printed or laser engraved across all items\n• Color Options: Multiple tumbler, journal, and box colorways available',
+    category: 'corporate',
+    categoryName: 'Corporate Gifting',
+    image: '/images/products/corp_ivory_executive_gift_box.png',
+    price: null,
+    priceFormatted: 'Custom Quote',
+    specifications: {
+      'Customization': '100% Customizable (Brand name and logo printable)',
+      'Color Options': 'Multiple Color Options Available (Ivory Cream, Midnight Black, Classic Navy)',
+      'Inclusions': 'Insulated Travel Coffee Mug, A5 Notebook, Executive Pen, Ferrero Rocher Chocolates',
+      'Packaging': 'Rigid Keepsake Gift Box with Gold Ribbon Bow and Custom Greeting Card',
+      'Drinkware': 'Double-Wall Insulated Coffee Mug with Grip Band and Flip Lid'
+    },
+    customizationOptions: [
+      'Laser engraved or printed corporate brand name on tumbler, journal, and pen',
+      'Multiple gift box and product color combinations',
+      'Custom corporate message card and outer sleeve'
+    ],
+    badge: '100% Customizable • Indulgence Set',
+    active: true,
+    featured: true,
+    createdAt: '2026-09-03'
+  },
+  {
+    id: 'prod-corp-4',
+    name: 'Sovereign Eco Executive Suite',
+    slug: 'sovereign-eco-executive-suite',
+    description: 'Sustainable 5-piece hamper with natural beechwood notebook, bamboo mug, thermal flask, bamboo pen, and cork keychain. 100% customizable with brand name printing. Multiple color options available.',
+    longDescription: 'Eco-conscious executive collection pairing natural wood and bamboo with modern insulated drinkware.\n\n• Inclusions: Natural beechwood journal, stainless steel bamboo mug, matte thermal bottle with wood cap, bamboo twist pen, and cork keychain\n• 100% Customizable: Precision laser engraved company brand name and logo on wood and metal surfaces\n• Color Options: Multiple wood finish and bottle color options available',
+    category: 'corporate',
+    categoryName: 'Corporate Gifting',
+    image: '/images/products/corp_sovereign_eco_executive_suite.png',
+    price: null,
+    priceFormatted: 'Custom Quote',
+    specifications: {
+      'Customization': '100% Customizable (Brand name and logo printable)',
+      'Color Options': 'Multiple Color Options Available (Natural Wood, Bamboo, Matte Black, Custom Colors)',
+      'Inclusions': 'Hardcover Beechwood Notebook, Bamboo Coffee Mug, Thermal Flask, Bamboo Pen, Cork Keychain',
+      'Materials': 'Natural Sustainable Wood, Bamboo, 304 Stainless Steel, Organic Cork',
+      'Packaging': 'Deluxe Matte Presentation Box with Custom Cutout Foam Tray'
+    },
+    customizationOptions: [
+      'Laser engraving of corporate brand name and logo across all items',
+      'Multiple bottle color and wood finish choices',
+      'Custom printed corporate box sleeve and welcome card'
+    ],
+    badge: '100% Customizable • Eco Sustainable',
+    active: true,
+    featured: true,
+    createdAt: '2026-09-03'
+  },
+  {
+    id: 'prod-corp-5',
+    name: 'Chrono Classic 4-Piece Suite',
+    slug: 'chrono-classic-executive-suite',
+    description: 'Distinguished 4-piece set featuring an analogue wristwatch, stitched cardholder, chrome twist pen, and leather keychain. 100% customizable with brand name printing. Multiple color options available.',
+    longDescription: 'Timeless corporate recognition suite presented in a tailored presentation gift box.\n\n• Inclusions: Analogue quartz wristwatch with leather strap, metal and leatherette cardholder, chrome pen, and matching keychain\n• 100% Customizable: Watch dial, cardholder, pen, and keychain custom printable with company brand name\n• Color Options: Multiple strap and metal finish colorways available',
+    category: 'corporate',
+    categoryName: 'Corporate Gifting',
+    image: '/images/products/corp_chrono_classic_suite.png',
+    price: null,
+    priceFormatted: 'Custom Quote',
+    specifications: {
+      'Customization': '100% Customizable (Brand name and logo printable)',
+      'Color Options': 'Multiple Color Options Available (Classic Black & Chrome, Tan & Gold, Navy & Silver)',
+      'Inclusions': 'Analogue Quartz Watch, Business Card Case, Chrome Executive Pen, Leather Keychain',
+      'Watch Movement': 'Precision Quartz Movement with Mineral Glass Dial and Leather Strap',
+      'Packaging': 'Deluxe Silver-Grey Presentation Gift Box with Fitted Foam Compartments'
+    },
+    customizationOptions: [
+      'Company brand name and logo printed on watch dial and laser engraved on metal items',
+      'Multiple strap and hardware color options',
+      'Custom corporate outer sleeve and milestone insert'
+    ],
+    badge: '100% Customizable • 4-Piece Suite',
+    active: true,
+    featured: true,
+    createdAt: '2026-09-03'
   }
 ];
 
