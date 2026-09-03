@@ -47,14 +47,14 @@ export const ProductDetailModal: React.FC = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2">
           {/* Image Column */}
-          <div className="relative bg-[#E4D7CB]/40 aspect-4/3 md:aspect-auto md:h-full min-h-[300px] flex items-center justify-center p-2">
+          <div className="relative bg-[#FAF7F2] aspect-16/10 sm:aspect-16/9 md:aspect-auto md:h-full min-h-[300px] flex items-center justify-center p-4">
             <img
               src={product.image}
               alt={product.name}
-              className="w-full h-full object-contain md:object-cover"
+              className="w-full h-full max-h-[420px] object-contain object-center"
             />
             {product.badge && (
-              <div className="absolute top-4 left-4 bg-[#501B25] text-[#F7F2EC] text-[10px] font-semibold tracking-widest uppercase px-3 py-1 shadow-sm">
+              <div className="absolute top-4 left-4 bg-[#501B25] text-[#F7F2EC] text-[10px] font-semibold tracking-widest uppercase px-3 py-1 shadow-sm z-10">
                 {product.badge}
               </div>
             )}

@@ -1040,6 +1040,145 @@ export const INITIAL_PRODUCTS: Product[] = [
     active: true,
     featured: true,
     createdAt: '2026-09-03'
+  },
+  {
+    id: 'prod-corp-6',
+    name: 'White Executive 4-Piece Desk Suite',
+    slug: 'white-executive-4-piece-desk-suite',
+    description: 'White executive desk set with A5 journal, pen, key USB drive, and insulated coffee tumbler. 100% customizable with brand name printing. Multiple color options available.',
+    longDescription: 'Modern minimalist 4-piece corporate workstation set presented in a fitted black presentation box.\n\n• Inclusions: White hardcover notebook, matching twist pen, metal key-shaped USB flash drive, and flip-top insulated travel coffee tumbler\n• 100% Customizable: Precision laser engraved and printed company brand name and logo across all items\n• Color Options: Multiple product and gift box color combinations available',
+    category: 'corporate',
+    categoryName: 'Corporate Gifting',
+    image: '/images/products/corp_white_desk_suite.png',
+    price: null,
+    priceFormatted: 'Custom Quote',
+    specifications: {
+      'Customization': '100% Customizable (Brand name and logo printable)',
+      'Color Options': 'Multiple Color Options Available (White & Silver, Matte Black, Executive Slate)',
+      'Inclusions': 'Hardcover A5 Notebook, Executive Twist Pen, Metal Key USB Flash Drive, Insulated Coffee Tumbler',
+      'Drinkware': 'Double-Wall Insulated Stainless Steel Coffee Mug with Flip-Lock Lid & Carry Strap',
+      'Packaging': 'Deluxe Matte Black Gift Box with High-Density Foam Inlay'
+    },
+    customizationOptions: [
+      'Company brand name and logo printed on notebook and laser engraved on tumbler, pen, and USB',
+      'Multiple product color combinations',
+      'Custom box sleeve and onboarding insert card'
+    ],
+    badge: '100% Customizable • Desk Suite',
+    active: true,
+    featured: true,
+    createdAt: '2026-09-03'
+  },
+  {
+    id: 'prod-corp-7',
+    name: 'Royal Blue Travel & Desk Suite',
+    slug: 'royal-blue-travel-desk-suite',
+    description: 'Royal blue summit gift set with digital temperature bottle, mini USB desk fan, and compact umbrella. 100% customizable with brand name printing. Multiple color options available.',
+    longDescription: 'Contemporary 3-piece corporate gift suite presented in a vibrant royal blue presentation box.\n\n• Inclusions: Smart LED temperature display vacuum thermal flask, rechargeable portable mini fan, and windproof travel umbrella\n• 100% Customizable: Company brand name and corporate logo printable on flask, fan, and umbrella\n• Color Options: Multiple vibrant and executive colorways available',
+    category: 'corporate',
+    categoryName: 'Corporate Gifting',
+    image: '/images/products/corp_royal_blue_summit_suite.png',
+    price: null,
+    priceFormatted: 'Custom Quote',
+    specifications: {
+      'Customization': '100% Customizable (Brand name and logo printable)',
+      'Color Options': 'Multiple Color Options Available (Royal Blue, Midnight Black, Crimson Red)',
+      'Inclusions': 'Smart LED Temperature Flask (500ml), Portable USB Desk Fan, Compact Windproof Umbrella',
+      'Bottle Feature': 'Touch-Activated Smart Digital LED Temperature Display Cap',
+      'Packaging': 'Matching Royal Blue Rigid Presentation Box with Custom Cutout Slotting'
+    },
+    customizationOptions: [
+      'Company brand name and corporate logo printed or laser engraved across all items',
+      'Multiple color theme options',
+      'Bespoke gift box sleeve with event branding'
+    ],
+    badge: '100% Customizable • Tri-Piece Set',
+    active: true,
+    featured: true,
+    createdAt: '2026-09-03'
+  },
+  {
+    id: 'prod-corp-8',
+    name: 'Executive Onboarding Backpack Suite',
+    slug: 'executive-onboarding-backpack-suite',
+    description: 'Complete employee welcome kit with laptop backpack, sling bag, thermal bottle, phone stand, cardholder, notebook, and foldable stand. 100% customizable. Multiple color options available.',
+    longDescription: 'Comprehensive corporate welcome and new-hire onboarding kit packed in a presentation delivery box.\n\n• Inclusions: Navy laptop backpack, compact sling pouch, matte insulated bottle, mobile stand, metal cardholder, blue executive pen, bottle opener keychain, notebook, utility pouch, and foldable aluminum laptop stand\n• 100% Customizable: Company brand name and employee names printable across all suite items\n• Color Options: Multiple backpack and accessory colorways available',
+    category: 'corporate',
+    categoryName: 'Corporate Gifting',
+    image: '/images/products/corp_onboarding_backpack_suite.png',
+    price: null,
+    priceFormatted: 'Custom Quote',
+    specifications: {
+      'Customization': '100% Customizable (Brand name and logo printable)',
+      'Color Options': 'Multiple Color Options Available (Navy Blue, Stealth Black, Oxford Grey)',
+      'Inclusions': 'Laptop Backpack, Crossbody Sling, Thermal Bottle, Phone Stand, Card Case, Pen, Keychain, Notebook, Pouch, Laptop Riser',
+      'Packaging': 'Heavy-Duty Corporate Delivery Shipping Box with Custom Labeling'
+    },
+    customizationOptions: [
+      'Custom screen printing or embroidery on bags and laser engraving on metal accessories',
+      'Individual new-hire name personalization',
+      'Custom employee welcome letter insert'
+    ],
+    badge: '100% Customizable • Complete Onboarding',
+    active: true,
+    featured: true,
+    createdAt: '2026-09-03'
+  },
+  {
+    id: 'prod-corp-9',
+    name: 'Botanical Eco Desk & Planter Suite',
+    slug: 'botanical-eco-desk-planter-suite',
+    description: 'Sustainable desk set with carved wooden organizer, tabletop plant, stylus pen, bamboo cup, and glass bottle in linen sleeve. 100% customizable. Multiple color options available.',
+    longDescription: 'Organic and sustainable corporate desk hamper presented in an eco-friendly kraft gift box.\n\n• Inclusions: Carved natural beechwood phone and pen organizer, potted tabletop plant, wooden stylus pen, bamboo coffee cup with cork grip, and glass water bottle with linen sleeve and wood cap\n• 100% Customizable: Precision laser engraved company brand name on wood and bamboo items\n• Color Options: Multiple natural finishes and sleeve colors available',
+    category: 'corporate',
+    categoryName: 'Corporate Gifting',
+    image: '/images/products/corp_botanical_eco_planter_suite.png',
+    price: null,
+    priceFormatted: 'Custom Quote',
+    specifications: {
+      'Customization': '100% Customizable (Brand name and logo printable)',
+      'Color Options': 'Multiple Color Options Available (Natural Wood, Cork, Kraft Brown, Earth Tones)',
+      'Inclusions': 'Carved Wooden Desk Organizer, Tabletop Potted Plant, Wooden Stylus Pen, Bamboo Cup with Cork Band, Glass Water Bottle with Linen Sleeve',
+      'Materials': 'Natural Beechwood, Biodegradable Plant Pot, Glass, Eco-Linen, Sustainable Cork',
+      'Packaging': 'Natural Kraft Lidded Presentation Box with Fitted Eco Compartments'
+    },
+    customizationOptions: [
+      'Precision laser engraving of company brand name and logo on wooden organizer, cup, pen, and bottle cap',
+      'Choice of natural linen sleeve colors',
+      'Custom printed seed paper message card'
+    ],
+    badge: '100% Customizable • Eco Botanical',
+    active: true,
+    featured: true,
+    createdAt: '2026-09-03'
+  },
+  {
+    id: 'prod-corp-10',
+    name: 'Executive Wireless Power Bank & Tech Suite',
+    slug: 'executive-wireless-power-bank-tech-suite',
+    description: '4-piece tech set with digital display power bank, slim wireless mouse, executive pen, and metal USB flash drive. 100% customizable with brand name printing. Multiple color options available.',
+    longDescription: 'Modern tech executive recognition hamper presented in a fitted matte black gift box.\n\n• Inclusions: High-capacity digital LED battery display power bank, ergonomic wireless mouse, executive twist pen with gold clip, and swivel metal USB drive\n• 100% Customizable: Company brand name and corporate logo precision printed and laser engraved\n• Color Options: Multiple finish and device color options available',
+    category: 'corporate',
+    categoryName: 'Corporate Gifting',
+    image: '/images/products/corp_wireless_tech_powerbank_suite.png',
+    price: null,
+    priceFormatted: 'Custom Quote',
+    specifications: {
+      'Customization': '100% Customizable (Brand name and logo printable)',
+      'Color Options': 'Multiple Color Options Available (Pure White & Gold, Midnight Black, Titanium Silver)',
+      'Inclusions': 'Digital LED Display Power Bank, Ergonomic 2.4GHz Wireless Mouse, Twist Pen with Gold Accents, Swivel Metal USB Flash Drive',
+      'Power Bank': 'High-Capacity Fast-Charging Battery with Real-Time Percentage Display',
+      'Packaging': 'Deluxe Matte Black Gift Box with Fitted Velvet Compartments'
+    },
+    customizationOptions: [
+      'Company brand name and corporate logo printed or laser engraved across all 4 devices',
+      'Individual recipient name personalization',
+      'Custom corporate outer sleeve and tech milestone card'
+    ],
+    badge: '100% Customizable • Tech Suite',
+    active: true,
+    featured: true,
+    createdAt: '2026-09-03'
   }
 ];
 

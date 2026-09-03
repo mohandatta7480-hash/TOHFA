@@ -36,19 +36,19 @@ export const ProductCard: React.FC<ProductCardProps> = ({
     <div className="group relative bg-[#FAF7F2] border border-[#E4D7CB] hover:border-[#A58266] transition-all duration-300 flex flex-col justify-between overflow-hidden">
       {/* Product Image Container */}
       <div 
-        className="relative aspect-4/3 w-full bg-[#E4D7CB]/40 overflow-hidden cursor-pointer"
+        className="relative aspect-16/10 sm:aspect-16/9 w-full bg-[#FAF7F2] overflow-hidden cursor-pointer flex items-center justify-center p-2.5"
         onClick={handleOpenDetail}
       >
         <img
           src={product.image}
           alt={product.name}
           loading="lazy"
-          className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500 ease-out"
+          className="w-full h-full object-contain object-center group-hover:scale-105 transition-transform duration-500 ease-out"
         />
         
         {/* Badge */}
         {product.badge && (
-          <div className="absolute top-3 left-3 bg-[#501B25] text-[#F7F2EC] text-[10px] font-semibold tracking-widest uppercase px-2.5 py-1">
+          <div className="absolute top-3 left-3 bg-[#501B25] text-[#F7F2EC] text-[10px] font-semibold tracking-widest uppercase px-2.5 py-1 z-10 shadow-xs">
             {product.badge}
           </div>
         )}
@@ -56,7 +56,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({
         {/* Quick View Button overlay */}
         <button
           onClick={handleOpenDetail}
-          className="absolute inset-0 bg-[#141C33]/20 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center gap-1.5 text-xs tracking-wider uppercase font-medium text-white backdrop-blur-[2px]"
+          className="absolute inset-0 bg-[#141C33]/20 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center gap-1.5 text-xs tracking-wider uppercase font-medium text-white backdrop-blur-[2px] z-10"
           aria-label={`View details for ${product.name}`}
         >
           <span className="bg-[#501B25] text-[#F7F2EC] px-3 py-1.5 flex items-center gap-1.5 shadow-md">
