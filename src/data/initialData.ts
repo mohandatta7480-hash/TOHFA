@@ -1053,6 +1053,58 @@ export const INITIAL_PRODUCTS: Product[] = [
     featured: true,
     createdAt: '2026-09-03'
   },
+  {
+    id: 'prod-fest-11',
+    name: 'Niloufar Garden 6-Jar Hamper',
+    slug: 'niloufar-garden-6-jar-hamper',
+    description: 'Pavilion fresco keepsake chest with brass clasp, golden satin lining, and 6 glass dry fruit jars. 100% customizable.',
+    longDescription: 'Grand Mughal pavilion and lotus pond illustrated keepsake chest.\n\n• Inclusions: 6 wide-mouth glass jars with illustrated lids filled with premium dry fruits and gourmet treats on a golden satin bed\n• 100% Customizable: Select any combination of nuts, sweets, and savory nibbles\n• Packaging: Sturdy lidded presentation trunk with polished brass latch and custom corporate sleeve',
+    category: 'festive',
+    categoryName: 'Festive Gifting',
+    image: '/images/products/festive_niloufar_garden_6jar_chest.png',
+    price: null,
+    priceFormatted: 'Custom Quote',
+    specifications: {
+      'Box Nature': 'Grand Royal 6-Jar Keepsake Trunk (100% Customizable)',
+      'Customization': '100% Customizable: Handpick contents of all 6 glass jars',
+      'Inclusions': 'Pavilion Illustrated Chest, 6 Illustrated Glass Jars, Golden Satin Bed',
+      'Packaging': 'Lidded Presentation Trunk with Polished Brass Clasp & Custom Sleeve'
+    },
+    customizationOptions: [
+      'Handpick 6 jars from our full dry fruits and sweets collection',
+      'Corporate logo foil stamping on keepsake chest',
+      'Personalized festival greeting card'
+    ],
+    active: true,
+    featured: true,
+    createdAt: '2026-09-03'
+  },
+  {
+    id: 'prod-fest-12',
+    name: 'Ikigai Serenity Wellness Hamper',
+    slug: 'ikigai-serenity-wellness-hamper',
+    description: 'Forest green and gold gift box with Ikigai hardcover book, artisanal cocoa chocolate, and bubble candle. 100% customizable.',
+    longDescription: 'Mindful wellness and festive indulgence hamper presented in a forest green gift box.\n\n• Inclusions: Hardcover edition of Ikigai, single-origin artisanal dark chocolate bar, and hand-poured bubble cube scented candle\n• 100% Customizable: Custom choice of books, gourmet treats, and branded greeting card\n• Packaging: Rigid forest green gift box with satin gold ribbon bow',
+    category: 'festive',
+    categoryName: 'Festive Gifting',
+    image: '/images/products/festive_ikigai_serenity_hamper.png',
+    price: null,
+    priceFormatted: 'Custom Quote',
+    specifications: {
+      'Box Nature': 'Wellness & Mindfulness Festive Hamper (100% Customizable)',
+      'Customization': '100% Customizable: Handpick books, treats, and candles',
+      'Inclusions': 'Ikigai Hardcover Book, Artisanal Chocolate Bar, Scented Bubble Candle',
+      'Packaging': 'Matte Forest Green Rigid Box with Gold Ribbon Bow and Cushioning'
+    },
+    customizationOptions: [
+      'Choice of books and gourmet confectionery',
+      'Custom printed gold foil logo on box lid',
+      'Personalized corporate greeting card'
+    ],
+    active: true,
+    featured: true,
+    createdAt: '2026-09-03'
+  },
 
   // ==========================================
   // CORPORATE GIFTING (100% Customizable & Brand Printable)
