@@ -418,7 +418,6 @@ export const INITIAL_PRODUCTS: Product[] = [
       'Individual airtight trays for freshness',
       'Personalized greeting card with corporate note'
     ],
-    badge: 'Festive Mithai • Multiple Options',
     active: true,
     featured: true,
     createdAt: '2026-02-19'
@@ -447,7 +446,6 @@ export const INITIAL_PRODUCTS: Product[] = [
       'Airtight packaging inside compartments for maximum crispness',
       'Custom satin ribbon and foil stamped gift card'
     ],
-    badge: 'Pick Any Dry Fruit • Flavored Options',
     active: true,
     featured: true,
     createdAt: '2026-02-20'
@@ -475,7 +473,6 @@ export const INITIAL_PRODUCTS: Product[] = [
       'Custom corporate branding sleeve on outer container',
       'Multi-flavor tasting bundles for corporate gifting'
     ],
-    badge: 'Roasted Khakhra • Multiple Flavours',
     active: true,
     featured: true,
     createdAt: '2026-02-21'
@@ -503,7 +500,6 @@ export const INITIAL_PRODUCTS: Product[] = [
       'Custom kraft label with corporate brand logo and message',
       'Gift hamper inclusion with personalized greeting card'
     ],
-    badge: '100% Natural • Custom Branded',
     active: true,
     featured: true,
     createdAt: '2026-02-22'
@@ -531,7 +527,6 @@ export const INITIAL_PRODUCTS: Product[] = [
       'Custom corporate branded cookie tin or presentation box',
       'Eggless and gluten-free batch options available on request'
     ],
-    badge: 'Fresh Baked • Multiple Flavours',
     active: true,
     featured: true,
     createdAt: '2026-02-23'
@@ -559,7 +554,6 @@ export const INITIAL_PRODUCTS: Product[] = [
       'Custom branded packaging sleeve or jar label',
       'Assorted flavor gift packs'
     ],
-    badge: 'Healthy Energy Bites • Multiple Flavours',
     active: true,
     featured: true,
     createdAt: '2026-09-02'
@@ -587,7 +581,6 @@ export const INITIAL_PRODUCTS: Product[] = [
       'Custom company logo sticker or sleeve',
       'Individual or multi-flavor gift hampers'
     ],
-    badge: 'Roasted Makhana • Multiple Flavours',
     active: true,
     featured: true,
     createdAt: '2026-09-02'
@@ -615,7 +608,6 @@ export const INITIAL_PRODUCTS: Product[] = [
       'Custom corporate branded label and message tag',
       'Pairing with custom gift boxes and breakfast trays'
     ],
-    badge: 'Gourmet Mixes • Multiple Options',
     active: true,
     featured: true,
     createdAt: '2026-09-02'
@@ -643,7 +635,6 @@ export const INITIAL_PRODUCTS: Product[] = [
       'Custom branded tin or glass jar packaging',
       'Festive box inclusion with custom welcome note'
     ],
-    badge: 'Natural Mukhwas • Unique Flavours',
     active: true,
     featured: true,
     createdAt: '2026-09-02'
@@ -671,7 +662,6 @@ export const INITIAL_PRODUCTS: Product[] = [
       'Custom branded canister or airtight gift pouch',
       'Corporate gift box assortment with personalized message'
     ],
-    badge: 'Healthy Savouries • Multiple Options',
     active: true,
     featured: true,
     createdAt: '2026-09-02'
@@ -699,7 +689,6 @@ export const INITIAL_PRODUCTS: Product[] = [
       'Custom corporate branded box sleeve and ribbon',
       'Assorted truffle count (12-piece, 18-piece, or 24-piece boxes)'
     ],
-    badge: 'Ooty & Kodaikanal • Handmade Chocolates',
     active: true,
     featured: true,
     createdAt: '2026-09-02'
@@ -727,7 +716,6 @@ export const INITIAL_PRODUCTS: Product[] = [
       'Custom printed jute sack or foil pouch with company logo',
       'Pairing with brass coffee filters or coffee mugs'
     ],
-    badge: 'Finest Arabica & Robusta • Whole Beans',
     active: true,
     featured: true,
     createdAt: '2026-09-02'
@@ -755,7 +743,6 @@ export const INITIAL_PRODUCTS: Product[] = [
       'Custom corporate branded label and message note',
       'Optional inclusion of traditional brass coffee filter and brass scoop'
     ],
-    badge: 'Finest Arabica & Robusta • Fresh Ground',
     active: true,
     featured: true,
     createdAt: '2026-09-02'
@@ -783,7 +770,6 @@ export const INITIAL_PRODUCTS: Product[] = [
       'Custom vinyl jar sticker printing',
       'Optional mini wooden honey dipper stick included'
     ],
-    badge: '100% Pure • Raw Honey',
     active: true,
     featured: true,
     createdAt: '2026-09-03'
