@@ -56,7 +56,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     id: 'prod-merch-1',
     name: 'Stick-On Phone Card Wallet',
     slug: 'phone-pasteable-stick-on-card-holder',
-    description: 'Slim adhesive leatherette phone wallet with card quick-pull notch. 100% customizable: deboss or print your company brand logo and custom artwork.',
+    description: 'Slim adhesive leatherette phone wallet with card notch. 100% customizable with brand name printing. Multiple color and design options available with a bunch more variations to choose from.',
     longDescription: 'Ultra-slim premium leatherette card holder engineered to mount securely onto any smartphone or case with residue-free adhesive backing.\n\n• 100% Customizable: Precision debossed or screen-printed brand logo on genuine-feel leatherette\n• Card Capacity: Holds 1 to 2 credit cards, ID cards, or office keycards with thumb cutout\n• Finish Options: Available in distressed vintage brown, midnight black, and navy',
     category: 'merchandise',
     categoryName: 'Customizable Merchandise',
@@ -76,7 +76,6 @@ export const INITIAL_PRODUCTS: Product[] = [
       'Multiple leatherette colorways (Vintage Tan, Noir Black, Navy Blue)',
       'Individual presentation backing card with custom brand story'
     ],
-    badge: '100% Customizable • Brand Printable',
     active: true,
     featured: true,
     createdAt: '2026-02-28'
@@ -85,7 +84,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     id: 'prod-merch-2',
     name: 'Wooden Tea Coaster Set',
     slug: 'natural-wooden-tea-coaster-set',
-    description: 'Handcrafted round solid wood tea and coffee coasters with rimmed lip and stand. 100% customizable: laser engrave your company logo, brand motto, or event graphics.',
+    description: 'Handcrafted solid wood coasters with rimmed lip and stand. 100% customizable: laser engrave brand logo and graphics. Multiple wood finishes, shapes, and design options available.',
     longDescription: 'Artisan solid wood coasters with raised perimeter lip, showcasing natural grain and rich walnut finish. Includes matching wooden stand.\n\n• 100% Customizable: Deep precision laser engraving of corporate logo, brand emblem, or tagline\n• Surface Protection: Heat-resistant and condensation-safe for executive desk setups\n• Set Options: Available as single desk coasters or 4/6-piece sets with branded stand',
     category: 'merchandise',
     categoryName: 'Customizable Merchandise',
@@ -105,7 +104,6 @@ export const INITIAL_PRODUCTS: Product[] = [
       'Choice of natural walnut, teak, or beech wood finishes',
       'Kraft gift box packaging with personalized corporate sleeve'
     ],
-    badge: '100% Customizable • Laser Engraved',
     active: true,
     featured: true,
     createdAt: '2026-02-28'
@@ -114,7 +112,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     id: 'prod-merch-3',
     name: 'Aluminum Executive Card Holder',
     slug: 'executive-pocket-card-holder',
-    description: 'Ultra-slim brushed aerospace aluminum card holder with thumb slide notch. 100% customizable: precision laser engrave company logo, employee names, and brand slogans.',
+    description: 'Ultra-slim brushed aluminum card holder with thumb slide. 100% customizable: precision laser engrave company logo and names. Multiple metallic color and finish options available.',
     longDescription: 'Precision-machined brushed aluminum card case engineered for executive pockets and modern desk setups. Protects business cards, credit cards, and RFID cards.\n\n• 100% Customizable: Precision fiber laser engraving of corporate logo, employee name, or milestone date\n• Quick-Access Design: Ergonomic thumb slide notch for instant one-handed card presentation\n• Capacity & Build: Holds up to 15 business cards or 6 embossed credit cards in rigid RFID-blocking aluminum',
     category: 'merchandise',
     categoryName: 'Customizable Merchandise',
@@ -134,7 +132,6 @@ export const INITIAL_PRODUCTS: Product[] = [
       'Custom corporate color anodizing for bulk orders',
       'Matte black presentation gift box with silver foil logo'
     ],
-    badge: '100% Customizable • Laser Engraved',
     active: true,
     featured: true,
     createdAt: '2026-02-28'
@@ -143,7 +140,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     id: 'prod-merch-4',
     name: 'Custom Crew Neck T-Shirt',
     slug: 'customizable-round-neck-tshirt',
-    description: '100% bio-washed combed cotton crew neck t-shirt for corporate teams and event merchandise. 100% customizable: print your logo on front, back, and sleeves.',
+    description: '100% bio-washed combed cotton crew neck t-shirt. 100% customizable: print your logo on front, back, and sleeves. Multiple fabric color and design options available with a bunch more variations.',
     longDescription: 'Ultra-comfortable everyday crew neck t-shirt crafted from breathable, pre-shrunk combed cotton. Ideal for tech teams and company events.\n\n• 100% Customizable: Screen print, high-definition DTF, or embroidered logo on left chest and full back\n• Premium Comfort: 180 GSM bio-washed cotton, double-stitched hem, and ribbed neckband\n• Color & Size Range: Available in all corporate shades from S to 3XL',
     category: 'merchandise',
     categoryName: 'Customizable Merchandise',
@@ -163,7 +160,6 @@ export const INITIAL_PRODUCTS: Product[] = [
       'Multiple fabric color choices matching corporate brand palette',
       'Custom woven inside neck label and individual polybag packaging'
     ],
-    badge: '100% Customizable • Front & Back Print',
     active: true,
     featured: true,
     createdAt: '2026-02-28'
@@ -172,7 +168,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     id: 'prod-merch-5',
     name: 'Custom Collared Polo T-Shirt',
     slug: 'customizable-collared-polo-tshirt',
-    description: 'Classic pique knit collared polo with 2-button placket. 100% customizable: embroider company insignia on front chest and print full branding across the back.',
+    description: 'Classic pique knit collared polo with 2-button placket. 100% customizable: embroider company insignia on front chest and print full branding across the back. Multiple shirt colors and collar design options available.',
     longDescription: 'Executive cotton pique polo shirt featuring ribbed knit collar, reinforced button placket, and side split hem. Designed for modern corporate styling.\n\n• 100% Customizable: Premium high-density embroidery on chest and bold graphic printing across back\n• Breathable Fabric: Heavy-duty 220 GSM pique matty cotton with color-fast dye\n• Styling Options: Contrast tipping, custom branded neck label, and assorted corporate colors',
     category: 'merchandise',
     categoryName: 'Customizable Merchandise',
@@ -192,7 +188,6 @@ export const INITIAL_PRODUCTS: Product[] = [
       'Custom dyed fabric or contrast collar tipping options',
       'Custom branded neck tag and premium garment packaging'
     ],
-    badge: '100% Customizable • Embroidered & Printed',
     active: true,
     featured: true,
     createdAt: '2026-02-28'
@@ -201,7 +196,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     id: 'prod-merch-6',
     name: 'Vintage Buckle Leather Journal',
     slug: 'personalized-vintage-leather-journal-pen-set',
-    description: 'Artisan handcrafted tan leather journal with antique brass buckle strap and ribbon bookmark. 100% customizable: blind deboss or laser engrave your brand logo and name.',
+    description: 'Artisan handcrafted tan leather journal with antique brass buckle strap and ribbon bookmark. 100% customizable with brand logo. Multiple diary colors, leather finishes, and design options available with a bunch more variations.',
     longDescription: 'Heirloom-grade notebook bound in supple distressed vegan leather with an authentic antique brass roller buckle closure strap and ribbon marker.\n\n• 100% Customizable: Deep heat-stamped blind debossing or laser engraving of company logo and recipient name\n• Premium Pages: 192 bleed-resistant acid-free natural ruled pages for executive journaling\n• Packaging: Luxury rigid presentation box with custom corporate sleeve',
     category: 'merchandise',
     categoryName: 'Customizable Merchandise',
@@ -221,7 +216,6 @@ export const INITIAL_PRODUCTS: Product[] = [
       'Custom printed corporate welcome page inserted inside',
       'Deluxe presentation gift box with customized belly band'
     ],
-    badge: '100% Customizable • Brand Debossed',
     active: true,
     featured: true,
     createdAt: '2026-02-28'
@@ -230,7 +224,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     id: 'prod-merch-7',
     name: 'Matte Black Executive Pen',
     slug: 'custom-engraved-executive-metal-pen',
-    description: 'Matte black retractable metal pen with silver accents and comfort grip. 100% customizable: laser engrave your company brand logo and text.',
+    description: 'Matte black retractable metal pen with silver accents and comfort grip. 100% customizable: laser engrave company logo and text. Multiple pen barrel colors and design options available.',
     longDescription: 'Precision metal retractable ballpoint pen with matte black barrel, textured rubber comfort grip, and polished chrome pocket clip.\n\n• 100% Customizable: Crisp laser engraving of company logo and brand name\n• Writing Performance: German tungsten carbide refill with smooth smudge-free blue ink\n• Design: Click-action plunger with durable stainless steel clip',
     category: 'merchandise',
     categoryName: 'Customizable Merchandise',
@@ -249,7 +243,6 @@ export const INITIAL_PRODUCTS: Product[] = [
       'Individual recipient name personalization',
       'Custom velvet presentation sleeve or gift box'
     ],
-    badge: '100% Customizable • Laser Engraved',
     active: true,
     featured: true,
     createdAt: '2026-02-28'
@@ -258,7 +251,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     id: 'prod-merch-8',
     name: 'Custom Heavyweight Hoodie',
     slug: 'customizable-premium-heavyweight-hoodie',
-    description: 'Plush fleece pullover hoodie with kangaroo pocket and double-lined hood. 100% customizable: print or embroider brand logo on chest, sleeves, and full back.',
+    description: 'Plush fleece pullover hoodie with kangaroo pocket. 100% customizable: print or embroider logo on chest and back. Multiple hoodie colors, fits, and design options available.',
     longDescription: 'Heavyweight unisex pullover hoodie tailored from brushed fleece cotton for ultimate warmth and modern streetwear fit.\n\n• 100% Customizable: High-definition DTF print or embroidery on front chest, kangaroo pocket, and full back panel\n• Heavyweight Fabric: 320 GSM combed cotton fleece with thermal inner lining and matching drawstrings\n• Durability: Ribbed cuffs and waistband with spandex for shape retention; sizes XS to 3XL',
     category: 'merchandise',
     categoryName: 'Customizable Merchandise',
@@ -278,7 +271,6 @@ export const INITIAL_PRODUCTS: Product[] = [
       'Multiple fleece color options (Black, Charcoal, Navy, Maroon, Grey)',
       'Custom woven neck label and presentation polybag'
     ],
-    badge: '100% Customizable • Front & Back Print',
     active: true,
     featured: true,
     createdAt: '2026-09-02'
@@ -291,7 +283,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     id: 'prod-gadget-1',
     name: 'ErgoFold Silver Laptop Stand',
     slug: 'ergofold-pro-silver-aluminum-laptop-stand',
-    description: 'Foldable CNC aluminum ergonomic laptop riser in anodized silver. 100% customizable: laser engrave your company logo on the support arm.',
+    description: 'Foldable CNC aluminum ergonomic laptop riser in anodized silver. 100% customizable with laser engraved logo. Multiple finish colors and design options available.',
     longDescription: 'Precision-machined aircraft-grade aluminum laptop stand engineered with multi-level angle adjustment, non-slip silicone pads, and ventilated cooling.\n\n• 100% Customizable: Precision laser engraved corporate logo on aluminum base arm\n• Ergonomic Comfort: Multi-angle height adjustment for healthy posture and screen alignment\n• Universal Fit: Compatible with 10 to 17.3 inch laptops; folds flat with carry pouch',
     category: 'gadgets',
     categoryName: 'Gadget Gifting',
@@ -312,7 +304,6 @@ export const INITIAL_PRODUCTS: Product[] = [
       'Custom printed protective velvet/felt carry pouch',
       'Corporate gift box sleeve with welcome insert'
     ],
-    badge: '100% Customizable • Laser Engraved',
     active: true,
     featured: true,
     createdAt: '2026-02-24'
@@ -321,7 +312,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     id: 'prod-gadget-2',
     name: 'ErgoFold Black Laptop Stand',
     slug: 'ergofold-pro-black-aluminum-laptop-stand',
-    description: 'Matte black anodized aluminum collapsible laptop riser with dual triangle support. 100% customizable: laser engrave company logo and text.',
+    description: 'Matte black aluminum collapsible laptop riser with dual triangle support. 100% customizable with laser engraved logo. Multiple metallic color and design options available.',
     longDescription: 'Heavy-duty matte black aluminum laptop stand offering stable dual-triangle support, ventilated heat dissipation, and compact portability.\n\n• 100% Customizable: Crisp laser engraving of brand logo and company name\n• Rock-Solid Stability: Non-slip silicone padding with multi-angle height tilt\n• Portable Design: Rapid collapsible folding mechanism with protective carry pouch',
     category: 'gadgets',
     categoryName: 'Gadget Gifting',
@@ -341,7 +332,6 @@ export const INITIAL_PRODUCTS: Product[] = [
       'Custom branded protective sleeve',
       'Gift box packaging with personalized onboarding card'
     ],
-    badge: '100% Customizable • Laser Engraved',
     active: true,
     featured: true,
     createdAt: '2026-02-25'
@@ -350,7 +340,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     id: 'prod-gadget-3',
     name: 'Orbit 360 Swivel Phone Stand',
     slug: 'orbit-360-swivel-rotatable-mobile-stand',
-    description: 'Heavy-duty matte black 360-degree rotating desktop phone stand with dual hinges. 100% customizable: laser engrave individual names and brand logo.',
+    description: 'Heavy-duty 360-degree rotating desktop phone stand with dual hinges. 100% customizable with laser engraved logo and names. Multiple color and dock design options available.',
     longDescription: 'Solid metal rotating desktop phone dock featuring a mechanical 360-degree swivel bearing base and dual-axis folding hinges.\n\n• 100% Customizable: Precision laser engraved employee name or corporate logo on backplate\n• 360 Swivel Rotation: Tactile mechanical turntable for easy desk sharing and video meetings\n• Cable Routing: Integrated charging port slot with anti-scratch silicone cushions',
     category: 'gadgets',
     categoryName: 'Gadget Gifting',
@@ -369,7 +359,6 @@ export const INITIAL_PRODUCTS: Product[] = [
       'Individual name personalization for team gifting',
       'Rigid presentation gift box packaging'
     ],
-    badge: '360 Swivel • Laser Engraved',
     active: true,
     featured: true,
     createdAt: '2026-02-26'
@@ -378,7 +367,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     id: 'prod-gadget-4',
     name: 'Apex Aluminum Phone Cradle',
     slug: 'apex-precision-aluminum-desktop-phone-cradle',
-    description: 'Minimalist triangular matte black aluminum desktop phone cradle. 100% customizable: laser engrave employee names and company logos.',
+    description: 'Minimalist triangular aluminum desktop phone cradle. 100% customizable: laser engrave employee names and logos. Multiple color finishes and design options available.',
     longDescription: 'Single-piece bent aerospace aluminum phone stand designed with an optimal 60-degree viewing angle for hands-free desk monitoring.\n\n• 100% Customizable: Laser engraved individual recipient name or company logo across base plate\n• Premium Protection: Thick silicone cushioning pads on device rest and base bottom\n• Cable Port: Rear pass-through cutout for clean desk cable management',
     category: 'gadgets',
     categoryName: 'Gadget Gifting',
@@ -397,7 +386,6 @@ export const INITIAL_PRODUCTS: Product[] = [
       'Individual recipient name personalization',
       'Custom presentation gift box with corporate card'
     ],
-    badge: '100% Customizable • Laser Engraved',
     active: true,
     featured: true,
     createdAt: '2026-02-27'
@@ -830,7 +818,6 @@ export const INITIAL_PRODUCTS: Product[] = [
       'Multiple Box Colorways & Custom Dimensions Available',
       'Personalized Employee / Client Name Inserts'
     ],
-    badge: '100% Customizable Sample Box',
     active: true,
     featured: true,
     createdAt: '2026-02-16'
@@ -861,7 +848,6 @@ export const INITIAL_PRODUCTS: Product[] = [
       'Custom Branded Glass & Tin Packaging Labels',
       'Bespoke Greeting Card with Leadership Signatures'
     ],
-    badge: '100% Customizable Sample Box',
     active: true,
     featured: true,
     createdAt: '2026-02-17'
@@ -892,7 +878,6 @@ export const INITIAL_PRODUCTS: Product[] = [
       'Multiple Box Colors (Ivory White, Deep Burgundy, Royal Navy)',
       'Custom Wax-Sealed Festive Gift Card'
     ],
-    badge: '100% Customizable Sample Box',
     active: true,
     featured: true,
     createdAt: '2026-02-18'
@@ -905,7 +890,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     id: 'prod-corp-1',
     name: 'Insignia Insulated Egg Tumbler',
     slug: 'insignia-insulated-egg-tumbler',
-    description: 'Stemless double-wall insulated stainless steel tumbler with spill-proof slide lid. 100% customizable with brand name printing. Multiple color options available.',
+    description: 'Stemless double-wall insulated stainless steel tumbler with slide lid. 100% customizable with brand name printing. Multiple color options and bottle designs available with a bunch more variations.',
     longDescription: 'Stemless stainless steel thermal tumbler engineered for hot and cold beverages.\n\n• 100% Customizable: Laser engraved or screen printed company brand name and logo\n• Color Options: Multiple metallic and matte color choices available\n• Build: Double-wall vacuum insulation with splash-proof slide lid',
     category: 'corporate',
     categoryName: 'Corporate Gifting',
@@ -924,7 +909,6 @@ export const INITIAL_PRODUCTS: Product[] = [
       'Multiple metallic and powder coat color options',
       'Custom presentation packaging with company branding'
     ],
-    badge: '100% Customizable • Color Options',
     active: true,
     featured: true,
     createdAt: '2026-09-03'
@@ -933,7 +917,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     id: 'prod-corp-2',
     name: 'Executive Laptop Briefcase Suite',
     slug: 'executive-laptop-briefcase-suite',
-    description: 'Premium leather laptop bag with matching thermal bottle, journal, cardholder with USB, phone stand, keychain, and pen. 100% customizable with brand name printing. Multiple color options available.',
+    description: 'Premium leather laptop bag with thermal bottle, journal, cardholder, USB, phone stand, keychain, and pen. 100% customizable with brand name printing. Multiple color and design options available with a bunch more variations to choose from.',
     longDescription: 'All-in-one corporate executive onboarding set featuring a tailored vegan leather laptop briefcase and desk accessories.\n\n• Inclusions: Laptop bag, vacuum thermal flask, A5 organizer journal, card case with USB drive, mobile stand, keychain, and executive pen\n• 100% Customizable: Precision laser engraved and printed company brand name on all items\n• Color Options: Multiple executive colorways available',
     category: 'corporate',
     categoryName: 'Corporate Gifting',
@@ -952,7 +936,6 @@ export const INITIAL_PRODUCTS: Product[] = [
       'Individual recipient name personalization',
       'Multiple leather and metallic accent color choices'
     ],
-    badge: '100% Customizable • Complete Suite',
     active: true,
     featured: true,
     createdAt: '2026-09-03'
@@ -961,7 +944,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     id: 'prod-corp-3',
     name: 'Ivory Executive Gift Box',
     slug: 'ivory-executive-gift-box',
-    description: 'Luxury gift hamper with insulated travel coffee mug, leatherette organizer journal, executive pen, and Ferrero Rocher chocolates. 100% customizable with brand name printing. Multiple color options available.',
+    description: 'Luxury gift hamper with insulated travel coffee mug, leatherette journal, executive pen, and Ferrero Rocher chocolates. 100% customizable with brand name printing. Multiple color and design options available with a bunch more variations.',
     longDescription: 'Curated corporate desk and indulgence hamper presented in a rigid gift box with satin bow.\n\n• Inclusions: Insulated travel coffee tumbler with silicone grip band, matching ivory journal, executive pen, and Ferrero Rocher chocolates\n• 100% Customizable: Brand name and company logo printed or laser engraved across all items\n• Color Options: Multiple tumbler, journal, and box colorways available',
     category: 'corporate',
     categoryName: 'Corporate Gifting',
@@ -980,7 +963,6 @@ export const INITIAL_PRODUCTS: Product[] = [
       'Multiple gift box and product color combinations',
       'Custom corporate message card and outer sleeve'
     ],
-    badge: '100% Customizable • Indulgence Set',
     active: true,
     featured: true,
     createdAt: '2026-09-03'
@@ -989,7 +971,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     id: 'prod-corp-4',
     name: 'Sovereign Eco Executive Suite',
     slug: 'sovereign-eco-executive-suite',
-    description: 'Sustainable 5-piece hamper with natural beechwood notebook, bamboo mug, thermal flask, bamboo pen, and cork keychain. 100% customizable with brand name printing. Multiple color options available.',
+    description: 'Sustainable 5-piece hamper with beechwood notebook, bamboo mug, thermal flask, bamboo pen, and cork keychain. 100% customizable with brand name printing. Multiple wood finishes, bottle colors, and design options available.',
     longDescription: 'Eco-conscious executive collection pairing natural wood and bamboo with modern insulated drinkware.\n\n• Inclusions: Natural beechwood journal, stainless steel bamboo mug, matte thermal bottle with wood cap, bamboo twist pen, and cork keychain\n• 100% Customizable: Precision laser engraved company brand name and logo on wood and metal surfaces\n• Color Options: Multiple wood finish and bottle color options available',
     category: 'corporate',
     categoryName: 'Corporate Gifting',
@@ -1008,7 +990,6 @@ export const INITIAL_PRODUCTS: Product[] = [
       'Multiple bottle color and wood finish choices',
       'Custom printed corporate box sleeve and welcome card'
     ],
-    badge: '100% Customizable • Eco Sustainable',
     active: true,
     featured: true,
     createdAt: '2026-09-03'
@@ -1017,7 +998,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     id: 'prod-corp-5',
     name: 'Chrono Classic 4-Piece Suite',
     slug: 'chrono-classic-executive-suite',
-    description: 'Distinguished 4-piece set featuring an analogue wristwatch, stitched cardholder, chrome twist pen, and leather keychain. 100% customizable with brand name printing. Multiple color options available.',
+    description: 'Distinguished 4-piece set with analogue wristwatch, stitched cardholder, chrome pen, and leather keychain. 100% customizable with brand name printing. Multiple strap colors, metal finishes, and design options available.',
     longDescription: 'Timeless corporate recognition suite presented in a tailored presentation gift box.\n\n• Inclusions: Analogue quartz wristwatch with leather strap, metal and leatherette cardholder, chrome pen, and matching keychain\n• 100% Customizable: Watch dial, cardholder, pen, and keychain custom printable with company brand name\n• Color Options: Multiple strap and metal finish colorways available',
     category: 'corporate',
     categoryName: 'Corporate Gifting',
@@ -1036,7 +1017,6 @@ export const INITIAL_PRODUCTS: Product[] = [
       'Multiple strap and hardware color options',
       'Custom corporate outer sleeve and milestone insert'
     ],
-    badge: '100% Customizable • 4-Piece Suite',
     active: true,
     featured: true,
     createdAt: '2026-09-03'
@@ -1045,7 +1025,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     id: 'prod-corp-6',
     name: 'White Executive 4-Piece Desk Suite',
     slug: 'white-executive-4-piece-desk-suite',
-    description: 'White executive desk set with A5 journal, pen, key USB drive, and insulated coffee tumbler. 100% customizable with brand name printing. Multiple color options available.',
+    description: 'White executive desk set with A5 journal, pen, key USB drive, and insulated coffee tumbler. 100% customizable with brand name printing. Multiple color options, tumbler styles, and diary designs available with a bunch more variations.',
     longDescription: 'Modern minimalist 4-piece corporate workstation set presented in a fitted black presentation box.\n\n• Inclusions: White hardcover notebook, matching twist pen, metal key-shaped USB flash drive, and flip-top insulated travel coffee tumbler\n• 100% Customizable: Precision laser engraved and printed company brand name and logo across all items\n• Color Options: Multiple product and gift box color combinations available',
     category: 'corporate',
     categoryName: 'Corporate Gifting',
@@ -1064,7 +1044,6 @@ export const INITIAL_PRODUCTS: Product[] = [
       'Multiple product color combinations',
       'Custom box sleeve and onboarding insert card'
     ],
-    badge: '100% Customizable • Desk Suite',
     active: true,
     featured: true,
     createdAt: '2026-09-03'
@@ -1073,7 +1052,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     id: 'prod-corp-7',
     name: 'Royal Blue Travel & Desk Suite',
     slug: 'royal-blue-travel-desk-suite',
-    description: 'Royal blue summit gift set with digital temperature bottle, mini USB desk fan, and compact umbrella. 100% customizable with brand name printing. Multiple color options available.',
+    description: 'Royal blue summit gift set with digital temperature bottle, mini USB desk fan, and compact umbrella. 100% customizable with brand name printing. Multiple vibrant color and accessory design options available.',
     longDescription: 'Contemporary 3-piece corporate gift suite presented in a vibrant royal blue presentation box.\n\n• Inclusions: Smart LED temperature display vacuum thermal flask, rechargeable portable mini fan, and windproof travel umbrella\n• 100% Customizable: Company brand name and corporate logo printable on flask, fan, and umbrella\n• Color Options: Multiple vibrant and executive colorways available',
     category: 'corporate',
     categoryName: 'Corporate Gifting',
@@ -1092,7 +1071,6 @@ export const INITIAL_PRODUCTS: Product[] = [
       'Multiple color theme options',
       'Bespoke gift box sleeve with event branding'
     ],
-    badge: '100% Customizable • Tri-Piece Set',
     active: true,
     featured: true,
     createdAt: '2026-09-03'
@@ -1101,7 +1079,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     id: 'prod-corp-8',
     name: 'Executive Onboarding Backpack Suite',
     slug: 'executive-onboarding-backpack-suite',
-    description: 'Complete employee welcome kit with laptop backpack, sling bag, thermal bottle, phone stand, cardholder, notebook, and foldable stand. 100% customizable. Multiple color options available.',
+    description: 'Complete employee welcome kit with laptop backpack, sling bag, thermal bottle, phone stand, cardholder, notebook, and stand. 100% customizable with brand name printing. Multiple backpack colors, bottle styles, and design options available with a bunch more variations.',
     longDescription: 'Comprehensive corporate welcome and new-hire onboarding kit packed in a presentation delivery box.\n\n• Inclusions: Navy laptop backpack, compact sling pouch, matte insulated bottle, mobile stand, metal cardholder, blue executive pen, bottle opener keychain, notebook, utility pouch, and foldable aluminum laptop stand\n• 100% Customizable: Company brand name and employee names printable across all suite items\n• Color Options: Multiple backpack and accessory colorways available',
     category: 'corporate',
     categoryName: 'Corporate Gifting',
@@ -1119,7 +1097,6 @@ export const INITIAL_PRODUCTS: Product[] = [
       'Individual new-hire name personalization',
       'Custom employee welcome letter insert'
     ],
-    badge: '100% Customizable • Complete Onboarding',
     active: true,
     featured: true,
     createdAt: '2026-09-03'
@@ -1128,7 +1105,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     id: 'prod-corp-9',
     name: 'Botanical Eco Desk & Planter Suite',
     slug: 'botanical-eco-desk-planter-suite',
-    description: 'Sustainable desk set with carved wooden organizer, tabletop plant, stylus pen, bamboo cup, and glass bottle in linen sleeve. 100% customizable. Multiple color options available.',
+    description: 'Sustainable desk set with carved wooden organizer, tabletop plant, stylus pen, bamboo cup, and glass bottle in linen sleeve. 100% customizable with brand name printing. Multiple wood finishes, sleeve colors, and design options available.',
     longDescription: 'Organic and sustainable corporate desk hamper presented in an eco-friendly kraft gift box.\n\n• Inclusions: Carved natural beechwood phone and pen organizer, potted tabletop plant, wooden stylus pen, bamboo coffee cup with cork grip, and glass water bottle with linen sleeve and wood cap\n• 100% Customizable: Precision laser engraved company brand name on wood and bamboo items\n• Color Options: Multiple natural finishes and sleeve colors available',
     category: 'corporate',
     categoryName: 'Corporate Gifting',
@@ -1147,7 +1124,6 @@ export const INITIAL_PRODUCTS: Product[] = [
       'Choice of natural linen sleeve colors',
       'Custom printed seed paper message card'
     ],
-    badge: '100% Customizable • Eco Botanical',
     active: true,
     featured: true,
     createdAt: '2026-09-03'
@@ -1156,7 +1132,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     id: 'prod-corp-10',
     name: 'Executive Wireless Power Bank & Tech Suite',
     slug: 'executive-wireless-power-bank-tech-suite',
-    description: '4-piece tech set with digital display power bank, slim wireless mouse, executive pen, and metal USB flash drive. 100% customizable with brand name printing. Multiple color options available.',
+    description: '4-piece tech set with digital display power bank, slim wireless mouse, executive pen, and metal USB flash drive. 100% customizable with brand name printing. Multiple device colors and gadget design options available with a bunch more variations.',
     longDescription: 'Modern tech executive recognition hamper presented in a fitted matte black gift box.\n\n• Inclusions: High-capacity digital LED battery display power bank, ergonomic wireless mouse, executive twist pen with gold clip, and swivel metal USB drive\n• 100% Customizable: Company brand name and corporate logo precision printed and laser engraved\n• Color Options: Multiple finish and device color options available',
     category: 'corporate',
     categoryName: 'Corporate Gifting',
@@ -1175,7 +1151,6 @@ export const INITIAL_PRODUCTS: Product[] = [
       'Individual recipient name personalization',
       'Custom corporate outer sleeve and tech milestone card'
     ],
-    badge: '100% Customizable • Tech Suite',
     active: true,
     featured: true,
     createdAt: '2026-09-03'
@@ -1184,7 +1159,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     id: 'prod-corp-11',
     name: 'Executive Commuter Backpack Suite',
     slug: 'executive-commuter-backpack-suite',
-    description: 'Urban travel set with laptop backpack, crossbody sling bag, thermal bottle, and accessory pouch. 100% customizable with brand name printing. Multiple color options available.',
+    description: 'Urban travel set with laptop backpack, crossbody sling bag, thermal bottle, and accessory pouch. 100% customizable with brand name printing. Multiple bag colors, bottle options, and design variations available with a bunch more choices.',
     longDescription: 'Sleek commuter and business travel ensemble designed for mobile professionals.\n\n• Inclusions: Weather-resistant laptop backpack with diagonal zip pockets, matching crossbody sling bag, double-wall thermal tumbler, and zipper utility pouch\n• 100% Customizable: Precision screen printed or embroidered corporate logo and brand name across all items\n• Color Options: Multiple fabric and bottle colorways available',
     category: 'corporate',
     categoryName: 'Corporate Gifting',
@@ -1203,7 +1178,6 @@ export const INITIAL_PRODUCTS: Product[] = [
       'Laser engraved brand name on thermal tumbler',
       'Custom corporate message card insert'
     ],
-    badge: '100% Customizable • Travel Suite',
     active: true,
     featured: true,
     createdAt: '2026-09-03'
@@ -1212,7 +1186,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     id: 'prod-corp-12',
     name: 'Wooden Swivel USB Flash Drive',
     slug: 'wooden-swivel-usb-flash-drive',
-    description: 'Natural grain eco-friendly wooden swivel USB drive with high-speed storage. 100% customizable with brand name printing. Multiple color options available.',
+    description: 'Natural grain eco-friendly wooden swivel USB drive with high-speed storage. 100% customizable with brand name printing. Multiple wood finishes, capacities, and design options available with a bunch more variations.',
     longDescription: 'Eco-conscious wooden swivel USB drive crafted from natural hardwood with a 360-degree rotating cap.\n\n• 100% Customizable: Crisp laser engraving of corporate logo and company brand name\n• Color Options: Multiple natural wood finish options available (Walnut, Maple, Bamboo)\n• High-Speed Performance: High-capacity reliable flash storage with universal USB compatibility',
     category: 'corporate',
     categoryName: 'Corporate Gifting',
@@ -1231,7 +1205,6 @@ export const INITIAL_PRODUCTS: Product[] = [
       'Pre-loaded corporate presentation or digital catalog service',
       'Matching engraved wooden presentation box'
     ],
-    badge: '100% Customizable • Eco Hardwood',
     active: true,
     featured: true,
     createdAt: '2026-09-03'
@@ -1240,7 +1213,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     id: 'prod-corp-13',
     name: 'Executive Leather & Metal Keychain',
     slug: 'executive-leather-metal-keychain',
-    description: 'Premium leather and stainless steel keychains with engravable plates and bottle opener options. 100% customizable with brand name printing. Multiple color options available.',
+    description: 'Premium leather and stainless steel keychains with engravable plates and bottle opener options. 100% customizable with brand name printing. Multiple leather colors, hardware finishes, and design options available with a bunch more variations.',
     longDescription: 'Durable executive keychains combining genuine leather, woven nylon, and brushed stainless steel hardware.\n\n• 100% Customizable: Precision laser engraved or debossed company brand name and monogram\n• Color Options: Multiple leather shades (Black, Tan, Brown, Blue) and metallic finishes available\n• Functional Designs: Options with built-in bottle openers, snap hooks, and polished branding tags',
     category: 'corporate',
     categoryName: 'Corporate Gifting',
@@ -1259,7 +1232,6 @@ export const INITIAL_PRODUCTS: Product[] = [
       'Blind debossing or foil stamping on leather loops',
       'Individual recipient name personalization'
     ],
-    badge: '100% Customizable • Multiple Styles',
     active: true,
     featured: true,
     createdAt: '2026-09-03'
