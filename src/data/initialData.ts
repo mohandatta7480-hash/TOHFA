@@ -1091,6 +1091,33 @@ export const INITIAL_PRODUCTS: Product[] = [
     featured: true,
     createdAt: '2026-09-03'
   },
+  {
+    id: 'prod-fest-13',
+    name: 'Raaga Artisan Incense Box Set',
+    slug: 'raaga-artisan-incense-box-set',
+    description: 'Heritage illustrated incense stick trio with natural Aqua, Monsoon, and Citrus fragrances. 100% customizable with brand printing.',
+    longDescription: 'Artisan handcrafted incense stick collection encased in vintage Mughal floral illustrated gift boxes.\n\n• Inclusions: 3 signature fragrance packs featuring natural Aqua, Monsoon, and Citrus slow-burning charcoal-free incense sticks\n• 100% Customizable: Custom corporate branding sleeve and personalized festive message card\n• Packaging: Individually illustrated slim presentation boxes presented as an executive festive trio',
+    category: 'festive',
+    categoryName: 'Festive Gifting',
+    image: '/images/products/festive_raaga_incense_box_set.png',
+    price: null,
+    priceFormatted: 'Custom Quote',
+    specifications: {
+      'Box Nature': 'Artisanal Fragrance Box Set (100% Customizable)',
+      'Customization': '100% Customizable: Custom outer sleeves and brand logo printing',
+      'Inclusions': '3 Premium Incense Packs (Aqua, Monsoon, Citrus)',
+      'Fragrance Type': 'Natural Essential Oils, Charcoal-Free, Organic Herbal Blend',
+      'Packaging': 'Vintage Mughal Botanical Pattern Rigid Gift Boxes'
+    },
+    customizationOptions: [
+      'Custom corporate outer sleeve or gift band',
+      'Personalized festival greeting card',
+      'Mix and match fragrance variations'
+    ],
+    active: true,
+    featured: true,
+    createdAt: '2026-09-07'
+  },
 
   // ==========================================
   // CORPORATE GIFTING (100% Customizable & Brand Printable)

@@ -44,14 +44,14 @@ export const AboutPage: React.FC<AboutPageProps> = ({ navigate }) => {
             <p>
               Whether onboarding C-suite executives, celebrating festive milestones, or honoring longstanding clients, our team curates products that evoke pride and genuine delight.
             </p>
-            <div className="pt-2 grid grid-cols-2 gap-4 border-t border-[#E4D7CB]">
+            <div className="pt-4 grid grid-cols-2 gap-4 border-t border-[#E4D7CB]">
               <div>
-                <p className="text-2xl font-serif font-bold text-[#501B25]">250,000+</p>
-                <p className="text-[11px] text-[#585656]">Gift boxes delivered nationwide</p>
+                <p className="text-sm font-serif font-bold text-[#501B25] uppercase tracking-wider">100% Customizable</p>
+                <p className="text-[11px] text-[#585656]">Tailored branding and bespoke product curation</p>
               </div>
               <div>
-                <p className="text-2xl font-serif font-bold text-[#501B25]">99.8%</p>
-                <p className="text-[11px] text-[#585656]">On-time corporate dispatch record</p>
+                <p className="text-sm font-serif font-bold text-[#501B25] uppercase tracking-wider">Pan-India Dispatch</p>
+                <p className="text-[11px] text-[#585656]">Multi-city bulk distribution with secure packaging</p>
               </div>
             </div>
           </div>

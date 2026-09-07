@@ -115,9 +115,8 @@ export const Footer: React.FC<FooterProps> = ({ navigate }) => {
           </div>
         </div>
 
-        {/* Bottom copyright and discrete admin login */}
-        <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-[11px] text-[#E4D7CB]/60">
-          <p>&copy; {new Date().getFullYear()} TOHFA Luxury Gifting LLP. All rights reserved.</p>
+        {/* Bottom links and discrete admin login */}
+        <div className="pt-8 flex flex-col sm:flex-row items-center justify-end gap-4 text-[11px] text-[#E4D7CB]/60">
           <div className="flex items-center gap-6">
             <span>B2B Gifting Solution</span>
             <span className="text-[#A58266]">•</span>
