@@ -224,7 +224,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     id: 'prod-merch-7',
     name: 'Matte Black Executive Pen',
     slug: 'custom-engraved-executive-metal-pen',
-    description: 'Matte black retractable metal pen with silver accents and comfort grip. 100% customizable: laser engrave company logo and text. Multiple pen barrel colors and design options available.',
+    description: 'Matte black retractable metal pen with chrome accents and comfort grip. 100% customizable: laser engrave company logo and text. Multiple pen barrel colors and design options available.',
     longDescription: 'Precision metal retractable ballpoint pen with matte black barrel, textured rubber comfort grip, and polished chrome pocket clip.\n\n• 100% Customizable: Crisp laser engraving of company logo and brand name\n• Writing Performance: German tungsten carbide refill with smooth smudge-free blue ink\n• Design: Click-action plunger with durable stainless steel clip',
     category: 'merchandise',
     categoryName: 'Customizable Merchandise',

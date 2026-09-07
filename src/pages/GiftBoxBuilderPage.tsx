@@ -32,21 +32,58 @@ export const GiftBoxBuilderPage: React.FC<GiftBoxBuilderPageProps> = ({ navigate
   ];
 
   const filteredProducts = useMemo(() => {
-    return products.filter((p) => {
-      if (!p.active) return false;
-      if (activeCategory !== 'all' && p.category !== activeCategory) {
-        return false;
-      }
-      if (searchQuery.trim()) {
-        const q = searchQuery.toLowerCase();
-        return (
-          p.name.toLowerCase().includes(q) ||
-          p.description.toLowerCase().includes(q) ||
-          (p.categoryName || p.category).toLowerCase().includes(q)
+    const q = searchQuery.toLowerCase().trim();
+    const terms = q.split(/\s+/).filter(Boolean);
+
+    return products
+      .map((p) => {
+        if (!p.active) return null;
+        if (activeCategory !== 'all' && p.category !== activeCategory) {
+          return null;
+        }
+
+        if (terms.length === 0) {
+          return { product: p, score: 0 };
+        }
+
+        const name = p.name.toLowerCase();
+        const desc = p.description.toLowerCase();
+        const cat = (p.categoryName || p.category).toLowerCase();
+
+        const allTermsMatch = terms.every(
+          (t) => name.includes(t) || desc.includes(t) || cat.includes(t)
         );
-      }
-      return true;
-    });
+
+        if (!allTermsMatch) return null;
+
+        let score = 0;
+        if (name === q) score += 200;
+        else if (name.startsWith(q)) score += 120;
+        else if (name.includes(q)) score += 80;
+
+        terms.forEach((t) => {
+          const wordRegex = new RegExp(`(^|\\s|[^a-zA-Z0-9])${t}($|\\s|[^a-zA-Z0-9])`, 'i');
+          if (wordRegex.test(p.name)) score += 50;
+          else if (name.includes(t)) score += 25;
+
+          if (wordRegex.test(p.description)) score += 10;
+          else if (desc.includes(t)) score += 5;
+        });
+
+        if (cat.includes(q)) score += 15;
+
+        return { product: p, score };
+      })
+      .filter((item): item is { product: (typeof products)[0]; score: number } => item !== null)
+      .sort((a, b) => {
+        if (terms.length > 0 && b.score !== a.score) {
+          return b.score - a.score;
+        }
+        if (a.product.featured && !b.product.featured) return -1;
+        if (!a.product.featured && b.product.featured) return 1;
+        return 0;
+      })
+      .map((item) => item.product);
   }, [products, activeCategory, searchQuery]);
 
   return (

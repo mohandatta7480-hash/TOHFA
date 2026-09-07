@@ -26,33 +26,66 @@ export const CataloguePage: React.FC<CataloguePageProps> = ({
   const activeCategoryObj = categories.find((c) => c.slug === selectedCategory);
 
   const filteredProducts = useMemo(() => {
+    const q = searchQuery.toLowerCase().trim();
+    const terms = q.split(/\s+/).filter(Boolean);
+
     return products
-      .filter((product) => {
-        if (!product.active) return false;
+      .map((product) => {
+        if (!product.active) return null;
         if (selectedCategory !== 'all' && product.category !== selectedCategory) {
-          return false;
+          return null;
         }
-        if (searchQuery.trim()) {
-          const q = searchQuery.toLowerCase();
-          const matchName = product.name.toLowerCase().includes(q);
-          const matchDesc = product.description.toLowerCase().includes(q);
-          const matchCategory = (product.categoryName || product.category).toLowerCase().includes(q);
-          return matchName || matchDesc || matchCategory;
+
+        if (terms.length === 0) {
+          return { product, score: 0 };
         }
-        return true;
+
+        const name = product.name.toLowerCase();
+        const desc = product.description.toLowerCase();
+        const cat = (product.categoryName || product.category).toLowerCase();
+
+        // Every search term must match somewhere in name, description, or category
+        const allTermsMatch = terms.every(
+          (t) => name.includes(t) || desc.includes(t) || cat.includes(t)
+        );
+
+        if (!allTermsMatch) return null;
+
+        let score = 0;
+        if (name === q) score += 200;
+        else if (name.startsWith(q)) score += 120;
+        else if (name.includes(q)) score += 80;
+
+        terms.forEach((t) => {
+          const wordRegex = new RegExp(`(^|\\s|[^a-zA-Z0-9])${t}($|\\s|[^a-zA-Z0-9])`, 'i');
+          if (wordRegex.test(product.name)) score += 50;
+          else if (name.includes(t)) score += 25;
+
+          if (wordRegex.test(product.description)) score += 10;
+          else if (desc.includes(t)) score += 5;
+        });
+
+        if (cat.includes(q)) score += 15;
+
+        return { product, score };
       })
+      .filter((item): item is { product: (typeof products)[0]; score: number } => item !== null)
       .sort((a, b) => {
+        if (terms.length > 0 && b.score !== a.score) {
+          return b.score - a.score;
+        }
         if (sortBy === 'newest') {
-          return (b.createdAt || '').localeCompare(a.createdAt || '');
+          return (b.product.createdAt || '').localeCompare(a.product.createdAt || '');
         }
         if (sortBy === 'name') {
-          return a.name.localeCompare(b.name);
+          return a.product.name.localeCompare(b.product.name);
         }
         // default featured
-        if (a.featured && !b.featured) return -1;
-        if (!a.featured && b.featured) return 1;
+        if (a.product.featured && !b.product.featured) return -1;
+        if (!a.product.featured && b.product.featured) return 1;
         return 0;
-      });
+      })
+      .map((item) => item.product);
   }, [products, selectedCategory, searchQuery, sortBy]);
 
   const handleCategoryChange = (slug: string) => {
