@@ -3,7 +3,8 @@ export type CategorySlug =
   | 'festive'
   | 'edible'
   | 'merchandise'
-  | 'gadgets';
+  | 'gadgets'
+  | 'exclusive';
 
 export interface Category {
   id: string;
@@ -37,6 +38,7 @@ export interface Product {
   weight?: string;
   active: boolean;
   featured?: boolean;
+  isExclusive?: boolean;
   createdAt: string;
 }
 

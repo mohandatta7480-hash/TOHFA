@@ -475,6 +475,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     active: true,
     featured: true,
+    isExclusive: true,
     createdAt: '2026-02-21'
   },
   {
@@ -502,6 +503,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     active: true,
     featured: true,
+    isExclusive: true,
     createdAt: '2026-02-22'
   },
   {
@@ -529,6 +531,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     active: true,
     featured: true,
+    isExclusive: true,
     createdAt: '2026-02-23'
   },
   {
@@ -587,9 +590,9 @@ export const INITIAL_PRODUCTS: Product[] = [
   },
   {
     id: 'prod-edible-8',
-    name: 'Paan Shots Flavored Paan Shots',
-    slug: 'signature-gourmet-snack-mixes',
-    description: 'Refreshing bite-sized paan shots infused with rich gulkand, menthol, and cooling herbs. 100% tobacco-free, natural, and digestive.',
+    name: 'Flavored Mouth Fresheners',
+    slug: 'flavored-mouth-fresheners',
+    description: 'Refreshing bite-sized mouth fresheners and paan shots infused with rich gulkand, menthol, and cooling herbs. 100% tobacco-free, natural, and digestive.',
     longDescription: 'Traditional royal paan reimagined into delectable bite-sized digestive treats packed with natural herbs and sweet gulkand.\n\n• Flavour Profile: Royal Calcutta Paan, Sweet Gulkand, Menthol, and Fennel\n• Quality Standard: 100% natural, tobacco-free, betel-nut free\n• Customization: Packaged in custom branded glass jars or tins',
     category: 'edible',
     categoryName: 'Eatable Giftings',
@@ -604,12 +607,13 @@ export const INITIAL_PRODUCTS: Product[] = [
       'Hamper Selection': '100% Choosable Flavors with Custom Branded Labels'
     },
     customizationOptions: [
-      'Choice of mix varieties (Breakfast, Mexican, Italian, etc.)',
+      'Choice of freshener and paan shot flavors',
       'Custom corporate branded label and message tag',
       'Pairing with custom gift boxes and breakfast trays'
     ],
     active: true,
     featured: true,
+    isExclusive: true,
     createdAt: '2026-09-02'
   },
   {
@@ -772,6 +776,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     active: true,
     featured: true,
+    isExclusive: true,
     createdAt: '2026-09-03'
   },
 
@@ -1116,6 +1121,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     ],
     active: true,
     featured: true,
+    isExclusive: true,
     createdAt: '2026-09-07'
   },
 

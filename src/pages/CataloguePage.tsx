@@ -32,7 +32,9 @@ export const CataloguePage: React.FC<CataloguePageProps> = ({
     return products
       .map((product) => {
         if (!product.active) return null;
-        if (selectedCategory !== 'all' && product.category !== selectedCategory) {
+        if (selectedCategory === 'exclusive') {
+          if (!product.isExclusive) return null;
+        } else if (selectedCategory !== 'all' && product.category !== selectedCategory) {
           return null;
         }
 
@@ -109,11 +111,15 @@ export const CataloguePage: React.FC<CataloguePageProps> = ({
             <h1 className="text-3xl md:text-4xl font-serif font-bold text-[#501B25] mt-1">
               {selectedCategory === 'all'
                 ? 'Complete Corporate Catalogue'
+                : selectedCategory === 'exclusive'
+                ? 'TOHFA Exclusive Collections'
                 : activeCategoryObj?.name || 'Category Catalogue'}
             </h1>
             <p className="text-xs md:text-sm text-[#585656] mt-2 leading-relaxed">
               {selectedCategory === 'all'
                 ? 'Explore our full portfolio of artisanal hampers, handcrafted leather folios, branded merchandise, and premium tech gifts.'
+                : selectedCategory === 'exclusive'
+                ? 'Signature proprietary curations and artisanal delicacies available exclusively through TOHFA.'
                 : activeCategoryObj?.description}
             </p>
           </div>
@@ -142,6 +148,16 @@ export const CataloguePage: React.FC<CataloguePageProps> = ({
               }`}
             >
               All Products
+            </button>
+            <button
+              onClick={() => handleCategoryChange('exclusive')}
+              className={`px-3.5 py-1.5 text-xs font-medium uppercase tracking-wider whitespace-nowrap transition-colors border ${
+                selectedCategory === 'exclusive'
+                  ? 'bg-[#501B25] text-[#F7F2EC] border-[#501B25]'
+                  : 'bg-[#F7F2EC] text-[#585656] border-[#E4D7CB] hover:border-[#A58266]'
+              }`}
+            >
+              TOHFA Exclusive
             </button>
             {categories.map((cat) => (
               <button

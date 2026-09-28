@@ -38,7 +38,9 @@ export const GiftBoxBuilderPage: React.FC<GiftBoxBuilderPageProps> = ({ navigate
     return products
       .map((p) => {
         if (!p.active) return null;
-        if (activeCategory !== 'all' && p.category !== activeCategory) {
+        if (activeCategory === 'exclusive') {
+          if (!p.isExclusive) return null;
+        } else if (activeCategory !== 'all' && p.category !== activeCategory) {
           return null;
         }
 
@@ -139,6 +141,16 @@ export const GiftBoxBuilderPage: React.FC<GiftBoxBuilderPageProps> = ({ navigate
                   }`}
                 >
                   All Categories
+                </button>
+                <button
+                  onClick={() => setActiveCategory('exclusive')}
+                  className={`px-3 py-1.5 text-xs font-medium uppercase tracking-wider whitespace-nowrap transition-colors border ${
+                    activeCategory === 'exclusive'
+                      ? 'bg-[#501B25] text-[#F7F2EC] border-[#501B25]'
+                      : 'bg-[#F7F2EC] text-[#585656] border-[#E4D7CB] hover:border-[#A58266]'
+                  }`}
+                >
+                  TOHFA Exclusive
                 </button>
                 {categories.map((cat) => (
                   <button

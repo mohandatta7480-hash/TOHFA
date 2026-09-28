@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowRight, Sparkles, Box } from 'lucide-react';
+import { ArrowRight, Box } from 'lucide-react';
 
 interface CompactHeroProps {
   navigate: (path: string) => void;
@@ -9,14 +9,6 @@ export const CompactHero: React.FC<CompactHeroProps> = ({ navigate }) => {
   return (
     <section className="relative pt-8 pb-7 md:pt-12 md:pb-9 bg-[#F7F2EC] border-b border-[#E4D7CB]/60">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        {/* Eyebrow */}
-        <div className="inline-flex items-center gap-2 px-3 py-1 bg-[#E4D7CB]/60 border border-[#A58266]/30 mb-4">
-          <Sparkles className="w-3.5 h-3.5 text-[#501B25]" />
-          <span className="text-[10px] md:text-[11px] font-bold tracking-[0.25em] text-[#501B25] uppercase">
-            CURATED GIFTING, MADE EFFORTLESS
-          </span>
-        </div>
-
         {/* Main Headline */}
         <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-5xl font-serif font-bold text-[#501B25] tracking-tight leading-[1.15] mb-3 max-w-3xl mx-auto">
           Gift boxes they'll actually remember
