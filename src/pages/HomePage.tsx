@@ -1,4 +1,5 @@
 import React from 'react';
+import { CompactHero } from '../components/home/CompactHero';
 import { CompactCategoryGrid } from '../components/home/CompactCategoryGrid';
 import { BuilderCTA } from '../components/home/BuilderCTA';
 import { BrandHighlights } from '../components/home/BrandHighlights';
@@ -18,7 +19,10 @@ export const HomePage: React.FC<HomePageProps> = ({ navigate }) => {
 
   return (
     <div className="space-y-0">
-      {/* 1. Compact 3+2 Category Panel */}
+      {/* 1. Compact Hero */}
+      <CompactHero navigate={navigate} />
+
+      {/* 2. Compact 3+2 Category Panel */}
       <CompactCategoryGrid navigate={navigate} />
 
       {/* 3. Prominent Builder CTA Section */}
