@@ -99,6 +99,22 @@ export const CataloguePage: React.FC<CataloguePageProps> = ({
     }
   };
 
+  const getHeaderTitle = () => {
+    if (selectedCategory === 'all') return 'Complete Corporate Catalogue';
+    if (selectedCategory === 'exclusive') return 'TOHFA Exclusive';
+    return activeCategoryObj?.name || 'Category Catalogue';
+  };
+
+  const getHeaderDesc = () => {
+    if (selectedCategory === 'all') {
+      return 'Explore our full portfolio of artisanal hampers, handcrafted leather folios, branded merchandise, and premium tech gifts.';
+    }
+    if (selectedCategory === 'exclusive') {
+      return 'Signature creations exclusively curated by TOHFA, featuring artisanal snacks, pure wildflower honey, heritage incense, and fresh delicacies.';
+    }
+    return activeCategoryObj?.description;
+  };
+
   return (
     <div className="py-8 bg-[#F7F2EC] min-h-[calc(100vh-80px)]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-6">
@@ -109,18 +125,10 @@ export const CataloguePage: React.FC<CataloguePageProps> = ({
               Bespoke Product Catalogue
             </span>
             <h1 className="text-3xl md:text-4xl font-serif font-bold text-[#501B25] mt-1">
-              {selectedCategory === 'all'
-                ? 'Complete Corporate Catalogue'
-                : selectedCategory === 'exclusive'
-                ? 'TOHFA Exclusive Collections'
-                : activeCategoryObj?.name || 'Category Catalogue'}
+              {getHeaderTitle()}
             </h1>
             <p className="text-xs md:text-sm text-[#585656] mt-2 leading-relaxed">
-              {selectedCategory === 'all'
-                ? 'Explore our full portfolio of artisanal hampers, handcrafted leather folios, branded merchandise, and premium tech gifts.'
-                : selectedCategory === 'exclusive'
-                ? 'Signature proprietary curations and artisanal delicacies available exclusively through TOHFA.'
-                : activeCategoryObj?.description}
+              {getHeaderDesc()}
             </p>
           </div>
 
